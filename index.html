@@ -1,4 +1,4 @@
-
+s
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -110,7 +110,7 @@
                 </div>
             </a>
             <a href="who-we-are">
-                <div class="col-md-3 col-centered info-grid" id="info-learn">
+                <div class="col-md-3 col-centered info-grid" id="info-who">
                     <h1><i class="fa fa-users fa-2x"></i></br>Who are we?</h1>
                     <p>We are a collection of <span class="tct-orange">volunteers</span> who Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos impedit et tenetur ullam laboriosam vel, modi similique quae quam maxime sint, quo cum ducimus ex rerum, sapiente, nulla! Nam.</p>
                 </div>
@@ -240,19 +240,6 @@
         .setView([42, 44.50], 7);
     </script>
 
-    <!-- Add some animation and links to block4 -->
-    <script type="text/javascript">
-    $(document).ready(function(){
-        $(".")
-        $(".info-grid").each(function(){
-            var $bgobj = $(this); // assigning the object
-           $bgobj.mouseenter(function(){
-                // $bgobj.fadeTo("fast", 0.75);
-            }); 
-        });
-    });
-    </script>
-
     <!-- Get Tumblr Feed and process blog objects-->
     <script type="text/javascript" src="http://transcaucasiantrail.tumblr.com/api/read/json"></script>
     <script type="text/javascript">
@@ -286,6 +273,7 @@
         // Now add some effects to the blog links and also add the URL links
         $(document).ready(function(){
             $("#blog-post-1").mouseenter(function(){
+                alert('m');
                 $("#blog-post-1").children(".blog-img").fadeTo("fast", 0.75);
                 $("#blog-post-1").children(".blog-read").fadeTo("fast", 1);
             });
@@ -308,6 +296,15 @@
             $("#blog-post-3").mouseleave(function(){
                 $("#blog-post-3").children(".blog-img").fadeTo("fast", 1);
                 $("#blog-post-3").children(".blog-read").fadeTo("fast", 0);
+            });
+
+
+            // Add some animation and links to block4
+            $(".info-grid").each(function(){
+                var $bgobj = $(this); // assigning the object
+               $bgobj.mouseenter(function(){
+                    // $bgobj.fadeTo("fast", 0.75);
+                }); 
             });
         });
 

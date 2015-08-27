@@ -301,18 +301,18 @@ Block 4 - Three Links
     color: #2b6293;
 }
 
-.info-grid:nth-of-type(1) {
+#info-learn {
     border-right: 1px solid #e4e9ec;
     border-left: 1px solid #e4e9ec;
     border-bottom: 1px solid #e4e9ec;
 }
 
-.info-grid:nth-of-type(2) {
+#info-who {
     border-right: 1px solid #e4e9ec;
     border-top: 1px solid #e4e9ec;
 }
 
-.info-grid:nth-of-type(3) {
+#info-help {
     border-bottom: 1px solid #e4e9ec;
     border-right: 1px solid #e4e9ec;
 }
