@@ -15,7 +15,7 @@ Helper Classes
     color: #e3ba36;
 }
 
-.tct-orange {
+.tct-orange, {
     color: #e36c36;
 }
 
@@ -78,11 +78,16 @@ The Nav Bar on the Home page
     color: white;
 }
 
-/*.btn-warning {
-    color: #fff;
-    background-color: #f98e5d;
-    border-color: #e36c36;
-}*/
+.navbar-default .navbar-nav > .active{
+    background: transparent;
+ }
+
+.navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #e3ba36;
+      background: transparent;
+ }
 
 .btn-warning:hover {
     color: #fff;
@@ -332,7 +337,7 @@ Block 6 - Feeds
 =========================*/
 #block6 {
     min-width: 100%;
-    height: 470px;
+    height: 500px;
     border-top: 1px solid #e4e9ec;
     border-bottom: 1px solid #e4e9ec;
 }
@@ -617,3 +622,153 @@ Block 10 - SubFooter
     font-family: RalewayRegular, sans-serif;
     color:white;
 }
+
+
+/* ABOUT PAGE */
+/*========================
+Block 1 - Header
+=========================*/
+
+.abt-block1-wrapper {
+    /*height: 720px;*/
+    height: 250px;
+    z-index: -100;
+    /*margin: 0px;
+    padding: 0px;*/
+}
+
+#abt-block1 {
+    position: relative;
+    margin: 0px 0px 20px 0px;
+    min-width: 100%;
+    height: 100%;
+    background: url('../img/cover-background.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#abt-block1:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: #000;
+    opacity: .5
+}
+
+#abt-block1-title {
+    width: 400px;
+    height: 75px;
+    /*margin: 0px auto;*/
+    position: absolute;
+    bottom: 25px; 
+    left:50%;
+    margin-left:-200px;
+    z-index: 2;
+}
+
+#abt-block1-title>h1 {
+    /*text-transform: uppercase;*/
+    font-family: RalewayRegular, sans-serif;
+    font-size: 3.2rem;
+    color: #e3ba36;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.abt-block1-logo {
+    position: absolute;
+    left:70px;
+    bottom:0px;
+    width: 350px;
+    height: 240px;
+    background: url('../img/signpost.png') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    z-index: 5;
+}
+
+/*========================
+Block 2 - About the TCT
+=========================*/
+.map_content {
+    position: relative;
+    width: 500px;
+    height: 550px;
+    background: url('../img/tct_map.png') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.break-block {
+    background: url('../img/break-box-default.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
+.break-block h1 {
+    color: white;
+    padding-top: 95px;
+    font-family: RalewayRegular, sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.block {
+    border-top: 1px solid #e4e9ec;
+    border-bottom: 1px solid #e4e9ec;
+    padding: 70px 0px 50px 0px;
+}
+
+.block h1 {
+    font-family: RalewayRegular, sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+    color: gray;
+}
+
+.block h2 {
+    font-family: RalewayThin, sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.block p {
+    font-family: RalewayRegular, sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    color: gray;
+    line-height: 2.2rem;
+}
+
+.team-photo {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    background: url('../img/team-photo.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+#tct-story {
+    text-align: left; /*This isn't working because of the block class, fix*/
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
