@@ -741,6 +741,15 @@ Block 2 - About the TCT
     margin-bottom: 35px;
 }
 
+.block h3 {
+    font-family: RalewayRegular, sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #2b6293;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
 .block p {
     font-family: RalewayRegular, sans-serif;
     font-size: 1.4rem;
@@ -764,11 +773,35 @@ Block 2 - About the TCT
     margin-left: 20px;
 }
 
+.scouting-trail {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    background: url('../img/scouting-trail.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
 
+.mapping-activities {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    background: url('../img/soviet-map.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
 
-
-
-
+.scouts {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    background: url('../img/scouts.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
 
 
 
