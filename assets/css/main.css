@@ -100,6 +100,7 @@ The Nav Bar on the Home page
     margin-left: 75px;
     padding-left: 0px;
     padding-top: 0px;
+    }
 }
 
 .navbar-brand img {
@@ -143,23 +144,39 @@ Block 1 - The header block
 }
 
 #block1-title {
-    width: 600px;
-    height: 300px;
+    width: 100%;
     position: absolute;
-    bottom: 50px;
-    left: 115px;
+    bottom: 20%;
+    left: 0px;
     z-index: 2;
-    /*background-color: rgba(0, 0, 0, 0.5);*/
+}
+
+@media (min-width: 768px) {
+    #block1-title {
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        bottom: 50px;
+        left: 115px;
+        z-index: 2;
+    }
 }
 
 #block1-title>h1 {
     text-transform: uppercase;
     font-family: RalewayRegular, sans-serif;
     font-weight: 400;
-    font-size: 6.2rem;
+    font-size: 4.7rem;
     color: #fff;
     line-height: 1.1;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+#block1-title>h1 {
+    font-size: 6.2rem;
     text-align: left;
+    }
 }
 
 #block1-chevron {
@@ -179,11 +196,17 @@ Block 2 - What is the TCT?
 =========================*/
 #block2 {
     position: relative;
-    margin: 80px 0px 40px 0px;
+    margin: 40px 0px 40px 0px;
     /*padding: 50px auto 10px;*/
     min-width: 100%;
     height: auto;
     font-family: RalewayThin, sans-serif;
+}
+
+@media (min-width: 768px) {
+    #block2 {
+        margin: 80px 0px 40px 0px;
+    }
 }
 
 #block2 h1 {
@@ -199,6 +222,14 @@ Block 2 - What is the TCT?
     font-size: 1.7rem;
     text-align: center;
     font-weight: 300;
+}
+
+#window-wrapper {
+}
+
+#window-wrapper img {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .picture_content {
@@ -281,10 +312,17 @@ Block 4 - Three Links
 =========================*/
 #block4 {
     margin: 0px 0px 0px 0px;
-    padding: 60px 0px;
+    padding: 20px 0px;
     min-width: 100%;
     height: auto;
 }
+
+@media (min-width: 992px) {
+    #block4 {
+        padding: 60px 0px;
+    }
+}
+
 
 #block4 h1 {
     font-size: 1.9rem;
@@ -306,20 +344,22 @@ Block 4 - Three Links
     color: #2b6293;
 }
 
-#info-learn {
-    border-right: 1px solid #e4e9ec;
-    border-left: 1px solid #e4e9ec;
-    border-bottom: 1px solid #e4e9ec;
-}
+@media (min-width: 992px) {
+    #info-learn {
+        border-right: 1px solid #e4e9ec;
+        border-left: 1px solid #e4e9ec;
+        border-bottom: 1px solid #e4e9ec;
+    }
 
-#info-who {
-    border-right: 1px solid #e4e9ec;
-    border-top: 1px solid #e4e9ec;
-}
+    #info-who {
+        border-right: 1px solid #e4e9ec;
+        border-top: 1px solid #e4e9ec;
+    }
 
-#info-help {
-    border-bottom: 1px solid #e4e9ec;
-    border-right: 1px solid #e4e9ec;
+    #info-help {
+        border-bottom: 1px solid #e4e9ec;
+        border-right: 1px solid #e4e9ec;
+    }
 }
 
 
@@ -337,9 +377,11 @@ Block 6 - Feeds
 =========================*/
 #block6 {
     min-width: 100%;
-    height: 500px;
+    /*height: 500px;*/
     border-top: 1px solid #e4e9ec;
     border-bottom: 1px solid #e4e9ec;
+    margin-bottom: 0px;
+    /*padding-bottom: 20px;*/
 }
 
 #block6 h4 {
@@ -358,13 +400,13 @@ Block 6 - Feeds
 
 #block6 .blog-col {
     height: 100%;
-    border-right: 1px solid #e4e9ec;
-    padding-left: 10px;
-    padding-right: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #block6 .instagram-col {
     height: 100%;
+    min-height: 100%;
     padding-right: 10px;
     padding-left: 40px;
 }
@@ -428,6 +470,36 @@ Block 6 - Feeds
     text-transform: uppercase;
 }
 
+.instagram-wrapper {
+    height: 380px;
+    overflow: hidden;   
+}
+
+@media (min-width: 768px) {
+    .instagram-wrapper {
+        height: 500px;   
+    }
+}
+
+@media (min-width: 992px) {
+    .instagram-wrapper {
+        height: 450px;   
+    }
+    #block6 .blog-col {
+        height: 450px;  
+        border-right: 1px solid #e4e9ec;
+    }
+}
+
+@media (min-width: 1200px) {
+    .instagram-wrapper {
+        height: 500px;   
+    }
+    #block6 .blog-col {
+        height: 500px;  
+        border-right: 1px solid #e4e9ec;
+    }
+}
 /*========================
 Block 7 - Gnarly Gear
 =========================*/
@@ -435,27 +507,92 @@ Block 7 - Gnarly Gear
     position: relative;
     margin: 0px 0px 0px 0px;
     min-width: 100%;
-    height: 70%;
-    min-height: 500px;
+    height: 60%;
+    /*min-height: 500px;*/
     z-index: -99;
     overflow: hidden;
 }
 
-#block7 img {
-    width: 35%;
+@media (min-width: 768px) {
+    #block7 {
+        height: 70%;
+    }
+}
+
+#block7 #gear-shirt {
+    /*width: 35%;*/
+    height: 100%;
     position: absolute;
     top: 0;
     left: 40px;
 }
 
+#block7 #piggy-bank {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    #block7 #piggy-bank {
+        width: 140px;
+        display: block;
+        margin: 0px auto 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #block7 #piggy-bank {
+        width: 160px;
+    }
+}
+
 #block7 #go-shop {
     font-family: RalewayRegular, sans-serif;
-    font-size: 4.3rem;
+    font-size: 3.0rem;
     color: #2b6293;
     position: absolute;
-    left: 41%;
-    top: 45px;
+    right: 15%;
+    top: 10%;
     text-align: center;
+}
+
+#block7 #get-gear {
+    display: none;
+}
+
+#block7 #support-cause {
+    display: none;
+}
+
+@media (min-width: 768px) {
+/*    #block7 #go-shop {
+        font-size: 4.3rem;
+        left: 41%;
+        top: 45px;
+    }*/
+    #block7 #get-gear {
+        display: block;
+    }
+    #block7 #support-cause {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    #block7 #go-shop {
+        font-size: 4.1rem;
+        left: 45%;
+        top: 45px;
+        right: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    #block7 #go-shop {
+        font-size: 4.1rem;
+        left: 45%;
+        top: 45px;
+        right: auto;
+    }
 }
 
 .btn-shop {
@@ -472,13 +609,22 @@ Block 7 - Gnarly Gear
 
 #block7 #go-donate {
     font-family: RalewayRegular, sans-serif;
-    font-size: 4.3rem;
+    font-size: 3.0rem;
     color: #e3ba36;   
     position: absolute;
-    left: 70%;
-    bottom: 145px;
-    margin-right: 45px;
+    right: 10%;
+    bottom: 10%;
+    /*margin-right: 45px;*/
     text-align: center;
+}
+
+@media (min-width: 992px) {
+    #block7 #go-donate {
+        font-size: 4.1rem;
+        left: 70%;
+        bottom: 65px;
+        right: auto;
+    }
 }
 
 .btn-donate {
