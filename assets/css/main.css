@@ -647,13 +647,14 @@ Block 8 - Contact
     width: 100%;
     background-color: white;
     overflow: hidden;
-    height: 250px;
-    padding: 0;
+    min-height: 250px;
+    padding: 0px;
     border-top: 1px solid #e4e9ec;
     border-bottom: 1px solid #e4e9ec;
 }
 
 #contact .contact-cols {
+    min-height: 250px;
     height: 100%;
     margin-top: 0px;
     text-align: center;
@@ -662,13 +663,11 @@ Block 8 - Contact
 
 #contact .contact-cols:nth-of-type(1) {
     border-right: 1px solid #e4e9ec;
-    /*padding-right: 20px;*/
     padding-left: 10px;
     text-align: right;
 }
 
 #contact .contact-cols:nth-of-type(2) {
-    /*padding-left: 10px;*/
     text-align: left;
 }
 
@@ -707,7 +706,7 @@ Block 9 - Footer
     width: 100%;
     background-color: #F5F7F9;
     overflow: hidden;
-    height: 360px;
+    min-height: 360px;
     padding: 0;
 }
 
@@ -719,7 +718,7 @@ Block 9 - Footer
     margin-bottom: 10px;
     text-align: center;}
 
-#footer #team {
+/*#footer #team {
     width: 850px;
     margin-left: auto ;
     margin-right: auto ;
@@ -727,16 +726,26 @@ Block 9 - Footer
     padding:0;
     margin-bottom: 15px;
     height: 350px;
+}*/
+
+.footer-col {
+    padding: 0;
 }
 
 #footer .person {
-    width: 200px;
-    height: 200px;
-    margin: 10px 0px;
-    display: inline-block;
+    width: 100%;
+    height: 100%;
+    display: block;
     vertical-align: top;
     text-align: center;
     color: #6f7c82;
+}
+
+#footer .person img {
+    margin: 20px auto;
+    text-align: center;
+    width: 90%;
+    max-width: 150px;
 }
 
 #footer .person-img {
@@ -746,7 +755,7 @@ Block 9 - Footer
     /*background-color: white;*/
     width: 150px;
     height: 150px;
-    margin: 10px 20px;
+    margin: 10px auto;
     display: inline-block;
     vertical-align: top;
 }
