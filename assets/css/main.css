@@ -303,9 +303,106 @@ Block 3 - The Big Map
 #map { 
     width:100%;
     height: 100%;
+    cursor: default;
 }
 
+/* POSITIONING WILL NEED TO BE ADJUSTED FOR SCREEN RESOLUTIONS LATER */
 
+#map-contents-overlay {
+    width: 96%;
+    height: 125px;
+    position: absolute;
+    top: 10px;
+    /* These next two lines, left and margin-left, position the block in the center */
+    left: 50%;
+    margin-left: -48%;
+    z-index: 2;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 20px; 
+}
+
+#map-contents-overlay .logo {
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    width: 80px;
+}
+
+#map-contents-overlay .trail-button {
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    font-family: RalewayRegular, sans-serif;
+    cursor: pointer;
+}
+
+#map-contents-overlay .trail-button:hover {
+    color: #e3ba36;
+    border: 1px solid #e3ba36;
+}
+
+#map-contents-overlay .active {
+    border: 1px solid white;
+}
+
+#map-contents-overlay .trail-button:nth-of-type(1) {
+    left: 25px;
+    bottom: 30px;
+}
+
+#map-contents-overlay .trail-button:nth-of-type(2) {
+    left: 25px;
+    bottom: 8px;
+}
+
+#map-contents-overlay-button-container {
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    width: auto;
+    height: 125px;
+    overflow: hidden;
+    border-left: 1px solid #e4e9ec;
+    padding: 7px 18px;
+}
+
+.map-contents-overlay-button {
+    width: 100px;
+    height: 111px;
+    border-radius: 5px;
+    border: 3px solid white;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative; float: left;
+    cursor: pointer;
+}
+
+.map-contents-overlay-button h4 {
+    font-family: RalewayRegular, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 13px;
+}
+
+.map-contents-overlay-button img {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.map-contents-overlay-button .chevron {
+    position: absolute;
+    bottom: 1px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
 
 /*========================
 Block 4 - Three Links
