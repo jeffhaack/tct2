@@ -277,7 +277,7 @@
 
         $.ajax({
         dataType: "json",
-        url: "http://jeffhaack.github.io/tct2/tct-east-west.geojson",
+        url: "http://jeffhaack.github.io/tct2/assets/geojson/apsny.geojson",
         success: function(data) {
             $(data.features).each(function(key, data) {
                 gjl.addData(data);
