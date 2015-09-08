@@ -73,13 +73,13 @@
     </div>
 
     <div id="block2">
-        <div class="row">
-            <div class="col-sm-5 col-sm-offset-1">
+        <div class="row row-centered">
+            <div class="col-sm-5 col-centered">
                 <h1>What is the TCT?</h1>
                 <div class="ctr"><i class="fa fa-map-signs fa-2x"></i></div>
-                <p>The <span class="tct-orange">TCT</span> is a planned trekking route across the Caucasus. It will increase sustainable tourism and bring economic activity to remote areas, raise the profile of the protected areas in the region to ensure their continued conservation, and it will promote the connections between communities, ecosystems, and people, in a place where there is too much focus on the things that divide.</p>
+                <p class="center">The <span class="tct-orange">TCT</span> is a planned trekking route across the Caucasus. It will increase sustainable tourism and bring economic activity to remote areas, raise the profile of the protected areas in the region to ensure their continued conservation, and it will promote the connections between communities, ecosystems, and people, in a place where there is too much focus on the things that divide.</p>
             </div>
-            <div class="col-sm-5" id="window-wrapper">
+            <div class="col-sm-5 col-centered" id="window-wrapper">
                 <!-- <img src="assets/img/window-photos.jpg"> -->
                 <img src="assets/img/photo-window.jpg">
                 <!-- <div class="picture_content margin-left">
@@ -520,7 +520,7 @@
 
         var html_rachaSouth = "<h4 style='border-bottom:3px solid " + color_rachaSouth + "'>Racha (Southern Route)</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
 
-        var html_borjomi = "<h4 style='border-bottom:3px solid " + color_borjomi + "'>Borjomih4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_borjomi = "<h4 style='border-bottom:3px solid " + color_borjomi + "'>Borjomi<h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
 
         var html_javakheti = "<h4 style='border-bottom:3px solid " + color_javakheti + "'>Javakheti</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
 
@@ -754,6 +754,7 @@
                     var newBounds = L.latLngBounds(southWest, northEast);
                     // And set the bounds, pad it anyways a little bit
                     map.fitBounds(newBounds.pad(0.05));
+                    //map.panInsideBounds(newBounds.pad(0.05));
 
                     // Adjust InfoWindow
                     $("#map-contents-info-window").html(eval("html_" + $(this).attr('id')));

@@ -230,8 +230,11 @@ Block 2 - What is the TCT?
     /*margin-top: 20px;*/
     margin: 3rem 1rem 3rem 2rem;
     font-size: 1.7rem;
-    text-align: center;
     font-weight: 300;
+}
+
+#block2 p.center {
+    text-align: center;
 }
 
 #window-wrapper {
@@ -436,7 +439,7 @@ Block 3 - The Big Map
 }
 
 #map-contents-info-window {
-    width: 30%;
+    width: 50%;
     position: absolute;
     top: 30px;
     right: 30px;
@@ -448,6 +451,12 @@ Block 3 - The Big Map
     padding: 20px;
     color: white;
     display: none;
+}
+
+@media (min-width: 768px) {
+    #map-contents-info-window {
+        width: 30%;
+    }
 }
 
 #map-contents-info-window h4 {
@@ -1022,10 +1031,34 @@ Block 1 - Header
     bottom:0px;
     width: 350px;
     height: 240px;
-    background: url('../img/signpost.png') no-repeat center center;
+    background: url('../img/signpost2.png') no-repeat center center;
     background-size: cover;
     background-position: center;
-    z-index: 5;
+    z-index: 2;
+}
+
+a.home-link-box {
+    display: block;
+    position: absolute;
+    left: 180px;
+    top: 60px;
+    width: 160px;
+    height: 110px;
+    z-index: 200;
+}
+
+@media (min-width: 768px) {
+    a.home-link-box {
+        top: 90px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    a.home-link-box {
+        top: 60px;
+        height: 110px;
+    }
 }
 
 /*========================
@@ -1059,6 +1092,7 @@ Block 2 - About the TCT
     border-top: 1px solid #e4e9ec;
     border-bottom: 1px solid #e4e9ec;
     padding: 70px 0px 50px 0px;
+    margin: 0px 20px;
 }
 
 .block h1 {
@@ -1089,9 +1123,12 @@ Block 2 - About the TCT
 .block p {
     font-family: RalewayRegular, sans-serif;
     font-size: 1.4rem;
-    text-align: center;
     color: gray;
     line-height: 2.2rem;
+}
+
+.block p.center {
+    text-align: center;
 }
 
 .team-photo {
