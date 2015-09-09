@@ -183,19 +183,19 @@
     <div id="block4" class="">
         <div class="row row-centered">
             <a href="about.html">
-                <div class="col-xs-7 col-md-3 col-centered info-grid" id="info-learn">
+                <div class="col-xs-10 col-sm-4 col-md-3 col-centered info-grid" id="info-learn">
                     <h1><i class="fa fa-binoculars fa-2x"></i></br>Learn about the TCT</h1>
                     <p>The TCT is an ambitious idea. A towering mountain range that goes from sea to sea, across <span class="tct-orange">a dozen languages</span>, and Lorem ipsum dolor sit amet, consectetur adipisicing elit. veniam adipisci facere dolor excepturi harum earum, qui itaque!</p>
                 </div>
             </a>
             <a href="who-we-are.html">
-                <div class="col-xs-7 col-md-3 col-centered info-grid" id="info-who">
+                <div class="col-xs-10 col-sm-4 col-md-3 col-centered info-grid" id="info-who">
                     <h1><i class="fa fa-users fa-2x"></i></br>Who are we?</h1>
                     <p>We are a collection of <span class="tct-orange">volunteers</span> who Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos impedit et tenetur ullam laboriosam vel, modi similique quae quam maxime sint, quo cum ducimus ex rerum, sapiente, nulla! Nam.</p>
                 </div>
             </a>
             <a href="get-involved.html">
-                <div class="col-xs-7 col-md-3 col-centered info-grid" id="info-help">
+                <div class="col-xs-10 col-sm-4 col-md-3 col-centered info-grid" id="info-help">
                     <h1><i class="fa fa-comments fa-2x"></i></br>Get Involved</h1>
                     <p>Do you want to be part of our team? We <span class="tct-orange">want you</span> to join us. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ab odio, consectetur aliquam, laborum maxime vero sequi mollitia illum atque. Consequatur ad facilis culpa eaque.</p>
                 </div>
@@ -262,12 +262,12 @@
 
     <div id="contact">
         <div class="row row-centered">
-            <div class="col-xs-4 col-centered contact-cols">
+            <div class="col-md-4 col-centered contact-cols">
                 <h4>Contact</h4>
                 <p>Are you a hiker? Want to help create the TCT? Whatever your interest, we want to get to know you. Send us an email at</br><a href="mailto:info@transcaucasiantrail.org?Subject=Hello%20TCTeam%20!" target="_blank">info@transcaucasiantrail.org.</a></p>
             </div>
 
-            <div class="col-xs-4 col-centered contact-cols">
+            <div class="col-md-4 col-centered contact-cols">
                 <h4>Get Connected</h4>
                 <p>
                     <a href="https://www.facebook.com/transcaucasiantrail" target="_blank"><i class="fa fa-facebook"></i> Facebook</br></a>
@@ -345,11 +345,15 @@
         });
 
         // Add the tiles and attribution
-        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ', {
+        mapTiles = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ', {
             maxZoom: 10,
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
             id: 'mapbox.light'
-        }).addTo(map);
+        })
+
+        mapTiles.addTo(map);
+
+
 
         // Set view of map
         map.setView([41.4, 43.70], 7);
@@ -384,6 +388,12 @@
             clickable: false
         });
 
+        var apsny_clickable = L.polyline(ll_apsny, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
+        });
+
         var svaneti = L.polyline(ll_svaneti, {
             color: color_svaneti,
             weight: 3,
@@ -391,6 +401,12 @@
             // dashArray: "3,6",
             smoothFactor: 1.0,
             clickable: false
+        });
+
+        var svaneti_clickable = L.polyline(ll_svaneti, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
         });
 
         var racha = L.polyline(ll_racha, {
@@ -402,6 +418,12 @@
             clickable: false
         });
 
+        var racha_clickable = L.polyline(ll_racha, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
+        });
+
         var ossetia = L.polyline(ll_ossetia, {
             color: color_ossetia,
             weight: 3.5,
@@ -409,6 +431,12 @@
             dashArray: "3,6",
             smoothFactor: 1.0,
             clickable: false
+        });
+
+        var ossetia_clickable = L.polyline(ll_ossetia, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
         });
 
         var mtianeti = L.polyline(ll_mtianeti, {
@@ -420,6 +448,12 @@
             clickable: false
         });
 
+        var mtianeti_clickable = L.polyline(ll_mtianeti, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
+        });
+
         var kakheti = L.polyline(ll_kakheti, {
             color: color_kakheti,
             weight: 3.5,
@@ -427,6 +461,12 @@
             dashArray: "3,6",
             smoothFactor: 1.0,
             clickable: false
+        });
+
+        var kakheti_clickable = L.polyline(ll_kakheti, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
         });
 
         var shaki = L.polyline(ll_shaki, {
@@ -438,6 +478,12 @@
             clickable: false
         });
 
+        var shaki_clickable = L.polyline(ll_shaki, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
+        });
+
         var quba = L.polyline(ll_quba, {
             color: color_quba,
             weight: 3,
@@ -445,6 +491,12 @@
             dashArray: "3,6",
             smoothFactor: 1.0,
             clickable: false
+        });
+
+        var quba_clickable = L.polyline(ll_quba, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
         });
 
         // Southern Route
@@ -457,6 +509,12 @@
             clickable: false
         });
 
+        var rachaSouth_clickable = L.polyline(ll_racha_south, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
+        });
+
         var borjomi = L.polyline(ll_borjomi, {
             color: color_borjomi,
             weight: 3,
@@ -464,6 +522,13 @@
             dashArray: "3,6",
             smoothFactor: 1.0,
             clickable: false
+        });
+
+        var borjomi_clickable = L.polyline(ll_borjomi, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true,
+            id: 'borjomi'
         });
 
         var javakheti = L.polyline(ll_javakheti, {
@@ -475,6 +540,12 @@
             clickable: false
         });
 
+        var javakheti_clickable = L.polyline(ll_javakheti, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
+        });
+
         var lori = L.polyline(ll_lori, {
             color: color_lori,
             weight: 3,
@@ -482,6 +553,12 @@
             dashArray: "3,6",
             smoothFactor: 1.0,
             clickable: false
+        });
+
+        var lori_clickable = L.polyline(ll_lori, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
         });
 
         var sevan = L.polyline(ll_sevan, {
@@ -493,6 +570,12 @@
             clickable: false
         });
 
+        var sevan_clickable = L.polyline(ll_sevan, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
+        });
+
         var vayots_dzor = L.polyline(ll_vayots_dzor, {
             color: color_vayots_dzor,
             weight: 3,
@@ -502,36 +585,51 @@
             clickable: false
         });
 
-        var html_apsny = "<h4 style='border-bottom:3px solid " + color_apsny + "'>Apsny (Abkhazia)</h4><p>From the subtropical shoreline of the Black Sea near Gagra, the trail quickly ascends to the Arabika Massif, home to the deepest caves in the world. The proposed route will pass Lake Ritsa and traverse the Pskhu-Gumista reserve, critical habitat for endemic wildlife like the West Caucasian Tur. This portion of the trail is still being mapped, and only experienced trekkers with knowledgeable local guides should attempt it.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var vayots_dzor_clickable = L.polyline(ll_vayots_dzor, {
+            weight: 30,
+            opacity: 0.0,
+            clickable: true
+        });
 
-        var html_svaneti = "<h4 style='border-bottom:3px solid " + color_svaneti + "'>Svaneti</h4><p>The deep valleys of Svaneti have protected the region’s incredible cultural heritage rooted in medieval Christianity, including a wealth of unique artifacts, architecture, and traditions. From the Nakra valley, the route passes through the dense forests of Western Svaneti over several spectacular high passes and around the base of the dramatic twin peaks of Mt. Ushba. The trail descends to Mestia and connects a series of ancient villages on the way to Ushguli, a Unesco World Heritage Site, considered the highest village in Europe.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='green'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_apsny = "<h4 style='border-bottom:3px solid " + color_apsny + "'>Apsny (Abkhazia)</h4><p>From the subtropical shoreline of the Black Sea near Gagra, the trail quickly ascends to the Arabika Massif, home to the deepest caves in the world. The proposed route will pass Lake Ritsa and traverse the Pskhu-Gumista reserve, critical habitat for endemic wildlife like the West Caucasian Tur. This portion of the trail is still being mapped, and only experienced trekkers with knowledgeable local guides should attempt it.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_apsny + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_racha = "<h4 style='border-bottom:3px solid " + color_racha + "'>Racha</h4><p>The Racha segment crosses some of the most remote valleys of the Caucasus. From the west, the trail passes through an abandoned mountain camp at Zeskho and crosses a high pass into the uninhabited Tskhenistkali Valley. The route then follows the headwaters of the Rioni River toward the remote villages of Gona and Shovi. Significant portions of this route are off-trail and require advanced route-finding skills and/or a local guide.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_svaneti = "<h4 style='border-bottom:3px solid " + color_svaneti + "'>Svaneti</h4><p>The deep valleys of Svaneti have protected the region’s incredible cultural heritage rooted in medieval Christianity, including a wealth of unique artifacts, architecture, and traditions. From the Nakra valley, the route passes through the dense forests of Western Svaneti over several spectacular high passes and around the base of the dramatic twin peaks of Mt. Ushba. The trail descends to Mestia and connects a series of ancient villages on the way to Ushguli, a Unesco World Heritage Site, considered the highest village in Europe.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='green'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_svaneti + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_ossetia = "<h4 style='border-bottom:3px solid " + color_ossetia + "'>Ossetia</h4><p>A proposed route through South Ossetia would pass through  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, autem.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_racha = "<h4 style='border-bottom:3px solid " + color_racha + "'>Racha</h4><p>The Racha segment crosses some of the most remote valleys of the Caucasus. From the west, the trail passes through an abandoned mountain camp at Zeskho and crosses a high pass into the uninhabited Tskhenistkali Valley. The route then follows the headwaters of the Rioni River toward the remote villages of Gona and Shovi. Significant portions of this route are off-trail and require advanced route-finding skills and/or a local guide.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_racha + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_mtianeti = "<h4 style='border-bottom:3px solid " + color_mtianeti + "'>Mtianeti</h4><p>From the glacier-carved flanks of  Mt. Kazbegi, the trail passes below the spectacular granite spires of the Chaukhi massif and over Chaukhi pass, descending to the glacial lakes of Abdelauri and through the remote valleys of Khevsureti. The trail climbs the challenging 3,400 meter Atsunta pass into Tusheti National Park. The park protects the unique pastoral landscape of the Thushetian shepherds, who have brought their herds to these valleys every summer for centuries. The trail takes hikers past ancient fortresses, shrines, and villages  of this unique mountain culture. </p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='green'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_ossetia = "<h4 style='border-bottom:3px solid " + color_ossetia + "'>Ossetia</h4><p>A proposed route through South Ossetia would pass through  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, autem.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_ossetia + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_kakheti = "<h4 style='border-bottom:3px solid " + color_kakheti + "'>Kakheti</h4><p>The proposed route through the Kakheti region descends from Tusheti to through the Lopota Gorge. The trail will head east from Lopota over the steep valleys of Kakheti. Much of the route overlooks the wide lowlands of the Alazani Valley, thousands of meters below. The route will descend from pristine alpine meadows Lagodekhi National Park through the lush forested valleys of on the border between Azerbaijan and Georgia. Currently, only the portion of the trail through Lagodekhi National Park is hikable.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_mtianeti = "<h4 style='border-bottom:3px solid " + color_mtianeti + "'>Mtianeti</h4><p>From the glacier-carved flanks of  Mt. Kazbegi, the trail passes below the spectacular granite spires of the Chaukhi massif and over Chaukhi pass, descending to the glacial lakes of Abdelauri and through the remote valleys of Khevsureti. The trail climbs the challenging 3,400 meter Atsunta pass into Tusheti National Park. The park protects the unique pastoral landscape of the Thushetian shepherds, who have brought their herds to these valleys every summer for centuries. The trail takes hikers past ancient fortresses, shrines, and villages  of this unique mountain culture. </p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='green'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_mtianeti + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_shaki = "<h4 style='border-bottom:3px solid " + color_shaki + "'>Shaki</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_kakheti = "<h4 style='border-bottom:3px solid " + color_kakheti + "'>Kakheti</h4><p>The proposed route through the Kakheti region descends from Tusheti to through the Lopota Gorge. The trail will head east from Lopota over the steep valleys of Kakheti. Much of the route overlooks the wide lowlands of the Alazani Valley, thousands of meters below. The route will descend from pristine alpine meadows Lagodekhi National Park through the lush forested valleys of on the border between Azerbaijan and Georgia. Currently, only the portion of the trail through Lagodekhi National Park is hikable.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_kakheti + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_quba = "<h4 style='border-bottom:3px solid " + color_quba + "'>Quba</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_shaki = "<h4 style='border-bottom:3px solid " + color_shaki + "'>Shaki</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_shaki + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_rachaSouth = "<h4 style='border-bottom:3px solid " + color_rachaSouth + "'>Racha (Southern Route)</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_quba = "<h4 style='border-bottom:3px solid " + color_quba + "'>Quba</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_quba + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_borjomi = "<h4 style='border-bottom:3px solid " + color_borjomi + "'>Borjomi<h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_rachaSouth = "<h4 style='border-bottom:3px solid " + color_rachaSouth + "'>Racha (Southern Route)</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_rachaSouth + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_javakheti = "<h4 style='border-bottom:3px solid " + color_javakheti + "'>Javakheti</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_borjomi = "<h4 style='border-bottom:3px solid " + color_borjomi + "'>Borjomi</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_borjomi + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_lori = "<h4 style='border-bottom:3px solid " + color_lori + "'>Lori</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_javakheti = "<h4 style='border-bottom:3px solid " + color_javakheti + "'>Javakheti</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_javakheti + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_sevan = "<h4 style='border-bottom:3px solid " + color_sevan + "'>Sevan</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_lori = "<h4 style='border-bottom:3px solid " + color_lori + "'>Lori</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_lori + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
-        var html_vayots_dzor = "<h4 style='border-bottom:3px solid " + color_vayots_dzor + "'>Vayots Dzor</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+        var html_sevan = "<h4 style='border-bottom:3px solid " + color_sevan + "'>Sevan</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_sevan + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
+
+        var html_vayots_dzor = "<h4 style='border-bottom:3px solid " + color_vayots_dzor + "'>Vayots Dzor</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide <i class='fa fa-long-arrow-right'></i></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return' style='border-top:3px solid " + color_vayots_dzor + "'><i class='fa fa-times fa-2x'></i> Close and return to overview</div>";
 
         // Create feature groups for tct_route and southern_route
         var tct_route = new L.FeatureGroup();
+        var tct_route_clickable = new L.FeatureGroup();
+        tct_route_clickable.addLayer(apsny_clickable);
+        tct_route_clickable.addLayer(svaneti_clickable);
+        tct_route_clickable.addLayer(racha_clickable);
+        tct_route_clickable.addLayer(ossetia_clickable);
+        tct_route_clickable.addLayer(mtianeti_clickable);
+        tct_route_clickable.addLayer(kakheti_clickable);
+        tct_route_clickable.addLayer(shaki_clickable);
+        tct_route_clickable.addLayer(quba_clickable);
         tct_route.addLayer(apsny);
         tct_route.addLayer(svaneti);
         tct_route.addLayer(racha);
@@ -541,8 +639,16 @@
         tct_route.addLayer(shaki);
         tct_route.addLayer(quba);
         map.addLayer(tct_route);
+        map.addLayer(tct_route_clickable);
 
         var southern_route = new L.FeatureGroup();
+        var southern_route_clickable = new L.FeatureGroup();
+        southern_route_clickable.addLayer(rachaSouth_clickable);
+        southern_route_clickable.addLayer(borjomi_clickable);
+        southern_route_clickable.addLayer(javakheti_clickable);
+        southern_route_clickable.addLayer(lori_clickable);
+        southern_route_clickable.addLayer(sevan_clickable);
+        southern_route_clickable.addLayer(vayots_dzor_clickable);
         southern_route.addLayer(rachaSouth);
         southern_route.addLayer(borjomi);
         southern_route.addLayer(javakheti);
@@ -550,6 +656,7 @@
         southern_route.addLayer(sevan);
         southern_route.addLayer(vayots_dzor);
         map.addLayer(southern_route);
+        map.addLayer(southern_route_clickable);
 
     </script>
 
@@ -635,7 +742,9 @@
             $("#east-west-btn").hover(
                 function() {
                     map.addLayer(tct_route);
+                    map.addLayer(tct_route_clickable);
                     map.addLayer(southern_route);
+                    map.addLayer(southern_route_clickable);
                     southern_route.setStyle({ opacity: 0.3});
                 },
                 function() {
@@ -656,7 +765,9 @@
                 // Reset Map Frame
                 map.setView([41.4, 43.70], 7);
                 map.addLayer(tct_route);
+                map.addLayer(tct_route_clickable);
                 map.addLayer(southern_route);
+                map.addLayer(southern_route_clickable);
                 $("#map-contents-info-window").fadeOut( "fast", function() {});
             });
 
@@ -664,7 +775,9 @@
             $("#south-btn").hover(
                 function() {
                     map.addLayer(tct_route);
+                    map.addLayer(tct_route_clickable);
                     map.addLayer(southern_route);
+                    map.addLayer(southern_route_clickable);
                     tct_route.setStyle({ opacity: 0.3});
                 },
                 function() {
@@ -685,15 +798,17 @@
                 // Reset Map Frame
                 map.setView([41.4, 43.70], 7);
                 map.addLayer(tct_route);
+                map.addLayer(tct_route_clickable);
                 map.addLayer(southern_route);
+                map.addLayer(southern_route_clickable);
                 $("#map-contents-info-window").fadeOut( "fast", function() {});
             });
 
-
-
             $("#map-contents-overlay").mouseleave(function() {
                 map.addLayer(tct_route);
+                map.addLayer(tct_route_clickable);
                 map.addLayer(southern_route);
+                map.addLayer(southern_route_clickable);
             });
 
             $(".map-contents-overlay-button").each(function(){
@@ -714,17 +829,19 @@
                     // Isolate Route
                     map.removeLayer(tct_route);
                     map.removeLayer(southern_route);
+                    map.addLayer(eval($id + "_clickable"));
                     map.addLayer(eval($id));
                 });
 
                 // Mouseout actions
-                $(this).mouseout(function(){
+                $(this).mouseleave(function(){
                     // Change colors 
                     $(this).children("h4").css("color", "white");
                     $(this).css("border", "3px solid white");
 
                     // Remove route
                     map.removeLayer(eval($id));
+                    //map.removeLayer(eval($id + "_clickable"));
 
                     // Moving this to move out of the container, see above
                     // map.addLayer(tct_route);
@@ -773,21 +890,184 @@
                 }); 
             });
 
+            // Fire Hovers and Clicks from polyline clickables            
+            $(apsny_clickable).mouseover(function(){
+                $( "#apsny" ).trigger( "mouseover" );
+            });
+            $(apsny_clickable).mouseout(function(){
+                $( "#apsny" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(apsny_clickable).click(function(){
+                $( "#apsny" ).trigger( "click" );
+            });
 
+            $(svaneti_clickable).mouseover(function(){
+                $( "#svaneti" ).trigger( "mouseover" );
+            });
+            $(svaneti_clickable).mouseout(function(){
+                $( "#svaneti" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(svaneti_clickable).click(function(){
+                $( "#svaneti" ).trigger( "click" );
+            });
 
+            $(racha_clickable).mouseover(function(){
+                $( "#racha" ).trigger( "mouseover" );
+            });
+            $(racha_clickable).mouseout(function(){
+                $( "#racha" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(racha_clickable).click(function(){
+                $( "#racha" ).trigger( "click" );
+            });
 
-            // when the routes are clicked
-            //   - change buttons
-            //   - change colors of routes
+            $(ossetia_clickable).mouseover(function(){
+                $( "#ossetia" ).trigger( "mouseover" );
+            });
+            $(ossetia_clickable).mouseout(function(){
+                $( "#ossetia" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(ossetia_clickable).click(function(){
+                $( "#ossetia" ).trigger( "click" );
+            });
 
-            // when each button is clicked
-            //   - zoom to area
-            //   - open up info window
-            //
+            $(mtianeti_clickable).mouseover(function(){
+                $( "#mtianeti" ).trigger( "mouseover" );
+            });
+            $(mtianeti_clickable).mouseout(function(){
+                $( "#mtianeti" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(mtianeti_clickable).click(function(){
+                $( "#mtianeti" ).trigger( "click" );
+            });
 
+            $(kakheti_clickable).mouseover(function(){
+                $( "#kakheti" ).trigger( "mouseover" );
+            });
+            $(kakheti_clickable).mouseout(function(){
+                $( "#kakheti" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(kakheti_clickable).click(function(){
+                $( "#kakheti" ).trigger( "click" );
+            });
 
-            // Fit the map bounds to a certain polyline
-            //map.fitBounds(mtianeti.getBounds());
+            $(shaki_clickable).mouseover(function(){
+                $( "#shaki" ).trigger( "mouseover" );
+            });
+            $(shaki_clickable).mouseout(function(){
+                $( "#shaki" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(shaki_clickable).click(function(){
+                $( "#shaki" ).trigger( "click" );
+            });
+
+            $(quba_clickable).mouseover(function(){
+                $( "#quba" ).trigger( "mouseover" );
+            });
+            $(quba_clickable).mouseout(function(){
+                $( "#quba" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(quba_clickable).click(function(){
+                $( "#quba" ).trigger( "click" );
+            });
+
+            $(rachaSouth_clickable).mouseover(function(){
+                $( "#rachaSouth" ).trigger( "mouseover" );
+            });
+            $(rachaSouth_clickable).mouseout(function(){
+                $( "#rachaSouth" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(rachaSouth_clickable).click(function(){
+                $( "#rachaSouth" ).trigger( "click" );
+            });
+
+            $(borjomi_clickable).mouseover(function(){
+                $( "#borjomi" ).trigger( "mouseover" );
+            });
+            $(borjomi_clickable).mouseout(function(){
+                $( "#borjomi" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(borjomi_clickable).click(function(){
+                $( "#borjomi" ).trigger( "click" );
+            });
+
+            $(javakheti_clickable).mouseover(function(){
+                $( "#javakheti" ).trigger( "mouseover" );
+            });
+            $(javakheti_clickable).mouseout(function(){
+                $( "#javakheti" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(javakheti_clickable).click(function(){
+                $( "#javakheti" ).trigger( "click" );
+            });
+
+            $(lori_clickable).mouseover(function(){
+                $( "#lori" ).trigger( "mouseover" );
+            });
+            $(lori_clickable).mouseout(function(){
+                $( "#lori" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(lori_clickable).click(function(){
+                $( "#lori" ).trigger( "click" );
+            });
+
+            $(sevan_clickable).mouseover(function(){
+                $( "#sevan" ).trigger( "mouseover" );
+            });
+            $(sevan_clickable).mouseout(function(){
+                $( "#sevan" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(sevan_clickable).click(function(){
+                $( "#sevan" ).trigger( "click" );
+            });
+
+            $(vayots_dzor_clickable).mouseover(function(){
+                $( "#vayots_dzor" ).trigger( "mouseover" );
+            });
+            $(vayots_dzor_clickable).mouseout(function(){
+                $( "#vayots_dzor" ).trigger( "mouseleave" );
+                $("#map-contents-overlay").trigger( "mouseleave" );
+            });
+            $(vayots_dzor_clickable).click(function(){
+                $( "#vayots_dzor" ).trigger( "click" );
+            });
+
+            // $(mapTiles).click(function(){
+            //     alert('he');
+            //     $(".return").trigger( "click" );
+            // });
+
+            // $(map).click(function(e){
+            //     if(e.target != this) return; // only continue if the target itself has been clicked
+            //     // this section only processes if the .nav > li itself is clicked.
+            //     alert(e.screenX);
+            // });
+
+            // $(map).click(function(){
+            //   alert('me');
+            // });
+
+            // $(map).children().click(function(e) {
+            //   return false;
+            // });
+
+            map.on('dblclick', function(e) {
+                $(".return").trigger( "click" );
+            });
+
 
         });
 
