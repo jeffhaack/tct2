@@ -337,7 +337,7 @@ Block 3 - The Big Map
 #map-contents-overlay .logo {
     position: absolute;
     width: 80px;
-    left: 20px;
+    left: 28px;
     top: 12px;
     
 }
@@ -1035,7 +1035,7 @@ Block 1 - Header
     bottom:0px;
     width: 350px;
     height: 240px;
-    background: url('../img/signpost2.png') no-repeat center center;
+    background: url('../img/signpost2b.png') no-repeat center center;
     background-size: cover;
     background-position: center;
     z-index: 2;
