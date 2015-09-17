@@ -41,14 +41,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#" class="navbar-brand"><img alt="TCT Logo" src="assets/img/tct-logo-144x144.png"></a>
+
+          <!-- <a href="#" class="navbar-brand"><img alt="TCT Logo" src="assets/img/tct-logo-144x144.png"></a> -->
         </div>
         <div class="collapse navbar-collapse" id="navbar-contents">
           <ul class="nav navbar-nav navbar-right" role="navigation">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About the TCT</a></li>
             <li><a href="who-we-are.html">Who we are</a></li>
-            <li><a href="activites.html">Activities</a></li>
+            <li><a href="activities.html">Activities</a></li>
             <!-- <li><a href="#">Trail Guide</a></li> -->
             <li><a href="get-involved.html">Get Involved</a></li>
             <li><a href="shop.html">Shop</a></li>
@@ -64,7 +65,7 @@
         <!-- Now put in Block 1 -->
         <div id="abt-block1">
             <div id="abt-block1-title" class="text-center">
-              <h1>Donate</h1>
+              <h1>Trail Guide</h1>
             </div>
             <div class="abt-block1-logo">
             </div>
@@ -73,19 +74,67 @@
         </div>
     </div>
 
-    <div class="block">
+    <div id="block2">
         <div class="row row-centered">
-            <div class="col-md-6 col-sm-7 col-centered" id="tct-gear">
-                <h1>Donate to Help Build the Transcaucasian Trail</h1>
-                <h2>Your help matters to us</h2>
-                <p>Explanation of why you should donate and what the money goes to.</p>
-                <button type="button" class="btn btn-shop btn-lg center-block">Donate via Paypal</button>
+            <div class="col-md-3 col-centered">
+                <h1>Select a trail:</h1> 
+                <p class="text-center"><button type="button" class="btn btn-warning navbar-btn btn-lg" onclick="location.href='trail-guide.html';">East-West Route</button></p>
+                <p class="text-center"><button type="button" class="btn btn-warning navbar-btn btn-lg" onclick="location.href='trail-guide.html';">Southern Route</button></p>
+                </ul>
             </div>
         </div>
     </div>
 
-    <div id="block5" class="break-block">
-        <h1>Some catchy tagline to reinforce the message.</h1>
+    <div class="block">
+        <div class="row row-centered">
+            <div class="col-md-7 col-sm-9 col-centered" id="tct-development">
+                <h1>The Transcaucasian Trail</h1>
+                <h2>East-West Route</h2>
+                <p class="text-center"><button type="button" class="btn btn-warning navbar-btn btn-lg" onclick="location.href='trail-guide/svaneti.html';">Here is an example rough layout for the Svaneti page</button></p>
+
+                <p>Note that for now we will have two pages active - Svaneti and Mtianeti. The rest will be marked as incomplete.  If there are any we feel we have a little bit of info on, such as Kakheti, we should make that a page too and put down the info that we do have. Best to have all our work online.</p>
+                <div class="row row-centered">
+                    <div class="col-md-6 col-centered" id="tct-development">
+                        <ul class="list-unstyled">
+                            <li>Apsny</li>
+                            <li><a href="trail-guide/svaneti.html">Svaneti</a></li>
+                            <li>Racha</li>
+                            <li>Ossetia</li>
+                            <li>Mtianeti</li>
+                            <li>Kakheti</li>
+                            <li>Shaki</li>
+                            <li>Quba</li>
+                    </div>
+                    <div class="col-md-6 col-centered" id="tct-development">
+                        Here be a map.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block">
+        <div class="row row-centered">
+            <div class="col-md-7 col-sm-9 col-centered" id="tct-development">
+                <h1>The Transcaucasian Trail</h1>
+                <h2>Southern Route</h2>
+                <div class="row row-centered">
+                    <div class="col-md-6 col-centered" id="tct-development">
+                        <ul class="list-unstyled">
+                            <li>Apsny</li>
+                            <li>Svaneti</li>
+                            <li>Racha</li>
+                            <li>Ossetia</li>
+                            <li>Mtianeti</li>
+                            <li>Kakheti</li>
+                            <li>Shaki</li>
+                            <li>Quba</li>
+                    </div>
+                    <div class="col-md-6 col-centered" id="tct-development">
+                        Here be a map.
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="contact">
@@ -151,82 +200,7 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
     <script src="assets/js/jquery-2.1.4.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/mapbox.js"></script>
 
-    <script>
-    L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZmhhYWNrIiwiYSI6IkdDU3MtVUUifQ.KJXO-ax2PqnBdfc1g_0ZfQ';
-    var map = L.mapbox.map('map', 'jeffhaack.gmeh4pac', { scrollWheelZoom: false})
-        .setView([42, 44.50], 7);
-    </script>
-
-    <!-- Get Tumblr Feed and process blog objects-->
-    <script type="text/javascript" src="http://transcaucasiantrail.tumblr.com/api/read/json"></script>
-    <script type="text/javascript">
-        // Blog Post 1
-        var img = tumblr_api_read['posts'][0]['regular-body'].match(/http:[^\s]+jpg/g);
-        var title = "<a href='" + tumblr_api_read['posts'][0]['url'] + "target='_blank'>" + tumblr_api_read['posts'][0]['regular-title'] + "</a>";
-        var date = tumblr_api_read['posts'][0]['date']
-        $("#blog-post-1").children(".blog-img").css("background-image", "url(" + img[0] + ")");
-        $("#blog-post-1").children(".blog-read").attr("href", tumblr_api_read['posts'][0]['url']);
-        $("#blog-post-1").children("h5").html(title);
-        $("#blog-post-1").children("h6").text(date.substring(0,11));
-
-        // Blog Post 2
-        var img = tumblr_api_read['posts'][1]['regular-body'].match(/http:[^\s]+jpg/g);
-        var title = "<a href='" + tumblr_api_read['posts'][1]['url'] + "target='_blank'>" + tumblr_api_read['posts'][1]['regular-title'] + "</a>";
-        var date = tumblr_api_read['posts'][1]['date']
-        $("#blog-post-2").children(".blog-img").css("background-image", "url(" + img[0] + ")");
-        $("#blog-post-2").children(".blog-read").attr("href", tumblr_api_read['posts'][1]['url']);
-        $("#blog-post-2").children("h5").html(title);
-        $("#blog-post-2").children("h6").text(date.substring(0,11));
-
-        // Blog Post 3
-        var img = tumblr_api_read['posts'][2]['regular-body'].match(/http:[^\s]+jpg/g);
-        var title = "<a href='" + tumblr_api_read['posts'][2]['url'] + "target='_blank'>" + tumblr_api_read['posts'][2]['regular-title'] + "</a>";
-        var date = tumblr_api_read['posts'][2]['date']
-        $("#blog-post-3").children(".blog-img").css("background-image", "url(" + img[0] + ")");
-        $("#blog-post-3").children(".blog-read").attr("href", tumblr_api_read['posts'][2]['url']);
-        $("#blog-post-3").children("h5").html(title);
-        $("#blog-post-3").children("h6").text(date.substring(0,11));
-
-        // Now add some effects to the blog links and also add the URL links
-        $(document).ready(function(){
-            $("#blog-post-1").mouseenter(function(){
-                $("#blog-post-1").children(".blog-img").fadeTo("fast", 0.75);
-                $("#blog-post-1").children(".blog-read").fadeTo("fast", 1);
-            });
-            $("#blog-post-1").mouseleave(function(){
-                $("#blog-post-1").children(".blog-img").fadeTo("fast", 1);
-                $("#blog-post-1").children(".blog-read").fadeTo("fast", 0);
-            });
-            $("#blog-post-2").mouseenter(function(){
-                $("#blog-post-2").children(".blog-img").fadeTo("fast", 0.75);
-                $("#blog-post-2").children(".blog-read").fadeTo("fast", 1);
-            });
-            $("#blog-post-2").mouseleave(function(){
-                $("#blog-post-2").children(".blog-img").fadeTo("fast", 1);
-                $("#blog-post-2").children(".blog-read").fadeTo("fast", 0);
-            });
-            $("#blog-post-3").mouseenter(function(){
-                $("#blog-post-3").children(".blog-img").fadeTo("fast", 0.75);
-                $("#blog-post-3").children(".blog-read").fadeTo("fast", 1);
-            });
-            $("#blog-post-3").mouseleave(function(){
-                $("#blog-post-3").children(".blog-img").fadeTo("fast", 1);
-                $("#blog-post-3").children(".blog-read").fadeTo("fast", 0);
-            });
-
-
-            // Add some animation and links to block4
-            $(".info-grid").each(function(){
-                var $bgobj = $(this); // assigning the object
-               $bgobj.mouseenter(function(){
-                    // $bgobj.fadeTo("fast", 0.75);
-                }); 
-            });
-        });
-
-    </script>
 
   </body>
 </html>
