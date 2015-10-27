@@ -52,6 +52,7 @@ body, html {
     padding: 0px;
     height: 100%;
     color: #2f3c42;
+    /*font-size: 62.5%;*/
 }
 
 a {
@@ -77,9 +78,10 @@ The Nav Bar on the Home page
 
 .navbar-nav > li > a {
   padding-left: 10px;
+  font-size: 1.3rem;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+.bar-default .navbar-nav>li>a:hover {
     color: #e3ba36;
     background-color: transparent;
 }
@@ -213,9 +215,14 @@ Block 2 - What is the TCT?
     font-family: RalewayThin, sans-serif;
 }
 
+.borderbottom {
+    border-bottom: 1px solid #e4e9ec;
+}
+
 @media (min-width: 768px) {
     #block2 {
-        margin: 80px 0px 40px 0px;
+        margin: 80px 0px 20px 0px;
+        padding-bottom: 35px;
     }
 }
 
@@ -226,11 +233,24 @@ Block 2 - What is the TCT?
     margin-bottom: 3rem;
 }
 
+#block2 h2 {
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-family: RalewayRegular, sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.8rem;
+    font-weight: 300;
+}
+
+
 #block2 p {
     /*margin-top: 20px;*/
-    margin: 3rem 1rem 3rem 2rem;
-    font-size: 1.7rem;
+    margin: 2.4rem 1rem 2rem 2rem;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
     font-weight: 300;
+    font-family: RalewayRegular, sans-serif;
 }
 
 #block2 p.center {
@@ -563,7 +583,7 @@ Block 5 - Filler
 =========================*/
 #block5 {
     min-width: 100%;
-    height: 30%;
+    /*height: 30%;*/
 }
 
 /*========================
@@ -980,7 +1000,7 @@ Block 1 - Header
 
 .abt-block1-wrapper {
     /*height: 720px;*/
-    height: 250px;
+    height: 230px;
     z-index: -100;
     /*margin: 0px;
     padding: 0px;*/
@@ -991,10 +1011,12 @@ Block 1 - Header
     margin: 0px 0px 20px 0px;
     min-width: 100%;
     height: 100%;
-    background: url('../img/cover-background.jpg') no-repeat center center;
+    /*background: url('../img/cover-background.jpg') no-repeat center center;*/
+    background: url('../img/cover-background7.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
+    /*border: 1px solid red;*/
 }
 
 #abt-block1:after {
@@ -1005,8 +1027,9 @@ Block 1 - Header
     left: 0;
     right: 0;
     z-index: 1;
-    background: #000;
-    opacity: .5
+    background: #555;
+    /*opacity: .5*/
+    opacity: .1
 }
 
 #abt-block1-title {
@@ -1031,10 +1054,12 @@ Block 1 - Header
 
 .abt-block1-logo {
     position: absolute;
-    left:70px;
+    left:90px;
     bottom:0px;
-    width: 350px;
-    height: 240px;
+    /*width: 350px;
+    height: 240px;*/
+    width: 292px;
+    height: 200px;
     background: url('../img/signpost2b.png') no-repeat center center;
     background-size: cover;
     background-position: center;
@@ -1056,12 +1081,67 @@ a.home-link-box {
         top: 90px;
         height: 80px;
     }
+    img.firstblock {
+        display: block;
+        background: url(../img/dochu-supra.jpg) no-repeat;
+        width: 400px; /* Width of new image */
+        height: 700px; /* Height of new image */
+    }
+    img.secondblock {
+        display: block;
+        background: url(../img/kich-scene.jpg) no-repeat;
+        width: 400px; /* Width of new image */
+        height: 700px; /* Height of new image */
+    }
+}
+
+@media (min-width: 892px) {
+    img.firstblock {
+        width: 400px; /* Width of new image */
+        height: 600px; /* Height of new image */
+    }
+    img.secondblock {
+        width: 400px; /* Width of new image */
+        height: 600px; /* Height of new image */
+    }
 }
 
 @media (min-width: 992px) {
     a.home-link-box {
         top: 60px;
         height: 110px;
+    }
+    img.firstblock {
+        background: url(../img/dochu-supra550.jpg) no-repeat;
+        width: 470px; /* Width of new image */
+        height: 550px; /* Height of new image */
+    }
+    img.secondblock {
+        background: url(../img/kich-scene550.jpg) no-repeat;
+        width: 470px; /* Width of new image */
+        height: 550px; /* Height of new image */
+    }
+}
+
+@media (min-width: 1092px) {
+    img.firstblock {
+        width: 470px; /* Width of new image */
+        height: 500px; /* Height of new image */
+    }
+    img.secondblock {
+        width: 470px; /* Width of new image */
+        height: 500px; /* Height of new image */
+    }
+}
+
+@media (min-width: 1192px) {
+    img.firstblock {
+        width: 470px; /* Width of new image */
+        height: 450px; /* Height of new image */
+    }
+    img.secondblock {
+        width: 470px; /* Width of new image */
+        height: 450px; /* Height of new image */
     }
 }
 
@@ -1080,8 +1160,21 @@ Block 2 - About the TCT
 
 .break-block {
     background: url('../img/break-box-default.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center;
+    height: 220px;
+}
+
+.bb1 {
+    background: url('../img/break-box-mountains.jpg') no-repeat center center;
+}
+
+.bb2 {
+    background: url('../img/break-box-trail.jpg') no-repeat center center;
+}
+
+.bb3 {
+    background: url('../img/break-box-facade.jpg') no-repeat center center;
 }
 
 .break-block h1 {
@@ -1115,13 +1208,25 @@ Block 2 - About the TCT
     margin-bottom: 35px;
 }
 
-.block h3 {
+/*.block h3 {
     font-family: RalewayRegular, sans-serif;
     font-size: 2.0rem;
     text-align: center;
     color: #2b6293;
     margin-top: 30px;
     margin-bottom: 7px;
+}*/
+
+
+.block h3 {
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-family: RalewayRegular, sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: 300;
+    color: #555;
 }
 
 .block p {
@@ -1129,6 +1234,7 @@ Block 2 - About the TCT
     font-size: 1.4rem;
     color: gray;
     line-height: 2.2rem;
+    margin: 2.4rem 1rem 2rem 2rem;
 }
 
 .block p.center {
