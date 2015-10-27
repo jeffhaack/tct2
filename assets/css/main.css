@@ -1177,6 +1177,10 @@ Block 2 - About the TCT
     background: url('../img/break-box-facade.jpg') no-repeat center center;
 }
 
+.bb4 {
+    background: url('../img/break-box-lightning2.jpg') no-repeat center center;
+}
+
 .break-block h1 {
     color: white;
     padding-top: 95px;
@@ -1224,7 +1228,7 @@ Block 2 - About the TCT
     margin-bottom: 0rem;
     font-family: RalewayRegular, sans-serif;
     font-size: 1.8rem;
-    line-height: 1.8rem;
+    line-height: 2.3rem;
     font-weight: 300;
     color: #555;
 }
