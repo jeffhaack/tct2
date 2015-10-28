@@ -699,6 +699,51 @@
         // Now add some effects to the blog links and also add the URL links
         // Also set up some map functions
         $(document).ready(function(){
+
+            // Translation Effect on Trail Name
+            var changeTitleCount = 1;
+            var titleTranslations = ["<h1>&nbsp;</h1><h1>Անդրկովկասյան</h1><h1>արահետ</h1>",
+                                     "<h1>&nbsp;</h1><h1>ტრანსკავკასიური</h1><h1>ბილიკი</h1>",
+                                     "<h1>&nbsp;</h1><h1>Transqafqaz</h1><h1>cığır</h1>",
+                                     "<h1>&nbsp;</h1><h1>транскавказская</h1><h1>тропа</h1>",
+                                     "<h1>&nbsp;</h1><h1>ლაც'რგევ</h1><h1>კავკასიაქა</h1>",
+                                     "<h1>&nbsp;</h1><h1>ტრანსკავკასიურჲ</h1><h1>კუჩხიშ შარა</h1>",];
+            var englishTranslation = "<h1>The</h1><h1>Transcaucasian</h1><h1>Trail</h1>";
+            var startPoint = Math.floor((Math.random() * titleTranslations.length));
+            var pauseLength = 5000;
+            function changeTitle(){
+                // Set it to English every third time through
+                if (changeTitleCount % 3 == 0) {
+                    $('#block1-title').fadeOut(1200, function(){
+                        $("#block1-title").html(englishTranslation);
+                        $("#block1-title").fadeIn(1500);
+                    });
+                    pauseLength = 8000;
+                }
+                else {
+                    $('#block1-title').fadeOut(1200, function(){
+                        $("#block1-title").html(titleTranslations[startPoint]);
+                        $("#block1-title").fadeIn(1500);
+                    });
+                    startPoint += 1;
+                    pauseLength = 6200;
+                }
+                changeTitleCount += 1;
+                if (startPoint == titleTranslations.length) {
+                    startPoint = 0;
+                }
+                setTimeout(changeTitle, pauseLength);
+            }
+            // Get the recursive function started
+            setTimeout(changeTitle, 3500);
+            
+            // <div id="block1-title" class="text-center">
+            //   <h1>The</h1>
+            //   <h1>Transcaucasian</h1>
+            //   <h1>Trail</h1>
+            // </div>
+
+
             $("#blog-post-1").mouseenter(function(){
                 $("#blog-post-1").children(".blog-img").fadeTo("fast", 0.75);
                 $("#blog-post-1").children(".blog-read").fadeTo("fast", 1);
