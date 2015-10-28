@@ -519,7 +519,25 @@ Block 3 - The Big Map
     color: #e36c36;
 }
 
+#map .map-locator {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 135px;
+    z-index: 3;
+    /*box-shadow: 5px 5px 4px grey;*/
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    /*display: none;*/
+}
 
+@media (min-width: 768px) {
+    #map .map-locator {
+        width: 175px;
+    }
+}
 
 /*========================
 Block 4 - Three Links

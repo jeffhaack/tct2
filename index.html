@@ -178,6 +178,7 @@
             </div>
             <div id='map-contents-info-window'>
             </div>
+            <img src="assets/img/globe-caucasus.png" class="map-locator">
         </div>     
     </div>
 
@@ -702,12 +703,13 @@
 
             // Translation Effect on Trail Name
             var changeTitleCount = 1;
-            var titleTranslations = ["<h1>&nbsp;</h1><h1>Անդրկովկասյան</h1><h1>արահետ</h1>",
-                                     "<h1>&nbsp;</h1><h1>ტრანსკავკასიური</h1><h1>ბილიკი</h1>",
-                                     "<h1>&nbsp;</h1><h1>Transqafqaz</h1><h1>cığır</h1>",
-                                     "<h1>&nbsp;</h1><h1>транскавказская</h1><h1>тропа</h1>",
-                                     "<h1>&nbsp;</h1><h1>ლაც'რგევ</h1><h1>კავკასიაქა</h1>",
-                                     "<h1>&nbsp;</h1><h1>ტრანსკავკასიურჲ</h1><h1>კუჩხიშ შარა</h1>",];
+            var titleTranslations = ["<h1>&nbsp;</h1><h1>Անդրկովկասյան</h1><h1>արահետ</h1>", // Armenian
+                                     "<h1>&nbsp;</h1><h1>ტრანსკავკასიური</h1><h1>ბილიკი</h1>", // Georgian
+                                     "<h1>&nbsp;</h1><h1>Transqafqaz</h1><h1>cığır</h1>", // Azerbaijani
+                                     "<h1>&nbsp;</h1><h1>транскавказская</h1><h1>тропа</h1>", // Russian
+                                     "<h1>&nbsp;</h1><h1>ლაც'რგევ</h1><h1>კავკასიაქა</h1>", // Svan
+                                     "<h1>&nbsp;</h1><h1>ტრანსკავკასიურჲ</h1><h1>კუჩხიშ შარა</h1>",]; // Megrelian
+                                     // Still need: Abkhaz, Ossetian
             var englishTranslation = "<h1>The</h1><h1>Transcaucasian</h1><h1>Trail</h1>";
             var startPoint = Math.floor((Math.random() * titleTranslations.length));
             var pauseLength = 5000;
@@ -923,7 +925,9 @@
                     // And set the bounds, pad it anyways a little bit
                     map.fitBounds(newBounds.pad(0.05));
                     //map.panInsideBounds(newBounds.pad(0.05));
-
+                    // hide the locator map
+                    $(".map-locator").fadeOut("fast");
+                    
                     // Adjust InfoWindow
                     $("#map-contents-info-window").html(eval("html_" + $(this).attr('id')));
                     $(".return").click(function() {
@@ -933,6 +937,8 @@
                         });
                         // Reset Map
                         map.setView([41.4, 43.70], 7);
+                        // Show the locator map again
+                        $(".map-locator").fadeIn("fast");
                     });
                     $("#map-contents-info-window").fadeIn( "fast", function() {
 
