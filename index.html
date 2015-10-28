@@ -44,7 +44,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-contents">
           <ul class="nav navbar-nav navbar-right" role="navigation">
-            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="index.html" class="active">Home</a></li> -->
             <li><a href="about.html">About the TCT</a></li>
             <li><a href="who-we-are.html">Who we are</a></li>
             <li><a href="faq.html">FAQ</a></li>
@@ -824,6 +824,9 @@
                 $("#map-contents-info-window").fadeOut( "fast", function() {});
             });
 
+            // Show the map locator
+            $(".map-locator").show()
+
             // Trail Button south
             $("#south-btn").hover(
                 function() {
@@ -927,7 +930,7 @@
                     //map.panInsideBounds(newBounds.pad(0.05));
                     // hide the locator map
                     $(".map-locator").fadeOut("fast");
-                    
+
                     // Adjust InfoWindow
                     $("#map-contents-info-window").html(eval("html_" + $(this).attr('id')));
                     $(".return").click(function() {

@@ -90,7 +90,8 @@ The Nav Bar on the Home page
     color: white;
 }
 
-.navbar-default .navbar-nav > .active{
+.navbar-default .navbar-nav>li>a.active{
+    color: #e3ba36;
     background: transparent;
  }
 
@@ -530,7 +531,7 @@ Block 3 - The Big Map
     border: 2px solid white;
     padding: 10px;
     color: white;
-    /*display: none;*/
+    display: none;
 }
 
 @media (min-width: 768px) {
