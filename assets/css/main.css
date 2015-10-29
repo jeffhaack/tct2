@@ -1309,5 +1309,53 @@ Block 2 - About the TCT
     margin: 0;
 }
 
+.video-block {
+    width: 450px;
+    height: 253px;
+    display:inline-block;
+    float:none;
+}
+
+.video-info {
+    padding: 16px 3px 0px 30px;
+    width: 220px;
+    float:none;
+    display:none;
+}
+
+@media (min-width: 768px) {
+    .video-info {
+        display:inline-block;
+    }
+}
+
+@media (min-width: 992px) {
+    .video-block {
+        width: 600px;
+        height: 337px;
+    }
+    .video-info {
+        padding-top: 50px;
+        /*width: 230px;*/
+    }
+}
+
+@media (min-width: 1200px) {
+    .video-block {
+        width: 675px;
+        height: 379px;
+    }
+    .video-info {
+        padding-top: 70px;
+    }
+}
+
+.extra-padding {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+
+
 
 
