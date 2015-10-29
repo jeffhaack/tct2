@@ -60,6 +60,11 @@ a {
   text-decoration: inherit; /* no underline */
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /*========================
 The Nav Bar on the Home page
 =========================*/
@@ -227,7 +232,7 @@ Block 2 - What is the TCT?
     }
 }
 
-#block2 h1 {
+/*#block2 h1 {
     font-size: 2.4rem;
     text-align: center;
     margin-top: 5rem;
@@ -242,8 +247,34 @@ Block 2 - What is the TCT?
     font-size: 2.4rem;
     line-height: 1.8rem;
     font-weight: 300;
+}*/
+
+#block2 h1 {
+    font-family: RalewayRegular, sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+    color: gray;
 }
 
+#block2 h2 {
+    font-family: RalewayThin, sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#block2 h3 {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-family: RalewayRegular, sans-serif;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    font-weight: 300;
+    color: #555;
+}
 
 #block2 p {
     /*margin-top: 20px;*/
@@ -252,10 +283,21 @@ Block 2 - What is the TCT?
     line-height: 2.2rem;
     font-weight: 300;
     font-family: RalewayRegular, sans-serif;
+    color:;
+}
+
+.logo-b2 {
+    width: 75px;
+    opacity: 0.8;
 }
 
 #block2 p.center {
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#block2 .tct-orange {
+    /*color: #e36c36;*/
 }
 
 #window-wrapper {
@@ -264,6 +306,26 @@ Block 2 - What is the TCT?
 #window-wrapper img {
     width: 100%;
     margin: 0 auto;
+}
+
+
+
+@media (min-width: 768px) {
+    .window-wrapper-pad img {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 958px) {
+    .window-wrapper-pad img {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .window-wrapper-pad img {
+        padding-top: 0px;
+    }
 }
 
 .picture_content {
@@ -463,15 +525,22 @@ Block 3 - The Big Map
     position: absolute;
     top: 30px;
     right: 30px;
-    width: 50%;
+    width: 85%;
     z-index: 3;
     border-radius: 5px;
     /*border: 1px solid white;*/
     box-shadow: 5px 5px 4px grey;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.85);
     padding: 20px 20px 10px 20px;
     color: white;
     display: none;
+}
+
+@media (min-width: 568px) {
+    #map-contents-info-window {
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.65);
+    }
 }
 
 @media (min-width: 768px) {
@@ -524,9 +593,9 @@ Block 3 - The Big Map
     position: absolute;
     top: 30px;
     right: 30px;
-    width: 135px;
+    /*width: 135px;*/
+    visibility: hidden;
     z-index: 3;
-    /*box-shadow: 5px 5px 4px grey;*/
     background-color: rgba(0, 0, 0, 0.1);
     border: 2px solid rgba(255, 255, 255, 0.7);;
     border-radius: 5px;
@@ -537,6 +606,7 @@ Block 3 - The Big Map
 
 @media (min-width: 768px) {
     #map .map-locator {
+        visibility: visible;
         width: 145px;
     }
 }
@@ -566,6 +636,16 @@ Block 4 - Three Links
     color: inherit;
     font-family: RalewayRegular, sans-serif;
     line-height: 4rem;
+}
+
+#block4 p {
+    text-align: left;
+}
+
+@media (min-width: 1200px) {
+    #block4 p {
+        text-align: justify;
+    }
 }
 
 .info-grid {
@@ -1094,6 +1174,11 @@ a.home-link-box {
     width: 160px;
     height: 110px;
     z-index: 200;
+}
+
+.block-img-wrapper img {
+    width: 100%;
+    margin: 0 auto;
 }
 
 @media (min-width: 768px) {
