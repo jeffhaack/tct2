@@ -527,16 +527,17 @@ Block 3 - The Big Map
     width: 135px;
     z-index: 3;
     /*box-shadow: 5px 5px 4px grey;*/
-    background-color: rgba(0, 0, 0, 0.3);
-    border: 2px solid white;
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.7);;
+    border-radius: 5px;
+    padding: 8px;
     color: white;
     display: none;
 }
 
 @media (min-width: 768px) {
     #map .map-locator {
-        width: 175px;
+        width: 145px;
     }
 }
 
