@@ -985,6 +985,14 @@ Block 8 - Contact
     text-align: left;
 }
 
+#contact p.contact1 {
+    text-align: right;
+}
+
+#contact p.contact2 {
+    text-align: left;
+}
+
 #contact h4 {
     color: #6f7c82;
     font-size: 1.6rem;
