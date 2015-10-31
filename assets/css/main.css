@@ -841,6 +841,42 @@ Block 7 - Gnarly Gear
     left: 40px;
 }
 
+@media (min-width: 992px) {
+    #block7 #gear-shirt {
+        left: 23%;
+    }
+}
+
+#block7 #go-shop {
+    font-family: RalewayRegular, sans-serif;
+    font-size: 2.0rem;
+    color: #555;
+    line-height: 2.7rem;
+    position: absolute;
+    display: block;
+    /*left: 35%;*/
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+    bottom: 30%;
+    text-align: center;
+}
+
+@media (min-width: 568px) {
+    #block7 #go-shop {
+        margin-left: default;
+        margin-right: default;
+        width: auto;
+        right: 14%;
+    }
+}
+
+/*@media (min-width: 992px) {
+    #block7 #go-shop {
+        right: 14%;
+    }
+}*/
+
 #block7 #piggy-bank {
     display: none;
 }
@@ -859,18 +895,10 @@ Block 7 - Gnarly Gear
     }
 }
 
-#block7 #go-shop {
-    font-family: RalewayRegular, sans-serif;
-    font-size: 3.0rem;
-    color: #2b6293;
-    position: absolute;
-    right: 15%;
-    top: 10%;
-    text-align: center;
-}
+
 
 #block7 #get-gear {
-    display: none;
+    display: block;
 }
 
 #block7 #support-cause {
@@ -878,11 +906,12 @@ Block 7 - Gnarly Gear
 }
 
 @media (min-width: 768px) {
-/*    #block7 #go-shop {
-        font-size: 4.3rem;
-        left: 41%;
-        top: 45px;
-    }*/
+    #block7 #go-shop {
+        /*margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        left: 35%;*/
+    }
     #block7 #get-gear {
         display: block;
     }
@@ -891,21 +920,26 @@ Block 7 - Gnarly Gear
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     #block7 #go-shop {
-        font-size: 4.1rem;
-        left: 45%;
-        top: 45px;
-        right: auto;
+        /*font-size: 3.1rem;*/
+        right: 15%;
+        top: 145px;
+        font-family: RalewayRegular, sans-serif;
+        font-size: 2.4rem;
+        line-height: 2.9rem;
+        font-weight: 300;
+        color: #555;
+        /*right: auto;*/
+    }
+    #block7 #get-gear {
+        margin-bottom: 20px;
     }
 }
 
 @media (min-width: 1200px) {
     #block7 #go-shop {
-        font-size: 4.1rem;
-        left: 45%;
-        top: 45px;
-        right: auto;
+        right: 24%;
     }
 }
 
@@ -1294,6 +1328,10 @@ Block 2 - About the TCT
     background: url('../img/break-box-lightning2.jpg') no-repeat center center;
 }
 
+.bb5 {
+    background: url('../img/break-box-field.jpg') no-repeat center center;
+}
+
 .break-block h1 {
     color: white;
     padding-top: 95px;
@@ -1449,7 +1487,141 @@ Block 2 - About the TCT
     padding-bottom: 100px;
 }
 
+.gear-block {
+    width: 150px;
+    height: 200px;
+    padding: 2px;
+    display:inline-block;
+    float:none;
+    border: 1px solid #ddd;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-image: url('../img/tct-shirt1.jpg');
+    margin-right: 8px;
+    background-clip: content-box;
+    position: relative;
+}
 
+.gear-block.i1 {
+    background-image: url('../img/tct-shirt1.jpg');
+}
 
+.gear-block.i2 {
+    background-image: url('../img/tct-shirt2.jpg');
+}
+
+.gear-block.i3 {
+    background-image: url('../img/tct-shirt3.jpg');
+}
+
+.gear-block.i4 {
+    background-image: url('../img/tct-shirt4.jpg');
+}
+
+.gear-info {
+    padding: 2px;
+    width: 225px;
+    height: 550px;
+    float:none;
+    display:none;
+    display:inline-block;
+}
+
+.gear-info p {
+   text-align: left;
+   margin-left: 0;
+   margin-top: 0;
+   font-size: 1.3rem;
+}
+
+@media (min-width: 568px) {
+    .gear-block {
+        width: 300px;
+        height: 350px;
+        margin-right: 25px;
+    }
+    .gear-info {
+        width: 230px;
+        height: 450px;
+    }
+}
+
+@media (min-width: 768px) {
+    .gear-block {
+        width: 400px;
+        height: 450px;
+        margin-right: 25px;
+    }
+    .gear-info {
+        width: 250px;
+        height: 450px;
+    }
+}
+
+.i1-button, .i2-button, .i3-button, .i4-button {
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    width: 34px;
+    height: 40px;
+    display: inline-block;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-image: url('../img/tct-shirt1.jpg');
+    cursor: pointer;
+}
+
+.i1-button:hover:after, .i2-button:hover:after, .i3-button:hover:after, .i4-button:hover:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: #e36c36;
+    opacity: .2
+}
+
+.i2-button {
+    left: 39px;
+    background-image: url('../img/tct-shirt2.jpg');
+}
+
+.i3-button {
+    left: 74px;
+    background-image: url('../img/tct-shirt3.jpg');
+}
+
+.i4-button {
+    left: 110px;
+    background-image: url('../img/tct-shirt4.jpg');
+}
+
+@media (min-width: 568px) {
+    .i1-button, .i2-button, .i3-button, .i4-button {
+        width: 68px;
+        height: 80px;
+        bottom: 8px;
+        left: 8px;
+    }
+    .i2-button { left: 78px; }
+    .i3-button { left: 148px; }
+    .i4-button { left: 220px; } 
+}
+
+@media (min-width: 768px) {
+    .i1-button, .i2-button, .i3-button, .i4-button {
+        width: 68px;
+        height: 80px;
+        bottom: 8px;
+        left: 108px;
+    }
+    .i2-button { left: 178px; }
+    .i3-button { left: 248px; }
+    .i4-button { left: 320px; } 
+}
 
 
