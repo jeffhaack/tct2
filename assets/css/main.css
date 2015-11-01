@@ -1544,6 +1544,7 @@ Block 2 - About the TCT
     .gear-info {
         width: 230px;
         height: 450px;
+        margin-bottom: 50px;
     }
 }
 
@@ -1554,7 +1555,7 @@ Block 2 - About the TCT
         margin-right: 25px;
     }
     .gear-info {
-        width: 250px;
+        width: 280px;
         height: 450px;
     }
 }
@@ -1562,7 +1563,7 @@ Block 2 - About the TCT
 .i1-button, .i2-button, .i3-button, .i4-button {
     position: absolute;
     bottom: 4px;
-    left: 4px;
+    left: 38px;
     width: 34px;
     height: 40px;
     display: inline-block;
@@ -1586,30 +1587,30 @@ Block 2 - About the TCT
 }
 
 .i2-button {
-    left: 39px;
+    left: 74px;
     background-image: url('../img/tct-shirt2.jpg');
 }
 
 .i3-button {
-    left: 74px;
+    left: 110px;
     background-image: url('../img/tct-shirt3.jpg');
 }
 
-.i4-button {
+/*.i4-button {
     left: 110px;
     background-image: url('../img/tct-shirt4.jpg');
-}
+}*/
 
 @media (min-width: 568px) {
     .i1-button, .i2-button, .i3-button, .i4-button {
         width: 68px;
         height: 80px;
         bottom: 8px;
-        left: 8px;
+        left: 78px;
     }
-    .i2-button { left: 78px; }
-    .i3-button { left: 148px; }
-    .i4-button { left: 220px; } 
+    .i2-button { left: 148px; }
+    .i3-button { left: 218px; }
+    /*.i4-button { left: 220px; }*/ 
 }
 
 @media (min-width: 768px) {
@@ -1617,11 +1618,11 @@ Block 2 - About the TCT
         width: 68px;
         height: 80px;
         bottom: 8px;
-        left: 108px;
+        left: 176px;
     }
-    .i2-button { left: 178px; }
-    .i3-button { left: 248px; }
-    .i4-button { left: 320px; } 
+    .i2-button { left: 248px; }
+    .i3-button { left: 320px; }
+    /*.i4-button { left: 392px; } */
 }
 
 
