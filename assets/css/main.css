@@ -57,8 +57,10 @@ body, html {
     /*font-size: 62.5%;*/
 }
 
-body {
-    overflow-x: visible; 
+@media (min-width: 768px) {
+    body {
+        overflow-x: visible; 
+    }
 }
 
 a {
@@ -888,7 +890,7 @@ Block 7 - Gnarly Gear
     margin-left: 25%;
     margin-right: auto;
     width: 50%;
-    bottom: 30%;
+    bottom: 10%;
     text-align: center;
 }
 
@@ -898,6 +900,7 @@ Block 7 - Gnarly Gear
         margin-right: default;
         width: auto;
         right: 14%;
+        bottom: 30%;
     }
 }
 
