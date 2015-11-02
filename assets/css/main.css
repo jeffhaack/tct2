@@ -168,7 +168,7 @@ Block 1 - The header block
 }
 
 #block1-title {
-    width: 80%;
+    width: 100%;
     position: absolute;
     bottom: 20%;
     left: 0px;
@@ -190,7 +190,7 @@ Block 1 - The header block
     text-transform: uppercase;
     font-family: RalewayRegular, sans-serif;
     font-weight: 400;
-    font-size: 4.0rem;
+    font-size: 3.2rem;
     color: #fff;
     line-height: 1.1;
     text-align: center;
