@@ -1208,10 +1208,17 @@ Block 1 - Header
     background-size: cover;
     background-position: center;
     z-index: 2;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .abt-block1-logo {
+        display: block;
+    }
 }
 
 a.home-link-box {
-    display: block;
+    display: none;
     position: absolute;
     left: 180px;
     top: 60px;
@@ -1229,6 +1236,7 @@ a.home-link-box {
     a.home-link-box {
         top: 90px;
         height: 80px;
+        display: block;
     }
     img.firstblock {
         display: block;
