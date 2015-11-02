@@ -53,8 +53,12 @@ body, html {
     height: 100%;
     color: #2f3c42;
     width: 100%;
-    
+    overflow-x: hidden; 
     /*font-size: 62.5%;*/
+}
+
+body {
+    overflow-x: visible; 
 }
 
 a {
@@ -164,7 +168,7 @@ Block 1 - The header block
 }
 
 #block1-title {
-    width: 90%;
+    width: 80%;
     position: absolute;
     bottom: 20%;
     left: 0px;
