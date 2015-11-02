@@ -1444,8 +1444,8 @@ Block 2 - About the TCT
 }
 
 .video-block {
-    width: 450px;
-    height: 253px;
+    width: 350px;
+    height: 197px;
     display:inline-block;
     float:none;
 }
@@ -1458,6 +1458,10 @@ Block 2 - About the TCT
 }
 
 @media (min-width: 768px) {
+    .video-block {
+        width: 450px;
+        height: 253px;
+    }
     .video-info {
         display:inline-block;
     }
