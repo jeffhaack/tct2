@@ -76,7 +76,7 @@
 
     <div id="block2">
         <div class="row row-centered">
-            <div class="col-sm-5 col-centered">
+            <div class="col-sm-5 col-xs-10 col-centered">
                 <h3>What is the</br>Transcaucasian Trail?</h3>
                 <!-- <div class="ctr"><i class="fa fa-map-signs fa-2x"></i></div> -->
                 <div class="ctr"><img src="../assets/img/tct-logo-144x144-hollow.png" class='logo-b2'></div>
@@ -389,10 +389,14 @@
 
         mapTiles.addTo(map);
 
-
+        if ($(window).width() < 768) {
+            outZoomLevel = 5;    
+        } else {
+            outZoomLevel = 7;
+        }
 
         // Set view of map
-        map.setView([41.4, 43.70], 7);
+        map.setView([41.4, 43.70], outZoomLevel);
 
         // Define colors
         // TCT
@@ -845,7 +849,7 @@
                 $("#east-west-btn").addClass('active');
 
                 // Reset Map Frame
-                map.setView([41.4, 43.70], 7);
+                map.setView([41.4, 43.70], outZoomLevel);
                 map.addLayer(tct_route);
                 map.addLayer(tct_route_clickable);
                 map.addLayer(southern_route);
@@ -881,7 +885,7 @@
                 $("#east-west-btn").removeClass('active');
 
                 // Reset Map Frame
-                map.setView([41.4, 43.70], 7);
+                map.setView([41.4, 43.70], outZoomLevel);
                 map.addLayer(tct_route);
                 map.addLayer(tct_route_clickable);
                 map.addLayer(southern_route);
@@ -968,7 +972,7 @@
                                 // Animation complete
                         });
                         // Reset Map
-                        map.setView([41.4, 43.70], 7);
+                        map.setView([41.4, 43.70], outZoomLevel);
                         // Show the locator map again
                         $(".map-locator").fadeIn("fast");
                     });

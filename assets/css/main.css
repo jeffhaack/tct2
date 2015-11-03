@@ -100,7 +100,13 @@ The Nav Bar on the Home page
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: white;
+    color: #e3ba36;
+}
+
+@media (min-width: 768px) {
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+    }
 }
 
 .navbar-default .navbar-nav>li>a.active{
@@ -413,7 +419,7 @@ Block 3 - The Big Map
 /* POSITIONING WILL NEED TO BE ADJUSTED FOR SCREEN RESOLUTIONS LATER */
 
 #map-contents-overlay {
-    width: 240px;
+    width: 100px;
     height: 100%;
     position: absolute;
     /*top: 10px;*/
@@ -430,7 +436,16 @@ Block 3 - The Big Map
     width: 80px;
     left: 28px;
     top: 12px;
-    
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #map-contents-overlay {
+        width: 240px;
+    }
+    #map-contents-overlay .logo {
+        display: block;
+    }
 }
 
 #map-contents-overlay .trail-button {
@@ -459,23 +474,35 @@ Block 3 - The Big Map
 }
 
 #map-contents-overlay .trail-button:nth-of-type(1) {
-    left: 125px;
+    left: 10px;
     top: 30px;
 }
 
 #map-contents-overlay .trail-button:nth-of-type(2) {
-    left: 125px;
+    left: 10px;
     top: 58px;
+}
+
+@media (min-width: 768px) {
+    #map-contents-overlay .trail-button:nth-of-type(1) {
+        left: 125px;
+        top: 30px;
+    }
+
+    #map-contents-overlay .trail-button:nth-of-type(2) {
+        left: 125px;
+        top: 58px;
+    }
 }
 
 .map-contents-overlay-button-container {
     position: absolute;
-    left: 10px;
+    left: 0px;
     top: 100px;
-    width: 240px;
+    width: 90px;
     height: auto;
     overflow: hidden;
-    padding: 7px 23px;
+    padding: 7px 14px;
 }
 
 #east-west-container {
@@ -488,16 +515,16 @@ Block 3 - The Big Map
 }
 
 .map-contents-overlay-button {
-    width: 90px;
-    height: 100px;
+    width: 70px;
+    height: 30px;
     border-radius: 5px;
     border: 3px solid white;
     margin-right: 0px;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
     overflow: hidden;
     position: relative; float: left;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .map-contents-overlay-button:nth-child(odd) {
@@ -507,9 +534,9 @@ Block 3 - The Big Map
 .map-contents-overlay-button h4 {
     font-family: RalewayRegular, sans-serif;
     text-align: center;
-    font-size: 14px;
+    font-size: 11px;
     color: white;
-    margin-top: 13px;
+    margin-top: 3px;
     padding-bottom: 3px;
 }
 
@@ -518,6 +545,7 @@ Block 3 - The Big Map
     position: absolute;
     bottom: 0px;
     left: 0px;
+    z-index: -1;
 }
 
 .map-contents-overlay-button .chevron {
@@ -527,6 +555,34 @@ Block 3 - The Big Map
     width: 100%;
     text-align: center;
     font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .map-contents-overlay-button-container {
+        width: 120px;
+    }
+    .map-contents-overlay-button {
+        width: 90px;
+        height: 100px;
+        margin-bottom: 12px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .map-contents-overlay-button-container {
+        position: absolute;
+        left: 10px;
+        top: 100px;
+        width: 240px;
+        height: auto;
+        overflow: hidden;
+        padding: 7px 23px;
+    }
+    .map-contents-overlay-button h4 {
+        margin-top: 13px;
+        font-size: 14px;
+    }
+    .map-contents-overlay-button img {
+        z-index: 0;
+    }
 }
 
 #map-contents-info-window {
@@ -781,9 +837,10 @@ Block 6 - Feeds
 .blog-post h5 {
     padding: 25px 10px 5px 115px;
     margin: 0px;
-    color: #0f1c22;
-    font-size: 1.6rem;
-    font-family: RalewayThin, sans-serif;
+    color: #6f7c82;
+    font-size: 1.5rem;
+    font-family: RalewayRegular, sans-serif;
+    font-weight: 300;
 }
 
 .blog-post h5 a:hover {
@@ -801,8 +858,26 @@ Block 6 - Feeds
 }
 
 .instagram-wrapper {
-    height: 380px;
+    height: 280px;
     overflow: hidden;   
+}
+
+@media (min-width: 392px) {
+    .instagram-wrapper {
+        height: 340px;   
+    }
+}
+
+@media (min-width: 500px) {
+    .instagram-wrapper {
+        height: 380px;   
+    }
+}
+
+@media (min-width: 620px) {
+    .instagram-wrapper {
+        height: 440px;   
+    }
 }
 
 @media (min-width: 768px) {
@@ -1097,6 +1172,7 @@ Block 9 - Footer
     overflow: hidden;
     min-height: 360px;
     padding: 0;
+    padding-bottom: 20px;
 }
 
 #footer h4 {
@@ -1377,8 +1453,18 @@ Block 2 - About the TCT
     color: white;
     padding-top: 95px;
     font-family: RalewayRegular, sans-serif;
-    font-size: 3.2rem;
+    font-size: 2.3rem;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .break-block h1 {
+        color: white;
+        padding-top: 95px;
+        font-family: RalewayRegular, sans-serif;
+        font-size: 3.2rem;
+        text-align: center;
+    }
 }
 
 .block {
