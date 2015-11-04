@@ -1756,4 +1756,7 @@ Block 2 - About the TCT
     /*.i4-button { left: 392px; } */
 }
 
-
+.lang-light-link {
+    color: #c7c7cd;
+    font-size: 1.2rem;
+}
