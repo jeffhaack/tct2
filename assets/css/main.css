@@ -1009,6 +1009,13 @@ Block 7 - Gnarly Gear
     display: block;
 }
 
+#block7 #gear-proceeds {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    margin-top: 10px;
+}
+
 #block7 #support-cause {
     display: none;
 }
@@ -1024,6 +1031,9 @@ Block 7 - Gnarly Gear
         display: block;
     }
     #block7 #support-cause {
+        display: block;
+    }
+    #block7 #gear-proceeds {
         display: block;
     }
 }
@@ -1042,6 +1052,11 @@ Block 7 - Gnarly Gear
     }
     #block7 #get-gear {
         margin-bottom: 20px;
+    }
+    #block7 #gear-proceeds {
+        margin-top: 25px;
+
+        /*margin-bottom: 20px;*/
     }
 }
 
