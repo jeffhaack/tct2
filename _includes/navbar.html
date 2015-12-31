@@ -1,0 +1,44 @@
+    <!-- NAVBAR  -->
+    <header class="navbar navbar-default" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-contents">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- <a href="#" class="navbar-brand"><img alt="TCT Logo" src="assets/img/tct-logo-144x144.png"></a> -->
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-contents">
+          <ul class="nav navbar-nav navbar-right" role="navigation">
+            {% if page.section == "home" %} 
+            {% else %} <li><a href="/en">Home</a></li> {% endif %}
+
+            {% if page.section == "about" %} <li><a href="/en/about" class="active">
+            {% else %} <li><a href="/en/about"> {% endif %} About the TCT</a></li>
+            
+            {% if page.section == "goals" %} <li><a href="/en/goals" class="active">
+            {% else %} <li><a href="/en/goals"> {% endif %} Goals</a></li>
+
+            <!-- {% if page.section == "who-we-are" %} <li><a href="/en/who-we-are" class="active">
+            {% else %} <li><a href="/en/who-we-are"> {% endif %} Who we are</a></li> -->
+
+            {% if page.section == "faq" %} <li><a href="/en/faq" class="active">
+            {% else %} <li><a href="/en/faq"> {% endif %} FAQ</a></li>
+
+            {% if page.section == "get-involved" %} <li><a href="/en/get-involved" class="active">
+            {% else %} <li><a href="/en/get-involved"> {% endif %} Get Involved</a></li>
+
+            {% if page.section == "gear" %} <li><a href="/en/gear" class="active">
+            {% else %} <li><a href="/en/gear"> {% endif %} Gear</a></li>
+
+            {% if page.category == "blog" %} <li><a href="/en/blog" class="active">
+            {% else %} <li><a href="/en/blog"> {% endif %} Blog</a></li>
+
+            <!-- <li><button type="button" class="btn btn-warning navbar-btn btn-sm" onclick="location.href='trail-guide.html';">Trail Guide</button> </li> -->
+          </ul>
+        </div>
+      </div>
+    </header>

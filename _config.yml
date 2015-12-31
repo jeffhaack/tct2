@@ -1,0 +1,12 @@
+highlighter: pygments
+markdown: rdiscount
+columnist:
+  paths:
+  - _posts
+prose:
+  rooturl: '_posts'
+permalink: /:lang/:categories/:title/
+#permalink: /:lang/:section/
+baseurl: ''
+#baseurl: 'http://jeffhaack.github.io/coop-georgia-website'
+#baseurl: 'http://localhost:4000/'

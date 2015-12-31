@@ -1,0 +1,14 @@
+{% for post in site.categories.blog %}
+
+	{% unless post.id == page.id %}
+
+    <a class="blog-list-item" href="{{ post.permalink }}" style="background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.0)), url('{{ post.thumb-big }}') no-repeat center center;" onmouseover="$(this).css('background', 'linear-gradient(rgba(253, 184, 19, 0.35), rgba(253, 184, 19, 0.15)), url({{ post.thumb-big }}) no-repeat center center');" onmouseout="$(this).css('background', 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url({{ post.thumb-big }}) no-repeat center center');">
+        <div class="blog-list-item-text">
+            <h5>{{ post.title }}</h5>
+            <h6>by {{ post.author }}</h6>
+        </div>
+    </a>
+
+    {% endunless %}
+
+{% endfor %}

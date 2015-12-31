@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <meta name="description" content="The TCT is a planned trekking route across the Caucasus. It will increase sustainable tourism and bring economic activity to remote areas, raise the profile of the protected areas in the region to ensure their continued conservation, and it will promote the connections between communities, ecosystems, and people, in a place where there is too much focus on the things that divide.">
+    <meta name="author" content="Transcaucasian Trail Association">
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
+    <title>Transcaucasian Trail</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Mapbox CSS -->
+    <link href='assets/css/mapbox.css' rel='stylesheet' />
+    <!-- FontAwesome CSS -->
+    <link href='assets/css/font-awesome.min.css' rel='stylesheet' />
+    <!-- Custom CSS -->
+    <link href="assets/css/fonts.css" rel="stylesheet">
+    <link href="assets/css/main-test.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <!-- NAVBAR  -->
+    <header class="navbar navbar-default" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-contents">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-contents">
+          <ul class="nav navbar-nav navbar-right" role="navigation">
+            <li><a href="about.html">About the TCT</a></li>
+            <li><a href="who-we-are.html">Who we are</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <!-- <li><a href="#">Trail Guide</a></li> -->
+            <li><a href="get-involved.html">Get Involved</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><button type="button" class="btn btn-warning navbar-btn btn-sm">Trail Guide</button> </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+
+    <div class="block1-wrapper">
+        <!-- Now put in Block 1 -->
+        <div id="block1">
+            <div id="block1-title" class="text-center">
+              <h1>The</h1>
+              <h1>Transcaucasian</h1>
+              <h1>Trail</h1>
+            </div>
+            <a id="block1-chevron" href="#">
+                <i class="fa fa-chevron-down fa-2x"></i>
+            </a>
+        </div>
+    </div>
+
+    <div id="block2">
+        <div class="row">
+            <div class="col-sm-5 col-sm-offset-1">
+                <h1>What is the TCT?</h1>
+                <div class="ctr"><i class="fa fa-map-signs fa-2x"></i></div>
+                <p>The <span class="tct-orange">TCT</span> is a planned trekking route across the Caucasus. It will increase sustainable tourism and bring economic activity to remote areas, raise the profile of the protected areas in the region to ensure their continued conservation, and it will promote the connections between communities, ecosystems, and people, in a place where there is too much focus on the things that divide.</p>
+            </div>
+            <div class="col-sm-5" id="window-wrapper">
+                <img src="assets/img/window-photos.jpg">
+                <!-- <div class="picture_content margin-left">
+                    <ul class="image_box_story">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="block3-wrapper">
+        <div id='map'>
+            <div id='map-contents-overlay'>
+                <img src="assets/img/tct-logo-144x144.png" class='logo'>
+                <div id="east-west-btn" class="trail-button active">East-West Route</div>
+                <div id="south-btn" class="trail-button">Southern Route</div>
+                <div id="east-west-container" class="map-contents-overlay-button-container">
+                    <!-- 1. Apsny -->
+                    <div id="apsny" class="map-contents-overlay-button">
+                        <h4>Apsny</h4>
+                        <img src="assets/img/map-buttons/apsny-button.jpg">
+                    </div>
+                    <!-- 2. Svaneti -->
+                    <div id="svaneti" class="map-contents-overlay-button">
+                        <h4>Svaneti</h4>
+                        <img src="assets/img/map-buttons/svaneti-button.jpg">
+                    </div>
+                    <!-- 3. Racha -->
+                    <div id="racha" class="map-contents-overlay-button">
+                        <h4>Racha</h4>
+                        <img src="assets/img/map-buttons/racha-button.jpg">
+                    </div>
+                    <!-- 4. Ossetia -->
+                    <div id="ossetia" class="map-contents-overlay-button">
+                        <h4>Ossetia</h4>
+                        <img src="assets/img/map-buttons/ossetia-button.jpg">
+                    </div>
+                    <!-- 5. Mtianeti -->
+                    <div id="mtianeti" class="map-contents-overlay-button">
+                        <h4>Mtianeti</h4>
+                        <img src="assets/img/map-buttons/mtianeti-button.jpg">
+                    </div>
+                    <!-- 6. Kakheti -->
+                    <div id="kakheti" class="map-contents-overlay-button">
+                        <h4>Kakheti</h4>
+                        <img src="assets/img/map-buttons/kakheti-button.jpg">
+                    </div>
+                    <!-- 7. Shaki -->
+                    <div id="shaki" class="map-contents-overlay-button">
+                        <h4>Shaki</h4>
+                        <img src="assets/img/map-buttons/shaki-button.jpg">
+                    </div>
+                    <!-- 1. Quba -->
+                    <div id="quba" class="map-contents-overlay-button">
+                        <h4>Quba</h4>
+                        <img src="assets/img/map-buttons/quba-button.jpg">
+                    </div>
+                </div>
+                <div id="south-container" class="map-contents-overlay-button-container">
+                    <!-- 1. Racha -->
+                    <div id="rachaSouth" class="map-contents-overlay-button">
+                        <h4>Racha</h4>
+                        <img src="assets/img/map-buttons/rachaSouth-button.jpg">
+                    </div>
+                    <!-- 2. Borjomi -->
+                    <div id="borjomi" class="map-contents-overlay-button">
+                        <h4>Borjomi</h4>
+                        <img src="assets/img/map-buttons/borjomi-button.jpg">
+                    </div>
+                    <!-- 3. Javakheti -->
+                    <div id="javakheti" class="map-contents-overlay-button">
+                        <h4>Javakheti</h4>
+                        <img src="assets/img/map-buttons/javakheti-button.jpg">
+                    </div>
+                    <!-- 4. Lori -->
+                    <div id="lori" class="map-contents-overlay-button">
+                        <h4>Lori</h4>
+                        <img src="assets/img/map-buttons/lori-button.jpg">
+                    </div>
+                    <!-- 5. Sevan -->
+                    <div id="sevan" class="map-contents-overlay-button">
+                        <h4>Sevan</h4>
+                        <img src="assets/img/map-buttons/sevan-button.jpg">
+                    </div>
+                    <!-- 6. Vayots Dzor -->
+                    <div id="vayots_dzor" class="map-contents-overlay-button">
+                        <h4>Vayots Dzor</h4>
+                        <img src="assets/img/map-buttons/vayots_dzor-button.jpg">
+                    </div>
+                </div>
+            </div>
+            <div id='map-contents-info-window'>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div id="footer">
+        <h4>The TCTeam</h4>
+        <div class="row row-centered contact-row">
+            <div class="col-xs-5 col-sm-3 col-md-2 col-centered footer-col">
+                <div class="person">
+                    <img src="assets/img/people/paul.png"><br/>
+                    <span class="highlight">Paul Stephens</span><br/>Trail Blazer, Writer
+                </div>
+            </div>
+            <div class="col-xs-5 col-sm-3 col-md-2 col-centered footer-col">
+                <div class="person">
+                    <img src="assets/img/people/jeff.png"><br/>
+                    <span class="highlight">Jeff Haack</span><br/>Trail Blazer, Cartographer
+                </div>
+            </div>
+            <div class="col-xs-5 col-sm-3 col-md-2 col-centered footer-col ">
+                <div class="person">
+                  <img src="assets/img/people/laura.png"><br/>
+                  <span class="highlight">Laura Santos-Bishop</span><br/>Trail Blazer
+                </div>
+            </div>
+            <div class="col-xs-5 col-sm-3 col-md-2 col-centered footer-col">
+                <div class="person">
+                  <img src="assets/img/people/james.png"><br/>
+                  <span class="highlight">James Scipioni</span><br/>Trail Development
+                </div>
+            </div>
+        </div>
+    </div>
+      
+
+
+
+    <div id="subfooter">
+        Copyright &copy; 2015 transcaucasiantrail.org. All rights reserved.
+    </div>
+
+
+</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+<!--    <script src="assets/js/mapbox.js"></script> -->
+
+    <script src="assets/js/leaflet-0.7.5/leaflet.js"></script>
+    <script src="assets/js/trail-polylines.js"></script> 
+    <script>
+        // Define Map Object
+        var map = L.map('map', {
+            dragging: false,
+            touchZoom: false,
+            scrollWheelZoom: false,
+            doubleClickZoom: false,
+            boxZoom: false,
+            tap: false,
+            closePopupOnClick: false,
+            keyboard: false,
+            zoomControl: false,
+            attributionControl: true
+        });
+
+        // Add the tiles and attribution
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ', {
+            maxZoom: 10,
+            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+            id: 'mapbox.light'
+        }).addTo(map);
+
+        // Set view of map
+        map.setView([41.4, 43.70], 7);
+
+        // Define colors
+        // TCT
+        var color_apsny = "#9c776f";
+        var color_svaneti = "#c5649a";
+        var color_racha = "#7bbfc0";
+        var color_ossetia = "#dcad32";
+        var color_mtianeti = "#e5636f";
+        var color_kakheti = "#63e59a";
+        var color_shaki = "#f58e65";
+        var color_quba = "#9f1d4d";
+        // South
+        var color_rachaSouth = "#f06649";
+        var color_borjomi = "#99ca3d";
+        var color_javakheti = "#ba7d47";
+        var color_lori = "#1991b4";
+        var color_sevan = "#ffcd76";
+        var color_vayots_dzor = "#af535c";
+        
+        // Create the polylines for each route section and add them to the map
+        //  (Dashed lines are for unexplored trails)
+        // East-West Route
+        var apsny = L.polyline(ll_apsny, {
+            color: color_apsny,
+            weight: 3.5,
+            opacity: 1.0,
+            dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var svaneti = L.polyline(ll_svaneti, {
+            color: color_svaneti,
+            weight: 3,
+            opacity: 1.0,
+            // dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var racha = L.polyline(ll_racha, {
+            color: color_racha,
+            weight: 3,
+            opacity: 1.0,
+            // dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var ossetia = L.polyline(ll_ossetia, {
+            color: color_ossetia,
+            weight: 3.5,
+            opacity: 1.0,
+            dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var mtianeti = L.polyline(ll_mtianeti, {
+            color: color_mtianeti,
+            weight: 3,
+            opacity: 1.0,
+            // dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var kakheti = L.polyline(ll_kakheti, {
+            color: color_kakheti,
+            weight: 3.5,
+            opacity: 1.0,
+            dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var shaki = L.polyline(ll_shaki, {
+            color: color_shaki,
+            weight: 3,
+            opacity: 1.0,
+            dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var quba = L.polyline(ll_quba, {
+            color: color_quba,
+            weight: 3,
+            opacity: 1.0,
+            dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        // Southern Route
+        var rachaSouth = L.polyline(ll_racha_south, {
+            color: color_rachaSouth,
+            weight: 3,
+            opacity: 1.0,
+            dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var borjomi = L.polyline(ll_borjomi, {
+            color: color_borjomi,
+            weight: 3,
+            opacity: 1.0,
+            dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var javakheti = L.polyline(ll_javakheti, {
+            color: color_javakheti,
+            weight: 3,
+            opacity: 1.0,
+            dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var lori = L.polyline(ll_lori, {
+            color: color_lori,
+            weight: 3,
+            opacity: 1.0,
+            dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var sevan = L.polyline(ll_sevan, {
+            color: color_sevan,
+            weight: 3,
+            opacity: 1.0,
+            dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var vayots_dzor = L.polyline(ll_vayots_dzor, {
+            color: color_vayots_dzor,
+            weight: 3,
+            opacity: 1.0,
+            dashArray: "3,6",
+            smoothFactor: 1.0,
+            clickable: false
+        });
+
+        var html_apsny = "<h4 style='border-bottom:3px solid " + color_apsny + "'>Apsny (Abkhazia)</h4><p>From the subtropical shoreline of the Black Sea near Gagra, the trail quickly ascends to the Arabika Massif, home to the deepest caves in the world. The proposed route will pass Lake Ritsa and traverse the Pskhu-Gumista reserve, critical habitat for endemic wildlife like the West Caucasian Tur. This portion of the trail is still being mapped, and only experienced trekkers with knowledgeable local guides should attempt it.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_svaneti = "<h4 style='border-bottom:3px solid " + color_svaneti + "'>Svaneti</h4><p>The deep valleys of Svaneti have protected the region’s incredible cultural heritage rooted in medieval Christianity, including a wealth of unique artifacts, architecture, and traditions. From the Nakra valley, the route passes through the dense forests of Western Svaneti over several spectacular high passes and around the base of the dramatic twin peaks of Mt. Ushba. The trail descends to Mestia and connects a series of ancient villages on the way to Ushguli, a Unesco World Heritage Site, considered the highest village in Europe.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='green'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_racha = "<h4 style='border-bottom:3px solid " + color_racha + "'>Racha</h4><p>The Racha segment crosses some of the most remote valleys of the Caucasus. From the west, the trail passes through an abandoned mountain camp at Zeskho and crosses a high pass into the uninhabited Tskhenistkali Valley. The route then follows the headwaters of the Rioni River toward the remote villages of Gona and Shovi. Significant portions of this route are off-trail and require advanced route-finding skills and/or a local guide.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_ossetia = "<h4 style='border-bottom:3px solid " + color_ossetia + "'>Ossetia</h4><p>A proposed route through South Ossetia would pass through  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, autem.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_mtianeti = "<h4 style='border-bottom:3px solid " + color_mtianeti + "'>Mtianeti</h4><p>From the glacier-carved flanks of  Mt. Kazbegi, the trail passes below the spectacular granite spires of the Chaukhi massif and over Chaukhi pass, descending to the glacial lakes of Abdelauri and through the remote valleys of Khevsureti. The trail climbs the challenging 3,400 meter Atsunta pass into Tusheti National Park. The park protects the unique pastoral landscape of the Thushetian shepherds, who have brought their herds to these valleys every summer for centuries. The trail takes hikers past ancient fortresses, shrines, and villages  of this unique mountain culture. </p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='green'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_kakheti = "<h4 style='border-bottom:3px solid " + color_kakheti + "'>Kakheti</h4><p>The proposed route through the Kakheti region descends from Tusheti to through the Lopota Gorge. The trail will head east from Lopota over the steep valleys of Kakheti. Much of the route overlooks the wide lowlands of the Alazani Valley, thousands of meters below. The route will descend from pristine alpine meadows Lagodekhi National Park through the lush forested valleys of on the border between Azerbaijan and Georgia. Currently, only the portion of the trail through Lagodekhi National Park is hikable.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='yellow'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_shaki = "<h4 style='border-bottom:3px solid " + color_shaki + "'>Shaki</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_quba = "<h4 style='border-bottom:3px solid " + color_quba + "'>Quba</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_rachaSouth = "<h4 style='border-bottom:3px solid " + color_rachaSouth + "'>Racha (Southern Route)</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_borjomi = "<h4 style='border-bottom:3px solid " + color_borjomi + "'>Borjomih4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_javakheti = "<h4 style='border-bottom:3px solid " + color_javakheti + "'>Javakheti</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_lori = "<h4 style='border-bottom:3px solid " + color_lori + "'>Lori</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_sevan = "<h4 style='border-bottom:3px solid " + color_sevan + "'>Sevan</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        var html_vayots_dzor = "<h4 style='border-bottom:3px solid " + color_vayots_dzor + "'>Vayots Dzor</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cupiditate quidem saepe, sed ipsa vero, doloribus hic dicta cumque laboriosam.</p><p><a href='#''>Read the Trail Guide --></a> </p><div class='status'>Status: <span class='green'>Proposed</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Mapped</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Marked</span> <i class='fa fa-angle-double-right'></i> <span class='red'>Maintained</span></div><div class='return'>Return to Overview <i class='fa fa-times'></i></div>";
+
+        // Create feature groups for tct_route and southern_route
+        var tct_route = new L.FeatureGroup();
+        tct_route.addLayer(apsny);
+        tct_route.addLayer(svaneti);
+        tct_route.addLayer(racha);
+        tct_route.addLayer(ossetia);
+        tct_route.addLayer(mtianeti);
+        tct_route.addLayer(kakheti);
+        tct_route.addLayer(shaki);
+        tct_route.addLayer(quba);
+        map.addLayer(tct_route);
+
+        var southern_route = new L.FeatureGroup();
+        southern_route.addLayer(rachaSouth);
+        southern_route.addLayer(borjomi);
+        southern_route.addLayer(javakheti);
+        southern_route.addLayer(lori);
+        southern_route.addLayer(sevan);
+        southern_route.addLayer(vayots_dzor);
+        map.addLayer(southern_route);
+
+    </script>
+
+    <!-- Get Tumblr Feed and process blog objects-->
+    <script type="text/javascript" src="http://transcaucasiantrail.tumblr.com/api/read/json"></script>
+    <script type="text/javascript">
+        // Blog Post 1
+        var img = tumblr_api_read['posts'][0]['regular-body'].match(/http:[^\s]+jpg/g);
+        var title = "<a href='" + tumblr_api_read['posts'][0]['url'] + "target='_blank'>" + tumblr_api_read['posts'][0]['regular-title'] + "</a>";
+        var date = tumblr_api_read['posts'][0]['date']
+        $("#blog-post-1").children(".blog-img").css("background-image", "url(" + img[0] + ")");
+        $("#blog-post-1").children(".blog-read").attr("href", tumblr_api_read['posts'][0]['url']);
+        $("#blog-post-1").children("h5").html(title);
+        $("#blog-post-1").children("h6").text(date.substring(0,11));
+
+        // Blog Post 2
+        var img = tumblr_api_read['posts'][1]['regular-body'].match(/http:[^\s]+jpg/g);
+        var title = "<a href='" + tumblr_api_read['posts'][1]['url'] + "target='_blank'>" + tumblr_api_read['posts'][1]['regular-title'] + "</a>";
+        var date = tumblr_api_read['posts'][1]['date']
+        $("#blog-post-2").children(".blog-img").css("background-image", "url(" + img[0] + ")");
+        $("#blog-post-2").children(".blog-read").attr("href", tumblr_api_read['posts'][1]['url']);
+        $("#blog-post-2").children("h5").html(title);
+        $("#blog-post-2").children("h6").text(date.substring(0,11));
+
+        // Blog Post 3
+        var img = tumblr_api_read['posts'][2]['regular-body'].match(/http:[^\s]+jpg/g);
+        var title = "<a href='" + tumblr_api_read['posts'][2]['url'] + "target='_blank'>" + tumblr_api_read['posts'][2]['regular-title'] + "</a>";
+        var date = tumblr_api_read['posts'][2]['date']
+        $("#blog-post-3").children(".blog-img").css("background-image", "url(" + img[0] + ")");
+        $("#blog-post-3").children(".blog-read").attr("href", tumblr_api_read['posts'][2]['url']);
+        $("#blog-post-3").children("h5").html(title);
+        $("#blog-post-3").children("h6").text(date.substring(0,11));
+
+        // Now add some effects to the blog links and also add the URL links
+        // Also set up some map functions
+        $(document).ready(function(){
+            $("#blog-post-1").mouseenter(function(){
+                $("#blog-post-1").children(".blog-img").fadeTo("fast", 0.75);
+                $("#blog-post-1").children(".blog-read").fadeTo("fast", 1);
+            });
+            $("#blog-post-1").mouseleave(function(){
+                $("#blog-post-1").children(".blog-img").fadeTo("fast", 1);
+                $("#blog-post-1").children(".blog-read").fadeTo("fast", 0);
+            });
+            $("#blog-post-2").mouseenter(function(){
+                $("#blog-post-2").children(".blog-img").fadeTo("fast", 0.75);
+                $("#blog-post-2").children(".blog-read").fadeTo("fast", 1);
+            });
+            $("#blog-post-2").mouseleave(function(){
+                $("#blog-post-2").children(".blog-img").fadeTo("fast", 1);
+                $("#blog-post-2").children(".blog-read").fadeTo("fast", 0);
+            });
+            $("#blog-post-3").mouseenter(function(){
+                $("#blog-post-3").children(".blog-img").fadeTo("fast", 0.75);
+                $("#blog-post-3").children(".blog-read").fadeTo("fast", 1);
+            });
+            $("#blog-post-3").mouseleave(function(){
+                $("#blog-post-3").children(".blog-img").fadeTo("fast", 1);
+                $("#blog-post-3").children(".blog-read").fadeTo("fast", 0);
+            });
+
+
+            // Add some animation and links to block4
+            $(".info-grid").each(function(){
+                var $bgobj = $(this); // assigning the object
+               $bgobj.mouseenter(function(){
+                    // $bgobj.fadeTo("fast", 0.75);
+                }); 
+            });
+
+            // Add slow scroll to header chevron
+            $("#block1-chevron").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#block2").offset().top - 60
+                }, 1200);
+            });
+
+            ////////////////////////////////
+            // FUNCTIONS FOR THE MAP
+            ////////////////////////////////
+
+            // Trail Button East-West
+            $("#east-west-btn").hover(
+                function() {
+                    map.addLayer(tct_route);
+                    map.addLayer(southern_route);
+                    southern_route.setStyle({ opacity: 0.3});
+                },
+                function() {
+                    southern_route.setStyle({ opacity: 1.0});
+                }
+            );
+            $("#east-west-btn").click(function(){
+                // Show buttons
+                // $( "#east-west-container" ).animate({left: "10",}, 100, function() { });
+                // $( "#south-container" ).animate({left: "-310",}, 100, function() { });
+                $( "#south-container" ).fadeOut( "fast", function() { });
+                $( "#east-west-container" ).fadeIn( "fast", function() { });
+
+                // Change button active class 
+                $("#south-btn").removeClass('active');
+                $("#east-west-btn").addClass('active');
+
+                // Reset Map Frame
+                map.setView([41.4, 43.70], 7);
+                map.addLayer(tct_route);
+                map.addLayer(southern_route);
+                $("#map-contents-info-window").fadeOut( "fast", function() {});
+            });
+
+            // Trail Button south
+            $("#south-btn").hover(
+                function() {
+                    map.addLayer(tct_route);
+                    map.addLayer(southern_route);
+                    tct_route.setStyle({ opacity: 0.3});
+                },
+                function() {
+                    tct_route.setStyle({ opacity: 1.0});
+                }
+            );
+            $("#south-btn").click(function(){
+                // Show buttons
+                // $( "#east-west-container" ).animate({left: "-310",}, 100, function() { });
+                // $( "#south-container" ).animate({left: "10",}, 100, function() { });
+                $( "#south-container" ).fadeIn( "fast", function() { });
+                $( "#east-west-container" ).fadeOut( "fast", function() { });
+
+                // Change button active class 
+                $("#south-btn").addClass('active');
+                $("#east-west-btn").removeClass('active');
+
+                // Reset Map Frame
+                map.setView([41.4, 43.70], 7);
+                map.addLayer(tct_route);
+                map.addLayer(southern_route);
+                $("#map-contents-info-window").fadeOut( "fast", function() {});
+            });
+
+
+
+            $("#map-contents-overlay").mouseleave(function() {
+                map.addLayer(tct_route);
+                map.addLayer(southern_route);
+            });
+
+            $(".map-contents-overlay-button").each(function(){
+                var $id = $(this).attr('id');
+
+                // Color code buttons
+                // $(this).css("border", "3px solid " + eval("color_" + $(this).attr('id')));
+                // $(this).css("background-color", eval("color_" + $(this).attr('id')));
+                // $(this).children("h4").css("color", eval("color_" + $(this).attr('id')));
+                $(this).children("h4").css("border-bottom", "3px solid " + eval("color_" + $(this).attr('id')));
+
+                // Mouseover actions
+                $(this).mouseover(function(){
+                    // Change colors 
+                    $(this).children("h4").css("color", "#e3ba36");
+                    $(this).css("border", "3px solid #e3ba36");
+
+                    // Isolate Route
+                    map.removeLayer(tct_route);
+                    map.removeLayer(southern_route);
+                    map.addLayer(eval($id));
+                });
+
+                // Mouseout actions
+                $(this).mouseout(function(){
+                    // Change colors 
+                    $(this).children("h4").css("color", "white");
+                    $(this).css("border", "3px solid white");
+
+                    // Remove route
+                    map.removeLayer(eval($id));
+
+                    // Moving this to move out of the container, see above
+                    // map.addLayer(tct_route);
+                    // map.addLayer(southern_route);
+                });
+
+                // Click actions for map buttons
+                $(this).click(function(){
+                    // Get bounds of layer, then calculate the width of the buttons over the map
+                    // and reposition the bounds of the map so that it all fits to the right
+                    // of the buttons (might want to separate this into another function)
+                    var bounds = eval($id).getBounds();
+                    // all we care about are the x coordinates:
+                    var xLeft = bounds.getWest();
+                    var xRight = bounds.getEast();
+                    var xDiff = xRight - xLeft;
+                    // get width of map and width of button div
+                    var mapWidth = document.getElementById("map").offsetWidth;
+                    var overlayWidth = document.getElementById("map-contents-overlay").offsetWidth;
+                    var pctCovered = overlayWidth / mapWidth;
+                    // see how much to move the western x coordinate
+                    var xPush = xDiff * pctCovered;
+                    // Create a new southwest coordinate
+                    var southWest = L.latLng(bounds.getSouth(), xLeft-xPush);
+                    var northEast = L.latLng(bounds.getNorth(), xRight+xPush);
+                    // New bounds are...
+                    var newBounds = L.latLngBounds(southWest, northEast);
+                    // And set the bounds, pad it anyways a little bit
+                    map.fitBounds(newBounds.pad(0.05));
+
+                    // Adjust InfoWindow
+                    $("#map-contents-info-window").html(eval("html_" + $(this).attr('id')));
+                    $(".return").click(function() {
+                        // Remove Info Window on close
+                        $("#map-contents-info-window").fadeOut( "fast", function() {
+                                // Animation complete
+                        });
+                        // Reset Map
+                        map.setView([41.4, 43.70], 7);
+                    });
+                    $("#map-contents-info-window").fadeIn( "fast", function() {
+
+                            // Animation complete
+                    });
+                }); 
+            });
+
+
+
+
+            // when the routes are clicked
+            //   - change buttons
+            //   - change colors of routes
+
+            // when each button is clicked
+            //   - zoom to area
+            //   - open up info window
+            //
+
+
+            // Fit the map bounds to a certain polyline
+            //map.fitBounds(mtianeti.getBounds());
+
+        });
+
+    </script>
+
+  </body>
+</html>

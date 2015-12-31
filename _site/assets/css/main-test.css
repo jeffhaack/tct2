@@ -1,0 +1,1143 @@
+/*========================
+Helper Classes
+=========================*/
+.box { border: 1px solid red;}
+
+.ctr {
+    text-align: center;
+}
+
+.tct-blue {
+    color: #2b6293;
+}
+
+.tct-gold {
+    color: #e3ba36;
+}
+
+.tct-orange, {
+    color: #e36c36;
+}
+
+.green {
+    color: #4edc32;
+}
+.yellow {
+    color: #dcda32;
+}
+.red {
+    color: #dc3232;
+}
+
+/* centered columns styles for bootstrap*/
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    vertical-align: top;
+}
+
+/*========================*/
+
+
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    color: #2f3c42;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+/*========================
+The Nav Bar on the Home page
+=========================*/
+.navbar {
+    background-color: transparent;
+    border: none;
+    margin-top: 0px;
+    position: absolute;
+    top: 0;
+    z-index: 200;
+}
+
+#navbar-contents {
+    margin-top: 45px;
+}
+
+.navbar-nav > li > a {
+  padding-left: 10px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #e3ba36;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > .active{
+    background: transparent;
+ }
+
+.navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #e3ba36;
+      background: transparent;
+ }
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #e3ba36;
+    border-color: #e1b834;
+}
+
+@media (min-width: 768px) {
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 75px;
+    padding-left: 0px;
+    padding-top: 0px;
+    }
+}
+
+.navbar-brand img {
+    width: 100px;
+    opacity: 0.7;
+    display: none;
+}
+
+
+/*========================
+Block 1 - The header block
+=========================*/
+
+.block1-wrapper {
+    /*height: 720px;*/
+    height: 96%;
+    z-index: -100;
+}
+
+#block1 {
+    position: relative;
+    margin: 0px 0px 20px 0px;
+    min-width: 100%;
+    height: 100%;
+    background: url('../img/cover-background.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#block1:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: #000;
+    opacity: .2
+}
+
+#block1-title {
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+    left: 0px;
+    z-index: 2;
+}
+
+@media (min-width: 768px) {
+    #block1-title {
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        bottom: 50px;
+        left: 115px;
+        z-index: 2;
+    }
+}
+
+#block1-title>h1 {
+    text-transform: uppercase;
+    font-family: RalewayRegular, sans-serif;
+    font-weight: 400;
+    font-size: 4.7rem;
+    color: #fff;
+    line-height: 1.1;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+#block1-title>h1 {
+    font-size: 6.2rem;
+    text-align: left;
+    }
+}
+
+#block1-chevron {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    color: #ec971f;
+    z-index: 2;
+}
+
+#block1-chevron:hover {
+    color: #e3ba36;
+}
+
+/*========================
+Block 2 - What is the TCT?
+=========================*/
+#block2 {
+    position: relative;
+    margin: 40px 0px 40px 0px;
+    /*padding: 50px auto 10px;*/
+    min-width: 100%;
+    height: auto;
+    font-family: RalewayThin, sans-serif;
+}
+
+@media (min-width: 768px) {
+    #block2 {
+        margin: 80px 0px 40px 0px;
+    }
+}
+
+#block2 h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+#block2 p {
+    /*margin-top: 20px;*/
+    margin: 3rem 1rem 3rem 2rem;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+#window-wrapper {
+}
+
+#window-wrapper img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.picture_content {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+.image_box_story {
+    height: 395px;
+    max-width: 400px;
+    margin: 0 auto 45px auto;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-size: cover;
+}
+
+.image_box_story li {
+    width: 184px;
+    height: 184px;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.image_box_story li:nth-of-type(1) {
+    background: url('../img/window-1.jpg') no-repeat center center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.image_box_story li:nth-of-type(2) {
+    background: url('../img/window-2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.image_box_story li:nth-of-type(3) {
+    background: url('../img/window-3.jpg') no-repeat center center;
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.image_box_story li:nth-of-type(4) {
+    background: url('../img/window-4.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.image_box_story1 li {
+    width: 238px;
+    height: 500px;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+/*========================
+Block 3 - The Big Map
+=========================*/
+.block3-wrapper {
+    /*height: 720px;*/
+    height: 96%;
+    z-index: 100;
+}
+
+#map { 
+    width:100%;
+    height: 100%;
+    cursor: default;
+}
+
+/* POSITIONING WILL NEED TO BE ADJUSTED FOR SCREEN RESOLUTIONS LATER */
+
+#map-contents-overlay {
+    width: 240px;
+    height: 100%;
+    position: absolute;
+    /*top: 10px;*/
+    left: 0px;
+    z-index: 2;
+    /*border-radius: 7px;*/
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+    /*border-right: 1px solid gray;*/
+    /*padding: 20px; */
+}
+
+#map-contents-overlay .logo {
+    position: absolute;
+    width: 80px;
+    left: 20px;
+    top: 12px;
+    
+}
+
+#map-contents-overlay .trail-button {
+    position: absolute;
+    width: 110px;
+    height: 24px;
+    line-height: 22px;
+    border-radius: 3px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-family: RalewayRegular, sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+#map-contents-overlay .trail-button:hover {
+    color: #e36c36;
+    border: 2px solid #e36c36;
+}
+
+#map-contents-overlay .active {
+    color: #e3ba36;
+    border: 2px solid #e3ba36;
+}
+
+#map-contents-overlay .trail-button:nth-of-type(1) {
+    left: 125px;
+    top: 30px;
+}
+
+#map-contents-overlay .trail-button:nth-of-type(2) {
+    left: 125px;
+    top: 58px;
+}
+
+.map-contents-overlay-button-container {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    width: 240px;
+    height: auto;
+    overflow: hidden;
+    padding: 7px 23px;
+}
+
+#east-west-container {
+
+}
+
+#south-container {
+    /*left: -310px;*/
+    display: none;
+}
+
+.map-contents-overlay-button {
+    width: 90px;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px solid white;
+    margin-right: 0px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    position: relative; float: left;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.map-contents-overlay-button:nth-child(odd) {
+    margin-right: 12px;
+}
+
+.map-contents-overlay-button h4 {
+    font-family: RalewayRegular, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin-top: 13px;
+    padding-bottom: 3px;
+}
+
+.map-contents-overlay-button img {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.map-contents-overlay-button .chevron {
+    position: absolute;
+    bottom: 1px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+#map-contents-info-window {
+    width: 30%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 3;
+    border-radius: 5px;
+    /*border: 1px solid white;*/
+    box-shadow: 5px 5px 4px grey;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 20px;
+    color: white;
+    display: none;
+}
+
+#map-contents-info-window h4 {
+    padding-bottom: 5px;
+    /*border-bottom: 3px solid #9c776f;*/
+    font-size: 16px;
+}
+
+#map-contents-info-window p {
+    font-size: 13px;
+}
+
+#map-contents-info-window a {
+    color: #e3ba36;
+    font-size: 14px;
+}
+
+#map-contents-info-window a:hover {
+    color: #e36c36;
+    font-size: 14px;
+}
+
+#map-contents-info-window .status {
+    font-size: 11px;
+    word-spacing: 2px;
+}
+
+#map-contents-info-window .return {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: gray;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#map-contents-info-window .return:hover {
+    color: #e36c36;
+}
+
+/*========================
+Block 4 - Three Links
+=========================*/
+#block4 {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px;
+    min-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    #block4 {
+        padding: 60px 0px;
+    }
+}
+
+
+#block4 h1 {
+    font-size: 1.9rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: inherit;
+    font-family: RalewayRegular, sans-serif;
+    line-height: 4rem;
+}
+
+.info-grid {
+    padding: 20px 40px;
+    cursor: pointer;
+    color: #6f7c82;
+}
+
+.info-grid:hover {
+    color: #2b6293;
+}
+
+@media (min-width: 992px) {
+    #info-learn {
+        border-right: 1px solid #e4e9ec;
+        border-left: 1px solid #e4e9ec;
+        border-bottom: 1px solid #e4e9ec;
+    }
+
+    #info-who {
+        border-right: 1px solid #e4e9ec;
+        border-top: 1px solid #e4e9ec;
+    }
+
+    #info-help {
+        border-bottom: 1px solid #e4e9ec;
+        border-right: 1px solid #e4e9ec;
+    }
+}
+
+
+
+/*========================
+Block 5 - Filler
+=========================*/
+#block5 {
+    min-width: 100%;
+    height: 30%;
+}
+
+/*========================
+Block 6 - Feeds
+=========================*/
+#block6 {
+    min-width: 100%;
+    /*height: 500px;*/
+    border-top: 1px solid #e4e9ec;
+    border-bottom: 1px solid #e4e9ec;
+    margin-bottom: 0px;
+    /*padding-bottom: 20px;*/
+}
+
+#block6 h4 {
+    color: #6f7c82;
+    font-size: 1.6rem;
+    font-family: RalewayRegular, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#block6 h4 a:hover {
+    text-decoration: none;
+    color: #e3ba36; 
+}
+
+#block6 .blog-col {
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#block6 .instagram-col {
+    height: 100%;
+    min-height: 100%;
+    padding-right: 10px;
+    padding-left: 40px;
+}
+
+.blog-post {
+    width: 280px;
+    height: 100px;
+    outline: 1px solid #e4e9ec;
+    /*background-color: #e4e9ec;*/
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.blog-post .blog-img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: url('../img/window-3.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-post .blog-read {
+    position: absolute;
+    left: 22px;
+    top: 34px;
+    font-size: 1.5rem;
+    font-family: RalewayMedium, sans-serif;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-width: 3px;
+    display: none;
+}
+
+.blog-post .blog-read:hover {
+    color: #e3ba36;
+    border-color: #e3ba36;
+}
+
+.blog-post h5 {
+    padding: 25px 10px 5px 115px;
+    margin: 0px;
+    color: #0f1c22;
+    font-size: 1.6rem;
+    font-family: RalewayThin, sans-serif;
+}
+
+.blog-post h5 a:hover {
+    text-decoration: none;
+    color: #e3ba36; 
+}
+
+.blog-post h6 {
+    padding: 0px 10px 5px 115px;
+    margin: 0px;
+    color: #6f7c82;
+    font-size: 1.1rem;
+    font-family: RalewayThin, sans-serif;
+    text-transform: uppercase;
+}
+
+.instagram-wrapper {
+    height: 380px;
+    overflow: hidden;   
+}
+
+@media (min-width: 768px) {
+    .instagram-wrapper {
+        height: 500px;   
+    }
+}
+
+@media (min-width: 992px) {
+    .instagram-wrapper {
+        height: 450px;   
+    }
+    #block6 .blog-col {
+        height: 450px;  
+        border-right: 1px solid #e4e9ec;
+    }
+}
+
+@media (min-width: 1200px) {
+    .instagram-wrapper {
+        height: 500px;   
+    }
+    #block6 .blog-col {
+        height: 500px;  
+        border-right: 1px solid #e4e9ec;
+    }
+}
+/*========================
+Block 7 - Gnarly Gear
+=========================*/
+#block7 {
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    min-width: 100%;
+    height: 60%;
+    /*min-height: 500px;*/
+    z-index: -99;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    #block7 {
+        height: 70%;
+    }
+}
+
+#block7 #gear-shirt {
+    /*width: 35%;*/
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+
+#block7 #piggy-bank {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    #block7 #piggy-bank {
+        width: 140px;
+        display: block;
+        margin: 0px auto 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #block7 #piggy-bank {
+        width: 160px;
+    }
+}
+
+#block7 #go-shop {
+    font-family: RalewayRegular, sans-serif;
+    font-size: 3.0rem;
+    color: #2b6293;
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    text-align: center;
+}
+
+#block7 #get-gear {
+    display: none;
+}
+
+#block7 #support-cause {
+    display: none;
+}
+
+@media (min-width: 768px) {
+/*    #block7 #go-shop {
+        font-size: 4.3rem;
+        left: 41%;
+        top: 45px;
+    }*/
+    #block7 #get-gear {
+        display: block;
+    }
+    #block7 #support-cause {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    #block7 #go-shop {
+        font-size: 4.1rem;
+        left: 45%;
+        top: 45px;
+        right: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    #block7 #go-shop {
+        font-size: 4.1rem;
+        left: 45%;
+        top: 45px;
+        right: auto;
+    }
+}
+
+.btn-shop {
+    color: white;
+    background-color: #2b6293;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn-shop:hover {
+    color: white;
+    background-color: #4d84b5;
+}
+
+#block7 #go-donate {
+    font-family: RalewayRegular, sans-serif;
+    font-size: 3.0rem;
+    color: #e3ba36;   
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    /*margin-right: 45px;*/
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    #block7 #go-donate {
+        font-size: 4.1rem;
+        left: 70%;
+        bottom: 65px;
+        right: auto;
+    }
+}
+
+.btn-donate {
+    color: white;
+    background-color: #e3ba36;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn-donate:hover {
+    color: white;
+    background-color: #f6cd49;
+}
+
+
+/*========================
+Block 8 - Contact
+=========================*/
+#contact {
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    min-height: 250px;
+    padding: 0px;
+    border-top: 1px solid #e4e9ec;
+    border-bottom: 1px solid #e4e9ec;
+}
+
+#contact .contact-cols {
+    min-height: 250px;
+    height: 100%;
+    margin-top: 0px;
+    text-align: center;
+    padding: 0 40px;
+}
+
+#contact .contact-cols:nth-of-type(1) {
+    border-right: 1px solid #e4e9ec;
+    padding-left: 10px;
+    text-align: right;
+}
+
+#contact .contact-cols:nth-of-type(2) {
+    text-align: left;
+}
+
+#contact h4 {
+    color: #6f7c82;
+    font-size: 1.6rem;
+    font-family: RalewayRegular, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    /*text-align: center;*/
+}
+
+#contact p {
+    /*margin: 0 30px;*/
+    font-family: RalewayRegular, sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: rgba(111,124,130,.6);
+    line-height: 1.8;
+}
+
+#contact a {
+    text-decoration: none;
+    color: rgba(111,124,130,.6);
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color: #2b6293;
+}
+
+/*========================
+Block 9 - Footer
+=========================*/
+#footer {
+    width: 100%;
+    background-color: #F5F7F9;
+    overflow: hidden;
+    min-height: 360px;
+    padding: 0;
+}
+
+#footer h4 {
+    color: #6f7c82;
+    font-size: 1.6rem;
+    font-family: RalewayRegular, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: center;}
+
+/*#footer #team {
+    width: 850px;
+    margin-left: auto ;
+    margin-right: auto ;
+    overflow: hidden;
+    padding:0;
+    margin-bottom: 15px;
+    height: 350px;
+}*/
+
+.footer-col {
+    padding: 0;
+}
+
+#footer .person {
+    width: 100%;
+    height: 100%;
+    display: block;
+    vertical-align: top;
+    text-align: center;
+    color: #6f7c82;
+}
+
+#footer .person img {
+    margin: 20px auto;
+    text-align: center;
+    width: 90%;
+    max-width: 150px;
+}
+
+#footer .person-img {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    /*background-color: white;*/
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*========================
+Block 10 - SubFooter
+=========================*/
+#subfooter {
+    width: 100%;
+    height: 60px;
+    /*background-color: #e3ba36;
+    background-color: #6c98bf;*/
+    background-color: #4475a1;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: RalewayRegular, sans-serif;
+    color:white;
+}
+
+
+/* ABOUT PAGE */
+/*========================
+Block 1 - Header
+=========================*/
+
+.abt-block1-wrapper {
+    /*height: 720px;*/
+    height: 250px;
+    z-index: -100;
+    /*margin: 0px;
+    padding: 0px;*/
+}
+
+#abt-block1 {
+    position: relative;
+    margin: 0px 0px 20px 0px;
+    min-width: 100%;
+    height: 100%;
+    background: url('../img/cover-background.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#abt-block1:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: #000;
+    opacity: .5
+}
+
+#abt-block1-title {
+    width: 400px;
+    height: 75px;
+    /*margin: 0px auto;*/
+    position: absolute;
+    bottom: 25px; 
+    left:50%;
+    margin-left:-200px;
+    z-index: 2;
+}
+
+#abt-block1-title>h1 {
+    /*text-transform: uppercase;*/
+    font-family: RalewayRegular, sans-serif;
+    font-size: 3.2rem;
+    color: #e3ba36;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.abt-block1-logo {
+    position: absolute;
+    left:70px;
+    bottom:0px;
+    width: 350px;
+    height: 240px;
+    background: url('../img/signpost.png') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    z-index: 5;
+}
+
+/*========================
+Block 2 - About the TCT
+=========================*/
+.map_content {
+    position: relative;
+    width: 500px;
+    height: 550px;
+    background: url('../img/tct_map.png') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.break-block {
+    background: url('../img/break-box-default.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
+.break-block h1 {
+    color: white;
+    padding-top: 95px;
+    font-family: RalewayRegular, sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.block {
+    border-top: 1px solid #e4e9ec;
+    border-bottom: 1px solid #e4e9ec;
+    padding: 70px 0px 50px 0px;
+}
+
+.block h1 {
+    font-family: RalewayRegular, sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+    color: gray;
+}
+
+.block h2 {
+    font-family: RalewayThin, sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.block h3 {
+    font-family: RalewayRegular, sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #2b6293;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+.block p {
+    font-family: RalewayRegular, sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    color: gray;
+    line-height: 2.2rem;
+}
+
+.team-photo {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    background: url('../img/team-photo.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+#tct-story {
+    text-align: left; /*This isn't working because of the block class, fix*/
+    margin-left: 20px;
+}
+
+.scouting-trail {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    background: url('../img/scouting-trail.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.mapping-activities {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    background: url('../img/soviet-map.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.scouts {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    background: url('../img/scouts.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+
+
