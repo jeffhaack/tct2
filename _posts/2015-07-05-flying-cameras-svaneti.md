@@ -6,6 +6,7 @@ lang: en
 category: blog
 author: Jeff Haack
 thumb-big: /assets/blog/2015-07-05/thumb-big.jpg
+thumb-fb: /assets/blog/2015-07-05/thumb-fb.jpg
 ---
 
 *How high does it fly? How far does it go? Can you get it in Tbilisi?*

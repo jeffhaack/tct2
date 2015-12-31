@@ -6,6 +6,7 @@ lang: en
 category: blog
 author: Paul Stephens
 thumb-big: /assets/blog/2015-06-19/thumb-big.jpg
+thumb-fb: /assets/blog/2015-06-19/thumb-fb.jpg
 ---
 
 ![image01][]

@@ -6,6 +6,7 @@ lang: en
 category: blog
 author: Marta Mills
 thumb-big: /assets/blog/2015-11-04/thumb-big.jpg
+thumb-fb: /assets/blog/2015-11-04/thumb-fb.jpg
 ---
 
 When I managed to get the last week of October off work, I decided to go back to my beloved Georgia for the fourth time, and explore one of the regions on the Transcaucasian Trail – Racha. Tucked between the mountains of Svanetii and the northern bits of South Ossetia,  Racha is - according to a promotional brochure I’ve picked up in Tbilisi - “a special, completely unspoiled and beautiful place high in the mountains, boasting a landscape of mountain forests and high alpine meadows.”

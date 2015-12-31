@@ -6,6 +6,7 @@ lang: en
 category: blog
 author: Tako Kobakhidze
 thumb-big: /assets/blog/2015-12-30/thumb-big.jpg
+thumb-fb: /assets/blog/2015-12-30/thumb-fb.jpg
 ---
 
 ![image01][]

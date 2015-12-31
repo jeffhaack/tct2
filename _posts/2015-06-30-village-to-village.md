@@ -6,6 +6,7 @@ lang: en
 category: blog
 author: Paul Stephens
 thumb-big: /assets/blog/2015-06-30/thumb-big.jpg
+thumb-fb: /assets/blog/2015-06-30/thumb-fb.jpg
 ---
 
 After a stormy night camping out in the Nakra valley, I continued east through the villages of western Svaneti. The high route west from Nakra would be inaccessible to anyone but the most experienced hikers and mountaineers, so we are planning a lower, but no less spectacular route. 

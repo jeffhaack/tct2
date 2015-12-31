@@ -6,6 +6,7 @@ lang: en
 category: blog
 author: Jeff Haack
 thumb-big: /assets/blog/2015-06-22/thumb-big.jpg
+thumb-fb: /assets/blog/2015-06-22/thumb-fb.jpg
 ---
 
 The plan for developing the TCT is always changing - whether because of high snow, sensitive border areas, or our own confidence in finding existing trails. One of the major issues we faced at the start was my broken foot - well, not broken exactly, but a slight bone fracture that’s left me hobbling around in a stiff shoe for a couple of months.
