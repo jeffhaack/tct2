@@ -8,8 +8,6 @@
     
 	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
-    <!-- <meta name="description" content=""> -->
-    <meta name="author" content="Transcaucasian Trail Association">
     <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon.ico"/>
     {% if page.title %}<title>TCT Blog - {{ page.title }}</title>
     {% else %}<title>Transcaucasian Trail</title>{% endif %}
@@ -25,11 +23,12 @@
     <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
 	<meta property="og:title" content="{{ page.title }}" />
+    <meta name="author" content="{{ page.author }}">
     <meta name="description" content="">
 	<meta property="og:description" content="" />
 	<meta property="og:type" content="non_profit" />
 	<meta property="og:url" content="" />
-    <meta property="og:image" content="{{ site.baseurl }}/assets/img/kich-scene550.jpg" />
+    <meta property="og:image" content="http://transcaucasiantrail.org/assets/img/kich-scene550.jpg" />
 	<meta property="og:site_name" content="Transcaucasian Trail" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
