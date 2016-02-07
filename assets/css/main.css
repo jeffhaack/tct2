@@ -1873,6 +1873,8 @@ Block 2 - About the TCT
 
 .blog img {
     max-width: 100%;
+    width: 100%;
+    padding-right: 30px;
 }
 
 /* For the blog sharing buttons */
