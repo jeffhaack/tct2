@@ -110,7 +110,7 @@
 
     <div class="block blog">
         <div class="row row-centered">
-            <div class="col-centered col-xs-10 col-sm-6">
+            <div class="col-centered col-xs-10 col-sm-6" id="blog-body">
                 <h1>Racha: The undiscovered gem of the Caucasus</h1>
                 
                 
@@ -179,6 +179,14 @@
 
 
            </div>
+
+
+            <a href="/en/gear" id="blog-ad">
+                Support the TCT
+                <img src="/assets/img/tct-shirt2.jpg" alt="Twitter" />
+                Get a T-shirt!
+            </a>
+
     	</div>
     </div>
 
@@ -369,6 +377,43 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-62888628-1', 'auto');
       ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript">
+        function placeAd() {
+            // First place Left Edge
+            var leftEdge = $("#blog-body").offset().left + $("#blog-body").width();
+            var rightWidth = $(document).width() - leftEdge;
+            $('#blog-ad').css("left", (leftEdge + rightWidth/2.2 - 75) + "px");
+
+            // Now place Top
+            var topEdge = $("#blog-body").offset().top;
+            var rightHeight = $("#blog-body").height();
+            $('#blog-ad').css("top", (topEdge + rightHeight/2 - 100) + "px");
+            // alert(topEdge + rightHeight/2 - 100);
+
+            $('#blog-ad').show();            
+        }
+
+        $(document).ready(function(){
+            $('#blog-ad').hide();
+            var targetOffset = 1000;
+
+            var $w = $(window).scroll(function(){
+                if ( $w.scrollTop() > targetOffset ) {   
+                    placeAd();
+                } else {
+                  // ...
+                }
+            });
+        });
+
+        $(window).resize(function(){
+            placeAd();
+        });
+
+
+
     </script>
 
   </body>

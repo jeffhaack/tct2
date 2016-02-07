@@ -1877,6 +1877,34 @@ Block 2 - About the TCT
     padding-right: 30px;
 }
 
+@media (min-width: 900px) {
+    .blog #blog-ad {
+        position: absolute;
+        top: 1500px;
+        right: 6%;
+        width: 150px;
+        /*height: 200px;*/
+        cursor: button;
+        background-color: white;
+        /*background: url('../img/tct-shirt2.jpg') no-repeat center center;
+        background-size: contain;*/
+        border: 1px solid #ddd;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 1.6rem;
+    }
+    .blog #blog-ad:hover {
+        background-color: #eee;
+    }
+
+    .blog #blog-ad>img {
+        width: 100%;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
 /* For the blog sharing buttons */
 #share-buttons img {
     width: 40px;
