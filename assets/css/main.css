@@ -1875,4 +1875,18 @@ Block 2 - About the TCT
     max-width: 100%;
 }
 
+/* For the blog sharing buttons */
+#share-buttons img {
+    width: 40px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+
+
+
+
+
+
 
