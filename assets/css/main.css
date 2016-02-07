@@ -1121,6 +1121,34 @@ Block 7 - Gnarly Gear
     background-color: #f6cd49;
 }
 
+/*========================
+Block 7.5 - Newsletter
+=========================*/
+#newsletter {
+    width: 100%;
+    background-color: #F5F7F9;
+    background-color: #4475a1;
+    background-color: white;
+    overflow: hidden;
+    min-height: 50px;
+    padding: 0;
+    padding-top: 16px;
+    
+}
+
+#newsletter a {
+    color: #6f7c82;
+    color: #6f7c82;
+    font-size: 1.6rem;
+    font-family: RalewayRegular, sans-serif;
+    padding-top: 20px;
+}
+
+#newsletter a:hover {
+    text-decoration: none;
+    color: #2b6293;
+}
+
 
 /*========================
 Block 8 - Contact
