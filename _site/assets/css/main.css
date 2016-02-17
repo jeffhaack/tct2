@@ -516,6 +516,16 @@ Block 3 - The Big Map
     padding: 7px 14px;
 }
 
+#map-note {
+    margin-left: 7%;
+    margin-right: 12%;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: left;
+    color: black;
+    text-shadow: #bbb 0.1em 0.1em 0.2em
+}
+
 #east-west-container {
 
 }
@@ -536,6 +546,16 @@ Block 3 - The Big Map
     position: relative; float: left;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.grayout {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.grayout:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 .map-contents-overlay-button:nth-child(odd) {
