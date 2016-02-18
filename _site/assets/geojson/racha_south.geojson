@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "Name": "TCT Southern Spur", "descriptio": null, "timestamp": null, "begin": null, "end": null, "altitudeMo": null, "tessellate": null, "extrude": null, "visibility": null, "drawOrder": null, "icon": null }, "geometry": { "type": "LineString", "coordinates": [ [ 43.59, 42.703799019607821, 0.0 ], [ 43.535, 42.60410606060605, 0.0 ], [ 43.535119047619062, 42.535833333333322, 0.0 ], [ 43.5310625, 42.464166666666657, 0.0 ], [ 43.514166666666675, 42.392373737373731, 0.0 ], [ 43.524416666666667, 42.325, 0.0 ], [ 43.55, 42.213916666666655, 0.0 ], [ 43.535458333333317, 42.141666666666673, 0.0 ], [ 43.469464285714267, 42.0775, 0.0 ] ] } }
-]
-}
