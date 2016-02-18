@@ -337,19 +337,19 @@ Block 2 - What is the TCT?
 
 @media (min-width: 768px) {
     .window-wrapper-pad img {
-        padding-top: 100px;
+        padding-top: 200px;
     }
 }
 
 @media (min-width: 958px) {
     .window-wrapper-pad img {
-        padding-top: 30px;
+        padding-top: 100px;
     }
 }
 
 @media (min-width: 1200px) {
     .window-wrapper-pad img {
-        padding-top: 0px;
+        padding-top: 40px;
     }
 }
 
