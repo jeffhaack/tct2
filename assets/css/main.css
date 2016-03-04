@@ -1921,8 +1921,10 @@ Block 2 - About the TCT
 
 .blog img {
     max-width: 100%;
-    width: 100%;
+    display: block;
     padding-right: 30px;
+    /*margin-left: auto;
+    margin-right: auto;*/
 }
 
 @media (min-width: 900px) {
