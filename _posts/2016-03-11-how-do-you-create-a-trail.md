@@ -24,7 +24,7 @@ How to begin?
 That part is obvious. I will make the journey myself. This is the grassroots way of thinking and it’s how I tend to work. I will start by going out and finding the route.
 
 
-Continue reading [here](http://tomallen.info/how-on-earth-do-you-create-a-brand-new-long-distance-hiking-trail/).
+[Continue reading here.](http://tomallen.info/how-on-earth-do-you-create-a-brand-new-long-distance-hiking-trail/)
 
 
 
