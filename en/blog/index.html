@@ -8,18 +8,42 @@ description: Read our blog about trail development and hiking in the Caucasus.
 ---
 
     <div class="block" >
-        <div class="row row-centered">
+        <!-- <div class="row row-centered">
             <div class="col-md-6 col-sm-7 col-centered" id="tct-development">
                 <h1>The Trail Blog</h1>
-                <h2>Read our latest blog posts</h2>
+                </br></br>
             </div>
-        </div>
+        </div> -->
         <div class="row row-centered">
 
-            <div class="col-xs-11 col-md-6 col-centered">
-                
-                {% include blog_posts.html %}
-            </div>
+            {% for post in site.categories.blog %}
+
+                {% unless post.id == page.id %}
+
+                <div class="row row-centered">
+                    <a class="col-sm-9 col-xs-10 col-centered blog-entry" href="{{ post.url }}">
+
+                        <div class="col-sm-6 col-xs-12 col-centered">
+
+                            <h3>{{ post.title }}</h3>
+                            <h5><b>{{post.date| date: '%B %d, %Y'}}</b> by {{ post.author }}</h5>
+                            <p>{{ post.content | strip_html | truncatewords: 60 }}</p>
+
+                        </div>
+                        <div class="col-sm-6 col-centered">
+                            <img src="{{ post.thumb-fb }}">
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <hl>
+
+                {% endunless %}
+
+            {% endfor %}
+
 
         </div>
     </div>

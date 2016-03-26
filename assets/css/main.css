@@ -1964,6 +1964,47 @@ Block 2 - About the TCT
     }
 }
 
+/*********************/
+/* Blog Listings 2.0 */
+/*********************/
+.blog-entry {
+    border-top: 1px solid #ddd;
+    padding: 50px 10px 10px;
+    /*border: 1px solid green;*/
+    margin-top: 20px;
+}
+
+.blog-entry h3 {
+    text-align: left;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.blog-entry h5 {
+    color: #888;
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+.blog-entry b {
+    font-weight: 400;
+}
+
+.blog-entry p {
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #aaa;
+}
+
+.blog-entry img {
+    max-height: 100%;
+    max-width:100%;
+    padding: 5px 20px 20px 20px;
+}
+
 /* For the blog sharing buttons */
 #share-buttons img {
     width: 40px;
