@@ -1152,8 +1152,17 @@ Block 7.5 - Newsletter
     overflow: hidden;
     min-height: 50px;
     padding: 0;
-    padding-top: 16px;
+    padding-top: 0px;
+    padding-bottom: 30px;
     
+}
+
+#newsletter h4 {
+    color: #6f7c82;
+    font-size: 2.6rem;
+    font-family: RalewayRegular, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 #newsletter a {
