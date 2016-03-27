@@ -1986,6 +1986,7 @@ Block 2 - About the TCT
     color: #888;
     font-weight: 200;
     font-size: 1.3rem;
+    text-align: left;
 }
 
 .blog-entry b {
