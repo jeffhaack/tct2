@@ -57,6 +57,17 @@
 
   <body>
 
+    <!-- Facebook Like Code -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=298076583641695";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
     {% include navbar.html %}
 
 	<div class="abt-block1-wrapper">
@@ -73,47 +84,95 @@
     </div>
 
     <div class="block blog">
+
         <div class="row row-centered">
-            <div class="col-centered col-xs-10 col-sm-6" id="blog-body">
-                <h1>{{ page.title }}</h1>
-                {{ site.url }}
-                {{ site.baseurl }}
-                <h5>by {{ page.author }}</h5>
-                <h6>{{ page.date | date: '%B %d, %Y' }}</h6>
+            <div class="col-sm-11 col-xs-12 col-centered blog-wrapper">
+                <div class="col-sm-4 col-centered blog-sidebar">
+                    {% if page.author == 'Paul Stephens' %}
+                        {% include bios/paul.html %}
+                    {% endif %}
+                    {% if page.author == 'Jeff Haack' %}
+                      {% include bios/jeff.html %}
+                    {% endif %}
+                    {% if page.author == 'Marta Mills' %}
+                      {% include bios/marta.html %}
+                    {% endif %}
+                    {% if page.author == 'Tom Allen' %}
+                        {% include bios/tom.html %}
+                    {% endif %}
 
-            <div id="share-buttons">
-                <center>
-                <a href="http://www.facebook.com/sharer.php?u=http://transcaucasiantrail.org{{ page.url }}" target="_blank">
-                    <img src="/assets/img/facebook.png" alt="Facebook" />
-                </a>
+                    
 
-                <a href="https://twitter.com/share?url=http://transcaucasiantrail.org{{ page.url }}&amp;text={{ page.title }}&amp;hashtags=TCT" target="_blank">
-                    <img src="/assets/img/twitter.png" alt="Twitter" />
-                </a>
-                </center>
-            </div>
+                    
+                    
+                    </br></br>
+                    <h3>Join the TCT on Facebook</h3>
+                    <!-- Facebook button -->
+                    <div class="fb-like-wrapper">
+                    
+                        <div class="fb-like" data-href="https://www.facebook.com/transcaucasiantrail/" data-width="220" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+                    
+                        </br></br></br></br>
+                        <!-- Twitter Feed -->
+                        <a class="twitter-timeline" href="https://twitter.com/theTCTrail" data-widget-id="713954691969892353" width="250" data-chrome="nofooter noscrollbar" data-tweet-limit="4">Tweets by @theTCTrail</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-                {{ content }}
-           </div>
+                        <a href="/en/gear" class="blog-ad">
+                            <img src="/assets/img/tct-shirt2.jpg" alt="Twitter" />
+                            <h4>Get a TCT-shirt!</h4>
+                        </a>
 
 
-            <a href="/en/gear" id="blog-ad">
-                Support the TCT
-                <img src="/assets/img/tct-shirt2.jpg" alt="Twitter" />
-                Get a T-shirt!
+
+                    </div>
+                
+
+                </div>
+                <div class="col-sm-8 col-xs-12 col-centered blog-content">
+                    
+                    <h1>{{ page.title }}</h1>
+                    {{ site.url }}
+                    {{ site.baseurl }}
+                    <h5>by {{ page.author }}</h5>
+                    <h6>{{ page.date | date: '%B %d, %Y' }}</h6>
+
+                    <div id="share-buttons">
+                        <center>
+                        <a href="http://www.facebook.com/sharer.php?u=http://transcaucasiantrail.org{{ page.url }}" target="_blank">
+                            <img src="/assets/img/facebook.png" alt="Facebook" />
+                        </a>
+
+                        <a href="https://twitter.com/share?url=http://transcaucasiantrail.org{{ page.url }}&amp;text={{ page.title }}&amp;hashtags=TCT" target="_blank">
+                            <img src="/assets/img/twitter.png" alt="Twitter" />
+                        </a>
+                        </center>
+                    </div>
+
+                    {{ content }}
+
+
+                </div>
+
             </a>
 
-    	</div>
+        </div>
+
+        
     </div>
 
 
     <div class="block">
-        <h1>More Posts</h1>
+        </br></br>
+        <h1>More Blog Posts</h1>
         <!-- <h2>Read our latest blog posts</h2> -->
         <div class="row row-centered">
-            <div class="col-xs-11 col-md-6 col-centered">
+
+            
+
+
+            <!-- <div class="col-xs-11 col-md-6 col-centered"> -->
                 {% include blog_posts.html %}
-            </div>
+            <!-- </div> -->
         </div>    
     </div>
 
