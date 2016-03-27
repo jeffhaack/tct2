@@ -2010,8 +2010,16 @@ Block 2 - About the TCT
 /******************/
 /* Blog Posts 2.0 */
 /******************/
+
 .blog-sidebar {
-    /*border: 1px solid green;*/
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .blog-sidebar {
+        display: inline-block;
+    }
 }
 
 .fb-like-wrapper {
