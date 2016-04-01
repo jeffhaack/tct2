@@ -2143,8 +2143,50 @@ img.full-width {
 }
 
 
+/* Get Involved Page */
+.image-col img {
+    width: 100%;
+}
 
+.buffer {
+    margin-bottom: 20px;
+}
 
+.btn-app {
+    color: white;
+    background-color: #2b6293;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.block-contact:hover {
+    text-decoration: none;
+}
+
+/*#photo-block {
+    background: url('/assets/img/svaneti_pd.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  left: 50px;
+  bottom: 20px;
+  width: 45%;
+  line-height: 1.7rem;
+  font-weight: 300;
+}
+*/
 
 
 
