@@ -1496,6 +1496,38 @@ a.home-link-box {
     }
 }
 
+/*------------------
+TCT Bios
+-------------------*/
+.tct-bio {
+    padding-bottom: 40px;
+    /*border: 1px solid green;*/
+}
+.tct-bio .img-col {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    /*border: 1px solid red;*/
+}
+
+#tct-bios img {
+    width: 100%;
+    max-width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tct-bios h5 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #777;
+    font-weight: 200;
+}
+
+/*@media (min-width: 768px) {
+    
+}*/
+
 /*========================
 Block 2 - About the TCT
 =========================*/
