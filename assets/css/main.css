@@ -2148,8 +2148,10 @@ img.full-width {
     width: 100%;
 }
 
-.buffer {
-    margin-bottom: 20px;
+#tct-development li {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-weight: 300;
 }
 
 .btn-app {
