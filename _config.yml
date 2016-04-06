@@ -12,7 +12,7 @@ prose:
       - name: "published"
         field:
           label: "Published"
-          element: "checkbox"
+          element: "hidden"
           value: "false"
       - name: "layout"
         field:
