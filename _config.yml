@@ -41,7 +41,7 @@ prose:
           value: "blog"
       - name: "author"
         field:
-          element: "multiselect"
+          element: "select"
           label: "author"
           placeholder: "Choose author"
           value: personal
@@ -58,7 +58,6 @@ prose:
               value: Tom Allen
             - name: "Alessandro Mambelli"
               value: Alessandro Mambelli
-          alterable: true
       - name: "thumb-big"
         field:
           element: "text"
