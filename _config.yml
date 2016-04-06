@@ -62,12 +62,12 @@ prose:
         field:
           element: "text"
           label: "thumb-photo (Ideally 480x125)"
-          value: "/assets/blog/media/which-file.jpg"
+          value: "/assets/blog/media/default-thumb.jpg"
       - name: "thumb-fb"
         field:
           element: "text"
           label: "Social Media photo (Ideally landscape, more wide than high)"
-          value: "/assets/blog/media/which-file.jpg"
+          value: "/assets/blog/media/default-fb.jpg"
 
 #baseurl: 'http://transcaucasiantrail.org/'
 #baseurl: 'http://localhost:4000/'
