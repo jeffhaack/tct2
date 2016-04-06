@@ -2,7 +2,7 @@
 category: blog
 lang: en
 layout: blog
-published: false
+published: true
 permalink: "/en/blog/tct-is-coming"
 author: 
   - Jeff Haack
@@ -10,6 +10,7 @@ author:
 "thumb-fb": /assets/blog/media/svaneti_pd2.jpg
 title: The TCT is Coming
 ---
+
 
 Start writing your post
 
@@ -20,6 +21,3 @@ New paragraph
 Continue blogging here.
 
 Finished Blogging
-
-
-
