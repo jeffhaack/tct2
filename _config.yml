@@ -13,77 +13,62 @@ prose:
         field:
           label: "Published"
           element: "checkbox"
-          value: "true"
+          value: "false"
       - name: "layout"
         field:
           element: "hidden"
-          label: "Layout"
-          value: "post"
+          label: "layout"
+          value: "blog"
       - name: "title"
         field:
-          label: "Title"
+          label: "title"
           element: "text"
           value: "An Awesome Headline!"
-      - name: "description"
+      - name: "permalink"
         field:
           element: "text"
-          label: "Description"
-          placeholder: "Enter Post Description"
-      - name: "headline"
+          label: "permalink"
+          placeholder: "/en/blog/title-of-post"
+      - name: "lang"
         field:
-          element: "text"
-          label: "beadline"
-          placeholder: "Enter Post Headline"
-      - name: "modified"
+          element: "hidden"
+          label: "lang"
+          placeholder: "en"
+      - name: "category"
         field:
-          element: "text"
-          label: "Has this page been modified?"
-          placeholder: "YYYY-MM-DD"
-      - name: "categories"
+          element: "hidden"
+          label: "category"
+          placeholder: "blog"
+      - name: "author"
         field:
           element: "multiselect"
-          label: "Add categories"
-          placeholder: "Choose categories"
+          label: "author"
+          placeholder: "Choose author"
           value: personal
           options:
-            - name: "Personal"
-              value: personal
-            - name: "Engineering"
-              value: engineering
-            - name: "Physics"
-              value: physics
-            - name: "Psychology"
-              value: psychology
-            - name: "Interesting"
-              value: interesting
-            - name: "Web-Development"
-              value: webdevelopment
+            - name: "Paul Stephens"
+              value: Paul Stephens
+            - name: "Jeff Haack"
+              value: Jeff Haack
+            - name: "Marta Mills"
+              value: Marta Mills
+            - name: "Tako Kobakhidze"
+              value: Tako Kobakhidze
+            - name: "Tom Allen"
+              value: Tom Allen
+            - name: "Alessandro Mambelli"
+              value: Alessandro Mambelli
           alterable: true
-      - name: "tags"
+      - name: "thumb-big"
         field:
           element: "text"
-          label: "Tags"
-          placeholder: "Enter tags, separated by spaces"
-      - name: "imagefeature"
+          label: "thumb-photo (Ideally 480x125)"
+          placeholder: "/assets/blog/media/which-file.jpg"
+      - name: "thumb-fb"
         field:
           element: "text"
-          label: "Featured Image"
-          placeholder: "somefile.jpg"
-      - name: "mathjax"
-        field:
-          element: "checkbox"
-          label: "MathJax"
-          value: false
-      - name: "featured"
-        field:
-          element: "checkbox"
-          label: "Featured?"
-          value: false
-      - name: "comments"
-        field:
-          element: "checkbox"
-          label: "Comments"
-          value: false
+          label: "Social Media photo (Ideally landscape, more wide than high)"
+          placeholder: "/assets/blog/media/which-file.jpg"
 
 #baseurl: 'http://transcaucasiantrail.org/'
 #baseurl: 'http://localhost:4000/'
