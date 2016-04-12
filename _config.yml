@@ -144,12 +144,12 @@ t:
   hy:
     navbar: 
       home:  "Home"
-      about: "About the TCT"
-      goals: "Goals"
-      faq: "FAQ"
-      get-involved: "Get Involved"
-      gear: "Gear"
-      blog: "Blog"
+      about: "ԱԿԱ-ի մասին"
+      goals: "Նպատակներ"
+      faq: "ՀՏՀ"
+      get-involved: "Ներգրավվեք"
+      gear: "Իրեղեն"
+      blog: "Բլոգ"
     newsletter:
       subscribe: "Գրանցվեք մեր ամսագրին"
       required: "Պարտադիր տվյալներ"
