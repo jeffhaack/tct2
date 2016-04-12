@@ -2,14 +2,14 @@
   id: paul
   photo: /assets/img/people/paul.png
   category: tcta
-  position: Executive Director
+  position: "Executive Director"
   description: "Paul Stephens is the executive director and co-founder of the Transcaucasian Trail Association. He was a Peace Corps Volunteer in Georgia from 2005-2007 and has been exploring the region ever since. He has worked as an educator, journalist, and communications specialist for USAID in Tbilisi. He is a graduate of Columbia Journalism School and has written extensively on international affairs and global development issues."
 
 - name: Jeff Haack
   id: jeff
   photo: /assets/img/people/jeff.png
   category: board
-  position: "Technology Manager, Cartographer"
+  position: "Cartographer"
   description: "Jeff Haack is a board member and co-founder of the Transcaucasian Trail Association. He is a professional cartographer, author, and technologist. Jeff has worked in open source mapping projects and disaster risk management in Georgia, southeast Asia, and east Africa. He was a Peace Corps Volunteer in Georgia from 2006-2008 and has lived in the region for over six years. A passion for exploration has led him on many hiking and cycling expeditions in the Caucasus."
 
 - name: Laura Santos-Bishop

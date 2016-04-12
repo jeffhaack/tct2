@@ -71,13 +71,21 @@ prose:
 t:
   en:
     navbar: 
-      home:  "Homey"
+      home:  "Home"
       about: "About the TCT"
       goals: "Goals"
       faq: "FAQ"
       get-involved: "Get Involved"
       gear: "Gear"
       blog: "Blog"
+    newsletter:
+      subscribe: "Subscribe to our newsletter"
+      required: "indicates required"
+      email: "Email Address"
+      first-name: "First Name"
+      last-name: "Last Name"
+      country: "Country"
+      button: "Subscribe"
   ka:
     navbar: 
       home:  "მთავარი"
@@ -87,23 +95,47 @@ t:
       get-involved: "შემოგვიერთდი"
       gear: "Gear"
       blog: "Blog"
+    newsletter:
+      subscribe: "Subscribe to our newsletter"
+      required: "indicates required"
+      email: "Email Address"
+      first-name: "First Name"
+      last-name: "Last Name"
+      country: "Country"
+      button: "Subscribe"
   hy:
     navbar: 
-      home:  "Homey"
+      home:  "Home"
       about: "About the TCT"
       goals: "Goals"
       faq: "FAQ"
       get-involved: "Get Involved"
       gear: "Gear"
       blog: "Blog"
+    newsletter:
+      subscribe: "Գրանցվեք մեր ամսագրին"
+      required: "Պարտադիր տվյալներ"
+      email: "Էլ. փոստի հասցե"
+      first-name: "Անուն"
+      last-name: "Ազգանուն"
+      country: "Երկիր"
+      button: "Անդամագրվել"
   ru:
     navbar: 
-      home:  "Homey"
+      home:  "Home"
       about: "About the TCT"
       goals: "Goals"
       faq: "FAQ"
       get-involved: "Get Involved"
       gear: "Gear"
       blog: "Blog"
+    newsletter:
+      subscribe: "Subscribe to our newsletter"
+      required: "indicates required"
+      email: "Email Address"
+      first-name: "First Name"
+      last-name: "Last Name"
+      country: "Country"
+      button: "Subscribe"
 #baseurl: 'http://transcaucasiantrail.org/'
 #baseurl: 'http://localhost:4000/'
