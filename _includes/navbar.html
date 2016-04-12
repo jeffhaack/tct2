@@ -14,28 +14,28 @@
         <div class="collapse navbar-collapse" id="navbar-contents">
           <ul class="nav navbar-nav navbar-right" role="navigation">
             {% if page.section == "home" %} 
-            {% else %} <li><a href="/{{ page.lang }}">Home</a></li> {% endif %}
+            {% else %} <li><a href="/{{ page.lang }}">{{site.t.[page.lang].navbar.home}}</a></li> {% endif %}
 
             {% if page.section == "about" %} <li><a href="/{{ page.lang }}/about" class="active">
-            {% else %} <li><a href="/{{ page.lang }}/about"> {% endif %} About the TCT</a></li>
+            {% else %} <li><a href="/{{ page.lang }}/about"> {% endif %} {{site.t.[page.lang].navbar.about}}</a></li>
             
             {% if page.section == "goals" %} <li><a href="/{{ page.lang }}/goals" class="active">
-            {% else %} <li><a href="/{{ page.lang }}/goals"> {% endif %} Goals</a></li>
+            {% else %} <li><a href="/{{ page.lang }}/goals"> {% endif %} {{site.t.[page.lang].navbar.goals}}</a></li>
 
             <!-- {% if page.section == "who-we-are" %} <li><a href="/en/who-we-are" class="active">
             {% else %} <li><a href="/en/who-we-are"> {% endif %} Who we are</a></li> -->
 
             {% if page.section == "faq" %} <li><a href="/{{ page.lang }}/faq" class="active">
-            {% else %} <li><a href="/{{ page.lang }}/faq"> {% endif %} FAQ</a></li>
+            {% else %} <li><a href="/{{ page.lang }}/faq"> {% endif %} {{site.t.[page.lang].navbar.faq}}</a></li>
 
             {% if page.section == "get-involved" %} <li><a href="/{{ page.lang }}/get-involved" class="active">
-            {% else %} <li><a href="/{{ page.lang }}/get-involved"> {% endif %} Get Involved</a></li>
+            {% else %} <li><a href="/{{ page.lang }}/get-involved"> {% endif %} {{site.t.[page.lang].navbar.get-involved}}</a></li>
 
             {% if page.section == "gear" %} <li><a href="/{{ page.lang }}/gear" class="active">
-            {% else %} <li><a href="/{{ page.lang }}/gear"> {% endif %} Gear</a></li>
+            {% else %} <li><a href="/{{ page.lang }}/gear"> {% endif %} {{site.t.[page.lang].navbar.gear}}</a></li>
 
             {% if page.category == "blog" %} <li><a href="/{{ page.lang }}/blog" class="active">
-            {% else %} <li><a href="/{{ page.lang }}/blog"> {% endif %} Blog</a></li>
+            {% else %} <li><a href="/{{ page.lang }}/blog"> {% endif %} {{site.t.[page.lang].navbar.blog}}</a></li>
 
             <!-- <li><button type="button" class="btn btn-warning navbar-btn btn-sm" onclick="location.href='trail-guide.html';">Trail Guide</button> </li> -->
           </ul>

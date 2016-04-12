@@ -11,7 +11,10 @@
 			<div id="mc_embed_signup">
 			<form action="//transcaucasiantrail.us12.list-manage.com/subscribe/post?u=bd22f2618994bc712e2e11d32&amp;id=0b6f0898a7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			    <div id="mc_embed_signup_scroll">
-				<center><h4>Subscribe to our newsletter</h4></center>
+				<center><h4>
+					{% if page.lang == 'en' %} Subscribe to our newsletter {% endif %}
+					{% if page.lang == 'ka' %} გამოიწერე ჩვენი ახალი ამბები {% endif %}
+				</h4></center>
 			<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 			<div class="mc-field-group">
 				<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>

@@ -68,6 +68,24 @@ prose:
           element: "text"
           label: "Social Media photo (Ideally landscape, more wide than high)"
           value: "/assets/blog/media/default-fb.jpg"
-
+t:
+  en:
+    navbar: 
+      home:  "Homey"
+      about: "About the TCT"
+      goals: "Goals"
+      faq: "FAQ"
+      get-involved: "Get Involved"
+      gear: "Gear"
+      blog: "Blog"
+  ka:
+    navbar: 
+      home:  "მთავარი"
+      about: "About the TCT"
+      goals: "მიზნები"
+      faq: "კითხვა-პასუხი"
+      get-involved: "შემოგვიერთდი"
+      gear: "Gear"
+      blog: "Blog"
 #baseurl: 'http://transcaucasiantrail.org/'
 #baseurl: 'http://localhost:4000/'
