@@ -17,14 +17,14 @@
   photo: /assets/img/people/laura.png
   category: tcta
   position: "ბილიკის განვითარება"
-  description: "ლაურა სანტოს-ბიშოპი კავკასიაში პირველად 2012 წელს გაცვლითი პროგრამის წყალობით მოხვდა. მას შემდეგ რეგიონში მუშაობს განათლების სფეროში, ჯერ ერევანში (სომხეთი), ახლა კი თბილისში (საქართველო). მას სალაშქრო ბილიკების მშენებლობისა და მოვლის კუთხით სამწლიანი სამუშაო გამოცდილება აქვს. ზაფხულობით ნიუ იორკსი არსებული ‘პლასიდის ტბის’ პროფესიონალური ბილიკების ადირონდაკის სამთო კლუბის წევრი გახლდათ. საველე და მოხალისეების სამუშაოებში მონაწილეობისადმი ლტოლვამ ის ტრანსკავკასიური ბილიკის გუნდის წევრად აქცია."
+  description: "ლაურა სანტოს-ბიშოპი კავკასიაში პირველად 2012 წელს გაცვლითი პროგრამის წყალობით მოხვდა. მას შემდეგ რეგიონში მუშაობს განათლების სფეროში, ჯერ ერევანში (სომხეთი), ახლა კი თბილისში (საქართველო). მას სალაშქრო ბილიკების გაყვანისა და მოვლის კუთხით სამწლიანი სამუშაო გამოცდილება აქვს. ზაფხულობით ნიუ იორკის ადირონდაკის მთებში ‘ლასიდის ტბის პროფესიონალური ბილიკების კლუბის წევრი გახლდათ. საველე და მოხალისეების სამუშაოებში მონაწილეობისადმი ლტოლვამ ის ტრანსკავკასიური ბილიკის გუნდის წევრი გახადა."
 
 - name: ჯეიმს სკიპიონი
   id: james
   photo: /assets/img/people/james.png
   category: board
   position: "ბილიკის განვითარება"
-  description: 'ჯეიმს სკიპიონი გახლავთ მდგრადი ტურიზმის სფეროში არაერთი გამარჯვების მფლობელი ოპერატორი კომპანიის დამფუძნებელი, რომელიც მუშაობს ადგილობრივ მოსახლეობასა და ეკოტურიზმზე ორიენტირებული ინიციატივების განვითარებასა და მარკეტინგის საკითხებზე. ჯეიმსი აქტიურადაა ჩართული კლიმატის ცვლილებისა და კონსერვაციის სექტორებში. გარდა ამისა, გახლავთ რამდენიმე სოციალური პროექტის მხარდამჭერი.'
+  description: 'ჯეიმს სკიპიონი გახლავთ მდგრადი ტურიზმის სფეროში არაერთი გამარჯვების მფლობელი ტუროპერატორის დამფუძნებელი, რომელიც მუშაობს ადგილობრივ მოსახლეობასა და ეკოტურიზმზე ორიენტირებული ინიციატივების განვითარებასა და მარკეტინგის საკითხებზე. ჯეიმსი აქტიურადაა ჩართული კლიმატური ცვლილებისა და ბუნების დაცვის სექტორებში. გარდა ამისა, გახლავთ რამდენიმე სოციალური მეწარმეობის პროექტის მხარდამჭერი.'
 
 - name: მარტა მილს
   id: marta
@@ -33,23 +33,23 @@
   position: "პარტნიორების ჩართულობა, კომუნიკაციები"
   description: 'Marta leads the TCTA’s community engagement work. She is a well-travelled backpacker, hiker and a fan of the Caucasus since her first trip in 2001. She has many years of experience in communications and stakeholder engagement, including five years at the UK’s <a href="http://www.dfid.gov.uk" target="_blank">Department for International Development (DFID)</a>, working on DFID’s programmes in South Caucasus, Eastern Europe and Central Asia. She also supports the work of <a href="http://equalityintourism.org" target="_blank">Equality in Tourism</a> that facilitates gender equality in tourism and within the wider development context. She speaks Polish, English and Russian.'
 
-- name: Vahagn Vardumyan
+- name: ვაჰაგნ ვარდუმიანი
   id: vahagn
   photo: /assets/img/people/vahagn.png
   category: tcta
   position: "ბილიკის განვითარება"
-  description: "Vahagn is an artist and certified yoga trainer, traveler, cycling activist and eco-tourism specialist. Vahagn has a background as a youth trainer and radio-journalist and has worked in a number of international organizations such as MSF France, US Peace Corps, World Vision, Radio RFE RL, New York University, Columbia University, Council of Europe and Public Radio of Armenia. Vahagn is currently involved as ecotourism manager for the Foundation for Preservation of Wildlife and Cultural Assets."
+  description: "ვაჰაგნი გახლავთ ხელოვანი, იოგას სერტიფიცირებული მწვრთნელი, მოგზაური, ველო- აქტივისტი და ეკო-ტურიზმის სპეციალისტი. მას აქვს ახალგაზრდების ტრენერად და რადიო- ჟურნალისტად მუშაობის გამოცდილება. ასევე, უმუშავია რიგ საერთაშორისო ორგანიზაციებთან, როგორებიცაა ექიმები საზღვრებს გარეშე (საფრანგეთი), მშვიდობის კორპუსი (აშშ),World Vision, რადიო თავისუფლება, ნიუ იორკის უნივერსიტეტი, კოლუმბიის უნივერსიტეტი, ევროსაბჭო და სომხეთის საზოგადოებრივი რადიო. ამ ეტაპზე ვაჰაგნი ველური ბუნებისა და კულტურული მემკვიდრეობის დაცვის ფონდის ეკოტურიზმის მენეჯერია."
 
-- name: Tom Allen
+- name: ტომ ალენი
   id: tom
   photo: /assets/img/people/tom.png
   category: armenia
-  position: "Trail Exploration"
-  description: 'Tom Allen is a full-time adventure filmmaker, author, blogger and entrepreneur, a Fellow of the Royal Geographical Society, and an Advisor to the Ted Simon Foundation. He has undertaken challenging and remote journeys in more than 50 countries on foot, by bicycle, by kayak and on horseback. He has conceived, filmed, directed and produced three feature-length documentary films (Janapar: Love on a Bike, Karun: Misadventures On Iran’s Longest River, and The Last Explorers On The Rio Santa Cruz). He has published three books, built two popular blogs (<a href="http://tomallen.info/" target="_blank">tomallen.info</a> and <a href="http://tomsbiketrip.com/" target="_blank">tomsbiketrip.com</a>) for sharing his creative projects and expeditions, and writes regularly for several geography and outdoor-focused publications in the UK. He speaks Armenian and Persian and lives in Yerevan, Armenia.'
+  position: "ბილიკის კვლევა"
+  description: 'ტომ ალენი არის სათავგადასავლო კინოს რეჟისორი, ავტორი, ბლოგერი და მეწარმე. სამეფო გეოგრაფიული საზოგადოების წევრი და ტედ საიმონის ფონდის მრჩეველი. მას უმოგზაურია 50- ზე მეტი ქვეყნის რთულ და შორეულ მარშრუტებში ფეხით, ველოსიპედით, კაიაკითა და ცხენით. მან დაგეგმა, გადაიღო და გამოუშვა სამი დოკუმენტური ფილმი: ჯანაპარი - სიყვარული ველოსიპედზე ( Janapar: Love on a Bike), კარუნი - უბედური შემთხვევები ირანის ყველაზე გრძელ მდინარეზე (Karun: Misadventures On Iran’s Longest River), და უკანასკნელი მკვლევარები რიო სანტა კრუსზე (The Last Explorers On The Rio Santa Cruz). მას სამი წიგნი აქვს გამოცემული, არის ორი პოპულარული ბლოგის ავტორი (<a href="http://tomallen.info/" target="_blank">tomallen.info</a> და <a href="http://tomsbiketrip.com/" target="_blank">tomsbiketrip.com</a>) - სადაც თავის შემოქმედებით პროექტებს და ექსპედიციებს მკითხველს უზიარებს, წერს რეგულარულად რამდენიმე გეოგრაფიული და ‘აუთდორ’ გამოცემისთვის დიდ ბრიტანეთში. საუბრობს სომხურად და სპარსულად. ცხოვრობს ერევანში, სომხეთში.'
 
-- name: Alessandro Mambelli
+- name: ალესანდრო მამბელი
   id: alessandro
   photo: /assets/img/people/alessandro.png
   category: armenia
-  position: "Trail Exploration"
-  description: Alessandro is an Italian traveller with 10 years of experience as a professional nomad. Engineer by training, through several experiential seasons he'd been an Artificial Intelligence researcher in the UK, a tech entrepreneur in Bulgaria, the co-creator and leader of the largest Robotics workshop in Armenia, where he was also serving as teacher and builder of large IT systems for an educational non-profit organization. With his latest chapter, the Transcaucasian Expedition, he is combining his long term passion for the outdoors with his mild-obsession for maps and geography, to explore the Lesser Caucasus mountain range and eventually create the newest long-distance hiking trail in the world.
+  position: "ბილიკის კვლევა"
+  description: 'ალესანდრო იტალიელი მოგზაურია პროფესიული მომთაბარეობის 10 წლიანი გამოცდილებით. განათლებით ინჟინერი, რამდენიმე ექსპერიმენტული სეზონის განმავლობაში გახლდათ ხელოვნური ინტელექტის (Artificial Intelligence) მკვლევარი დიდ ბრიტანეთში, ტექ-მეწარმე ბულგარეთში, სომხეთის ყველაზე დიდი რობოტოტექნიკის სახელოსნოს თანა-დამფუძნებელი და ხელმძღვანელი - სადაც ის მასწავლებლადაც მუშაობდა და საგანმანათლებლო არა- სამთავრობო ორგანიზაციას საინფორმაციო ტექნოლოგიების სისტემების გამართვაში დაეხმარა. მისი ცხოვრების ამჟამინდელი თავი, ტრანსკავკასიური ექსპედიცია, არის საველე აქტივობებისკენ დიდი ხნის სწრაფვის ნაზავი რუკებითა და გეოგრაფიით გატაცებასთან: მცირე კავკასიონის სამთო ზონის შესწავლა და, საბოლოოდ, მსოფლიოში უახლესი გრძელი სიგრძის საფეხმავლო ბილიკის შექმნა.'
