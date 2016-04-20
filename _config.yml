@@ -108,22 +108,22 @@ t:
   ka:
     navbar: 
       home:  "მთავარი"
-      about: "About the TCT"
+      about: "TCT-ზე"
       goals: "მიზნები"
       faq: "კითხვა-პასუხი"
       get-involved: "შემოგვიერთდი"
-      gear: "Gear"
-      blog: "Blog"
+      gear: "აღჭურვილობა"
+      blog: "ბლოგი"
     newsletter:
       subscribe: "გამოიწერე ჩვენი ახალი ამბები"
-      required: "indicates required"
-      email: "Email Address"
-      first-name: "First Name"
-      last-name: "Last Name"
-      country: "Country"
-      button: "Subscribe"
+      required: "აუცილებელი ველები"
+      email: "ელ-ფოსტა"
+      first-name: "სახელი"
+      last-name: "გვარი"
+      country: "ქვეყანა"
+      button: "გამოიწერე"
     footer:
-      the-tcteam: "The TCTeam"
+      the-tcteam: "ტრანსკავკასიური ბილიკის გუნდი"
       paul: "პოლ სტეფენს"
       paul-job: "აღმასრულებელი დირექტორი"
       jeff: "ჯეფ ჰააკ"
@@ -140,7 +140,7 @@ t:
       tom-job: "ბილიკის კვლევა"
       alessandro: "ალესანდრო მამბელი"
       alessandro-job: "ბილიკის კვლევა"
-      copyright: "Copyright &copy; 2016 Transcaucasian Trail Association. All rights reserved."
+      copyright: "საავტორო &copy; 2016 ტრანსკავკასიური ბილიკის ასოციაცია. ყველა უფლება დაცულია."
   hy:
     navbar: 
       home:  "Հիմնական"
