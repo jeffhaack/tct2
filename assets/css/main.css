@@ -2219,6 +2219,26 @@ img.full-width {
   font-weight: 300;
 }
 */
+#indie-gogo {
+    color: #ec1874;
+}
 
+.btn-indie-gogo {
+    color: #fff;
+    background-color: #ec1874;
+    border-color: #ec1874;
+}
 
+.nav-btn-indie-gogo {
+    color: #fff;
+    /*background-color: #fff;*/
+    background: transparent;
+    border-width: 1px;
+    border-color: #ec1874;
+    font-size: 1.4rem;
+}
 
+.nav-btn-indie-gogo:hover {
+    background-color: #ec1874;
+    color: #fff;
+}

@@ -78,6 +78,7 @@ t:
       get-involved: "Get Involved"
       gear: "Gear"
       blog: "Blog"
+      fund-us: "Fund Us"
     newsletter:
       subscribe: "Subscribe to our newsletter"
       required: "indicates required"
@@ -114,6 +115,7 @@ t:
       get-involved: "შემოგვიერთდი"
       gear: "აღჭურვილობა"
       blog: "ბლოგი"
+      fund-us: "Fund Us"
     newsletter:
       subscribe: "გამოიწერე ჩვენი ახალი ამბები"
       required: "აუცილებელი ველები"
@@ -150,6 +152,7 @@ t:
       get-involved: "Ներգրավվեք"
       gear: "Իրեղեն"
       blog: "Բլոգ"
+      fund-us: "Fund Us"
     newsletter:
       subscribe: "Գրանցվեք մեր ամսագրին"
       required: "Պարտադիր տվյալներ"
@@ -186,6 +189,7 @@ t:
       get-involved: "Присоединиться"
       gear: "Cнаряжение"
       blog: "Блог"
+      fund-us: "Fund Us"
     newsletter:
       subscribe: "Подписывайтесь на нашу рассылку"
       required: "обязательные для заполнения"

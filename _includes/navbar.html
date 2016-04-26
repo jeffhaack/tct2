@@ -31,11 +31,17 @@
             {% if page.section == "get-involved" %} <li><a href="/{{ page.lang }}/get-involved" class="active">
             {% else %} <li><a href="/{{ page.lang }}/get-involved"> {% endif %} {{site.t.[page.lang].navbar.get-involved}}</a></li>
 
-            {% if page.section == "gear" %} <li><a href="/{{ page.lang }}/gear" class="active">
-            {% else %} <li><a href="/{{ page.lang }}/gear"> {% endif %} {{site.t.[page.lang].navbar.gear}}</a></li>
+            <!-- {% if page.section == "gear" %} <li><a href="/{{ page.lang }}/gear" class="active">
+            {% else %} <li><a href="/{{ page.lang }}/gear"> {% endif %} {{site.t.[page.lang].navbar.gear}}</a></li> -->
 
             {% if page.category == "blog" %} <li><a href="/{{ page.lang }}/blog" class="active">
             {% else %} <li><a href="/{{ page.lang }}/blog"> {% endif %} {{site.t.[page.lang].navbar.blog}}</a></li>
+
+            <!-- {% if page.category == "fund-us" %} <li><a href="/{{ page.lang }}/fund-us" class="active">
+            {% else %} <li><a href="/{{ page.lang }}/fund-us"> {% endif %} {{site.t.[page.lang].navbar.fund-us}}</a></li> -->
+
+            <li><button type="button" class="btn nav-btn-indie-gogo navbar-btn btn-sm" onclick=location.href="/{{ page.lang }}/fund-us";>{{site.t.[page.lang].navbar.fund-us}}</button></li>
+            
 
             <!-- <li><button type="button" class="btn btn-warning navbar-btn btn-sm" onclick="location.href='trail-guide.html';">Trail Guide</button> </li> -->
           </ul>
