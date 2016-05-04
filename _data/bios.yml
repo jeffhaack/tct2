@@ -1,9 +1,16 @@
-- name: Paul Stephens
-  id: paul
-  photo: /assets/img/people/paul.png
-  category: tcta
-  position: "Executive Director"
-  description: "Paul Stephens is the executive director and co-founder of the Transcaucasian Trail Association. He was a Peace Corps Volunteer in Georgia from 2005-2007 and has been exploring the region ever since. He has worked as an educator, journalist, and communications specialist for USAID in Tbilisi. He is a graduate of Columbia Journalism School and has written extensively on international affairs and global development issues."
+- name: Matthew D. Stephens
+  id: matt
+  photo: /assets/img/people/matt.png
+  category: board
+  position: "Founding Chairman"
+  description: 'Matthew D. Stephens is our founding Chairman.  He developed a passion for the outdoors from an early age as an Eagle Scout, a long distance runner, and a skier.  While studying abroad in the Krasnodar region 1989, he experienced for the first time the natural beauty and rich cultural heritage of the Caucasus, visiting Sochi and Tbilisi.</br></br>An experienced executive, Matt leads a team distributed over three continents, with global sales and marketing responsibility for the semiconductor/solar business division of a multinational industrial gas company. He has served on the boards of non-profit and for profit organizations, and is currently a youth soccer coach in his hometown of Morristown, NJ.  He holds a B.A. from Wabash College (USA), Ph.D. (Chemistry) from U. Wisconsin (USA), and an M.BA. from INSEAD (Singapore/France).'
+
+- name: James Scipioni
+  id: james
+  photo: /assets/img/people/james.png
+  category: board
+  position: "Trail Development"
+  description: 'James Scipioni is the founder of an award winning sustainable travel operator, developing and marketing community based and ecotourism initiatives. James is active in the climate change and conservation sector, plus, supports several social entrepreneurship projects.'
 
 - name: Jeff Haack
   id: jeff
@@ -12,19 +19,19 @@
   position: "Cartographer"
   description: "Jeff Haack is a board member and co-founder of the Transcaucasian Trail Association. He is a professional cartographer, author, and technologist. Jeff has worked in open source mapping projects and disaster risk management in Georgia, southeast Asia, and east Africa. He was a Peace Corps Volunteer in Georgia from 2006-2008 and has lived in the region for over six years. A passion for exploration has led him on many hiking and cycling expeditions in the Caucasus."
 
+- name: Paul Stephens
+  id: paul
+  photo: /assets/img/people/paul.png
+  category: tcta
+  position: "Executive Director"
+  description: "Paul Stephens is the executive director and co-founder of the Transcaucasian Trail Association. He was a Peace Corps Volunteer in Georgia from 2005-2007 and has been exploring the region ever since. He has worked as an educator, journalist, and communications specialist for USAID in Tbilisi. He is a graduate of Columbia Journalism School and has written extensively on international affairs and global development issues."
+
 - name: Laura Santos-Bishop
   id: laura
   photo: /assets/img/people/laura.png
   category: tcta
   position: "Trail Development"
   description: "Laura Santos-Bishop first arrived in the Caucasus on a Fulbright to Armenia in 2012. She has been working in education in the region ever since,  first in Yerevan, Armenia and now in Tbilisi, Georgia. She has three years' working experience in hiking trail construction and maintenance from summers on the Adirondak Mountain Club Professional Trails Crew in Lake Placid, NY. A passion for the outdoors and volunteer work led her to her involvement in the TCT."
-
-- name: James Scipioni
-  id: james
-  photo: /assets/img/people/james.png
-  category: board
-  position: "Trail Development"
-  description: 'James Scipioni is the founder of an award winning sustainable travel operator, developing and marketing community based and ecotourism initiatives. James is active in the climate change and conservation sector, plus, supports several social entrepreneurship projects.'
 
 - name: Marta Mills
   id: marta
@@ -43,13 +50,13 @@
 - name: Tom Allen
   id: tom
   photo: /assets/img/people/tom.png
-  category: armenia
-  position: "Trail Exploration"
+  category: tcta
+  position: "Transcaucasian Expedition"
   description: 'Tom Allen is a full-time adventure filmmaker, author, blogger and entrepreneur, a Fellow of the Royal Geographical Society, and an Advisor to the Ted Simon Foundation. He has undertaken challenging and remote journeys in more than 50 countries on foot, by bicycle, by kayak and on horseback. He has conceived, filmed, directed and produced three feature-length documentary films (Janapar: Love on a Bike, Karun: Misadventures On Iran’s Longest River, and The Last Explorers On The Rio Santa Cruz). He has published three books, built two popular blogs (<a href="http://tomallen.info/" target="_blank">tomallen.info</a> and <a href="http://tomsbiketrip.com/" target="_blank">tomsbiketrip.com</a>) for sharing his creative projects and expeditions, and writes regularly for several geography and outdoor-focused publications in the UK. He speaks Armenian and Persian and lives in Yerevan, Armenia.'
 
 - name: Alessandro Mambelli
   id: alessandro
   photo: /assets/img/people/alessandro.png
-  category: armenia
-  position: "Trail Exploration"
+  category: tcta
+  position: "Transcaucasian Expedition"
   description: Alessandro is an Italian traveller with 10 years of experience as a professional nomad. Engineer by training, through several experiential seasons he'd been an Artificial Intelligence researcher in the UK, a tech entrepreneur in Bulgaria, the co-creator and leader of the largest Robotics workshop in Armenia, where he was also serving as teacher and builder of large IT systems for an educational non-profit organization. With his latest chapter, the Transcaucasian Expedition, he is combining his long term passion for the outdoors with his mild-obsession for maps and geography, to explore the Lesser Caucasus mountain range and eventually create the newest long-distance hiking trail in the world.

@@ -2223,12 +2223,6 @@ img.full-width {
     color: #ec1874;
 }
 
-.btn-indie-gogo {
-    color: #fff;
-    background-color: #ec1874;
-    border-color: #ec1874;
-}
-
 .nav-btn-indie-gogo {
     color: #fff;
     /*background-color: #fff;*/
@@ -2242,3 +2236,72 @@ img.full-width {
     background-color: #ec1874;
     color: #fff;
 }
+
+.block-indiegogo {
+    border-bottom: 2px solid #ec1874;
+    /*height: 195px;*/
+    background-color: rgba(236,24,116, 0.9);
+    padding-bottom: 30px;
+    padding-top: 20px;
+    
+}
+
+.block-indiegogo h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: Raleway;
+    text-align: center;
+}
+
+.block-indiegogo p {
+    color: white;
+}
+
+.btn-indie-gogo {
+    color: #ec1874;
+    background-color: #fff;
+    border-color: #ec1874;
+}
+
+.btn-indie-gogo:hover {
+    color: #fff;
+    background-color: #ec1874;
+    border-color: #ec1874;
+}
+
+
+.block-whats-up {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*border-bottom: */
+}
+
+.block-whats-up img {
+    width: 100%;
+    max-height: 200px;
+    padding-bottom: 16px;
+}
+
+.block-whats-up a {
+    color: #2b6293;
+}
+
+.block-whats-up p {
+    text-align: center;
+}
+
+.btn-help-map {
+    color: #2b6293;
+    background-color: #fff;
+    border-color: #2b6293;
+}
+
+.btn-help-map:hover {
+    color: #fff;
+    background-color: #2b6293;
+    border-color: #2b6293;
+}
+
+
+
+
