@@ -80,28 +80,65 @@ description: The Transcaucasian Trail (TCT) is a proposed hiking path across the
         <div class="row row-centered">
             <div class="col-sm-9 col-xs-10 col-centered" id="tct-bios">
                 <!-- <h3>The Transcaucasian Trail Team</h3><br/><br/> -->
-                
+
+                <h1 style="border-bottom:1px solid #2b6293; line-height:70px; color:#2b6293;">ტრანსკავკასიური ბილიკის ასოციაციის დირექტორთა საბჭო</h1><br/><br/>
+
                 {% for bio in site.data.bios-ka %}
 
-                    <div class="row row-centered tct-bio" id="{{ bio.id }}">
-                        <div class="col-sm-10 col-xs-10 col-centered">
+                    {% if bio.category == 'board' %}
 
-                            <div class="col-sm-4 col-xs-12 col-centered img-col">
-                                <img src="{{ bio.photo }}">
+                        <div class="row row-centered tct-bio" id="{{ bio.id }}">
+                            <div class="col-sm-10 col-xs-10 col-centered">
+
+                                <div class="col-sm-4 col-xs-12 col-centered img-col">
+                                    <img src="{{ bio.photo }}">
 
 
-                            </div>
-                            <div class="col-sm-8 col-xs-12 col-centered text-col">
-                                <h3>{{ bio.name }}</h3>
-                                <h5>{{ bio.position }}</h5>
-                                <p>{{ bio.description}}</p>
-     
-    
+                                </div>
+                                <div class="col-sm-8 col-xs-12 col-centered text-col">
+                                    <h3>{{ bio.name }}</h3>
+                                    <!-- <h5>{{ bio.position }}</h5> -->
+                                    <p>{{ bio.description}}</p>
+         
+        
+                                </div>
+
                             </div>
 
                         </div>
 
-                    </div>
+                    {% endif %}
+
+                {% endfor %}
+
+                <br/><br/>
+                <h1 style="border-bottom:1px solid #2b6293; line-height:70px; color:#2b6293;">ტრანსკავკასიური ბილიკის გუნდი</h1><br/><br/>
+
+                {% for bio in site.data.bios-ka %}
+
+                    {% if bio.category != 'board' %}
+
+                        <div class="row row-centered tct-bio" id="{{ bio.id }}">
+                            <div class="col-sm-10 col-xs-10 col-centered">
+
+                                <div class="col-sm-4 col-xs-12 col-centered img-col">
+                                    <img src="{{ bio.photo }}">
+
+
+                                </div>
+                                <div class="col-sm-8 col-xs-12 col-centered text-col">
+                                    <h3>{{ bio.name }}</h3>
+                                    <h5>{{ bio.position }}</h5>
+                                    <p>{{ bio.description}}</p>
+         
+        
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    {% endif %}
 
                 {% endfor %}
 
@@ -110,6 +147,8 @@ description: The Transcaucasian Trail (TCT) is a proposed hiking path across the
             </div>
         </div>
     </div>
+
+
     
     <div id="block5" class="break-block bb1">
         <h1 style="margin-top:0px;">ათ ენაზე მეტი. დაკავშირებული ერთი სამთო სისტემით.</h1>
