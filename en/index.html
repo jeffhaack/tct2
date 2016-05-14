@@ -393,8 +393,8 @@ description: The Transcaucasian Trail is the greatest hiking route you’ve neve
         mapTiles = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidGN0IiwiYSI6ImNpZWxhandiNjAwMXN1YW0xc3llcGZnNDQifQ.CRd84tqr9Wl1kxRAGraZyQ', {
             maxZoom: 10,
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
-            id: 'tct.905f4564'
-            //id: 'mapbox.light'
+            //id: 'tct.905f4564'  // Had made some tweaks to mapbox light but its not worth the space in the account
+            id: 'mapbox.light'
         })
 
         mapTiles.addTo(map);
