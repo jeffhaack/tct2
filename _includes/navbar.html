@@ -38,8 +38,11 @@
             {% else %} <li><a href="/{{ page.lang }}/blog"> {% endif %} {{site.t.[page.lang].navbar.blog}}</a></li>
 
            <!--  <li><button type="button" class="btn nav-btn-indie-gogo navbar-btn btn-sm" onclick=location.href="/{{ page.lang }}/fund-us";>{{site.t.[page.lang].navbar.fund-us}}</button></li> -->
-
-            <li><button type="button" class="btn nav-btn-indie-gogo navbar-btn btn-sm" onclick=window.open("https://www.indiegogo.com/projects/tct-svaneti-racha--4/x/10504057#/",'_blank');>{{site.t.[page.lang].navbar.fund-us}}</button></li>
+            
+            {% if page.section == "donate" %} <li><a href="/{{ page.lang }}/donate" class="active">
+            {% else %} <li><a href="/{{ page.lang }}/donate"> {% endif %} {{site.t.[page.lang].navbar.donate}}</a></li>
+<!-- 
+            <li><button type="button" class="btn nav-btn-indie-gogo navbar-btn btn-sm" onclick=window.open("https://www.indiegogo.com/projects/tct-svaneti-racha--4/x/10504057#/",'_blank');>{{site.t.[page.lang].navbar.donate}}</button></li> -->
             
 
             <!-- <li><button type="button" class="btn btn-warning navbar-btn btn-sm" onclick="location.href='trail-guide.html';">Trail Guide</button> </li> -->

@@ -2254,7 +2254,17 @@ img.full-width {
 }
 
 .block-indiegogo p {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.block-indiegogo a {
     color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
 }
 
 .btn-indie-gogo {
@@ -2309,5 +2319,11 @@ img.full-width {
 #tct-mapping h3 {
     padding-top: 22px;
 }
+
+#donate h4, #donate p {
+    margin: 0;
+    padding: 0;
+}
+
 
 
