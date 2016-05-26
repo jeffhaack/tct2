@@ -1,7 +1,6 @@
 To Update the blog from the Transcaucasian Expedition, run:
 
-ruby -rubyruby -rubygems -e 'require "jekyll-import";                                 18:36
+ruby -rubygems -e 'require "jekyll-import";
     JekyllImport::Importers::RSS.run({
       "source" => "http://transcaucasian.com/feed/"
     })';
-
