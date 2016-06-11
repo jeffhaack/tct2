@@ -25,9 +25,9 @@
 	<meta property="og:title" content="{{ page.title }}" />
     <meta name="author" content="{{ page.author }}" />
     <link rel="image_src" href="http://transcaucasiantrail.org{{page.thumb-fb}}" / >
-<!--     <meta name="description" content="">
-	<meta property="og:description" content="" />
-	<meta property="og:type" content="non_profit" />
+    <meta name="description" content="{{ post.content | strip_html | truncatewords: 60 }}">
+	<meta property="og:description" content="{{ post.content | strip_html | truncatewords: 60 }}" />
+<!--	<meta property="og:type" content="non_profit" />
 	<meta property="og:url" content="" /> -->
     <meta property='og:image' content='http://transcaucasiantrail.org{{page.thumb-fb}}' />
 	<!-- <meta property="og:site_name" content="Transcaucasian Trail" /> -->
