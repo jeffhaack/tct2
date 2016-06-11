@@ -6,7 +6,7 @@ lang: en
 category: blog
 author: Jeff Haack
 thumb-big: /assets/blog/2016-06-11/thumb-big.jpg
-thumb-fb: /assets/blog/2016-06-11/image03.jpg
+thumb-fb: /assets/blog/2016-06-11/image07.jpg
 ---
 
 After sitting through several dismal days of rain in Mestia, I quite literally sprung out of bed this morning when a sliver of sunlight breached the curtain.  The sky had opened, and I couldn’t get ready fast enough.  Austin, being far more low-maintenance than I, required only a quick shake and he was ready to go.
