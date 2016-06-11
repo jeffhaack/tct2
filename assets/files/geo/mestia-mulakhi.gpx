@@ -4,10 +4,6 @@
 <rte>
   <name>Mestia - Zhabeshi</name>
   <extensions>
-    <ogr:altitudeMode>relativeToGround</ogr:altitudeMode>
-    <ogr:tessellate>-1</ogr:tessellate>
-    <ogr:extrude>-1</ogr:extrude>
-    <ogr:visibility>-1</ogr:visibility>
     <ogr:id>-15509</ogr:id>
   </extensions>
   <rtept lat="43.045713655820002" lon="42.733189053570001">
@@ -593,10 +589,6 @@
 </rte>
 <rte>
   <extensions>
-    <ogr:altitudeMode>relativeToGround</ogr:altitudeMode>
-    <ogr:tessellate>-1</ogr:tessellate>
-    <ogr:extrude>-1</ogr:extrude>
-    <ogr:visibility>-1</ogr:visibility>
     <ogr:id>2</ogr:id>
   </extensions>
   <rtept lat="43.055962994515625" lon="42.781674089326678">
@@ -710,6 +702,55 @@
   <rtept lat="43.049785368083036" lon="42.82400776514887">
   </rtept>
   <rtept lat="43.049370430574221" lon="42.826121294418684">
+  </rtept>
+</rte>
+<rte>
+  <extensions>
+    <ogr:id>3</ogr:id>
+  </extensions>
+  <rtept lat="43.045843348414451" lon="42.835711039165297">
+  </rtept>
+  <rtept lat="43.045197847372542" lon="42.83438614022004">
+  </rtept>
+  <rtept lat="43.044921201989581" lon="42.832935060422862">
+  </rtept>
+  <rtept lat="43.04409125835528" lon="42.832935060422862">
+  </rtept>
+  <rtept lat="43.043906824911744" lon="42.833629055108467">
+  </rtept>
+  <rtept lat="43.043537956361256" lon="42.833944507238286">
+  </rtept>
+  <rtept lat="43.043307412390924" lon="42.835017044479692">
+  </rtept>
+  <rtept lat="43.043353521254289" lon="42.837099028536521">
+  </rtept>
+  <rtept lat="43.043491847636496" lon="42.837919204074062">
+  </rtept>
+  <rtept lat="43.04381460798205" lon="42.838739379611596">
+  </rtept>
+  <rtept lat="43.043399630083009" lon="42.840001188130891">
+  </rtept>
+  <rtept lat="43.043537956361256" lon="42.842083172187721">
+  </rtept>
+  <rtept lat="43.043860716464224" lon="42.844922241356123">
+  </rtept>
+  <rtept lat="43.044183474869122" lon="42.848266033932248">
+  </rtept>
+  <rtept lat="43.044321799379972" lon="42.85015874671118">
+  </rtept>
+  <rtept lat="43.044644555359049" lon="42.852177640342042">
+  </rtept>
+  <rtept lat="43.044414015547268" lon="42.852871635027654">
+  </rtept>
+  <rtept lat="43.044321799379972" lon="42.854827438232554">
+  </rtept>
+  <rtept lat="43.044782878830262" lon="42.857098693567274">
+  </rtept>
+  <rtept lat="43.04561281310778" lon="42.860505576569359">
+  </rtept>
+  <rtept lat="43.046442736157168" lon="42.863723188293548">
+  </rtept>
+  <rtept lat="43.046627161976673" lon="42.86649916703599">
   </rtept>
 </rte>
 </gpx>
