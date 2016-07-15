@@ -5,7 +5,7 @@ layout: blog
 published: false
 permalink: /en/blog/first-ever-community-engagement-delivered
 thumb-big: /assets/blog/media/Lasha%20resized.jpg)
-thumb-fb: /assets/blog/media/
+thumb-fb: /assets/blog/media/lasha%20mulahi%20meeting.jpg)
 title: First Ever Community Consultation Delivered – And What Have We Learnt?
 author: Marta Mills
 ---
@@ -20,7 +20,9 @@ I had been preparing that trip for a few months, finding relevant people in Svan
 ##What we did 
 We have visited nine villages along the proposed TCT route in Svaneti (Ushguli, Adishi, Zhabeshi, Caldashi, Chvibiani, Nakra, Mestia, Mazeri and Etseri). The word “proposed” is important here as one of the objectives of the consultation was to discuss the route with the local people and check whether they have any suggestions how to amend or improve it (they have, and we will make small amendments based on their useful comments).  However, the main purpose of our consultation was to introduce ourselves, answer questions, discuss the benefits and impact of the TCT on the local communities and address any concerns, discuss ways to cooperate on the TCT development and get the local community blessing in each village to go ahead and start building. I am pleased to say that **we got the approval and blessing for the TCT in every single village we have visited.**We were told by the local people that they really appreciated the fact that we came over and just asked for their opinion, which made the whole trip worthwhile and I found it very touching. 
 ![Consulting on the proposed TCT route in Adishi]({{site.baseurl}}/assets/blog/media/adishi%20map.jpg)
+
 ![Meeting in Grand Hotel Ushba in Mazeri - big thanks to Levan and Richard]({{site.baseurl}}/assets/blog/media/mazeri%20meeting%20bekas%20back.jpg)
+
 ![Joint meeting of three villages: Zhabeshi, Caldashi and Chvibiani - thanks Lasha!]({{site.baseurl}}/assets/blog/media/mulakhi%20many%20mwn.jpg)
 
 The community meetings were held in various places: local schools, guesthouses, cafes, outside on the side of the village road, Mestia Town Hall, even in a kindergarden with a happy bunch of under-fives of Nakra munching on our biscuits. Some meetings finished with an invitation for us for some delicious Georgian food, wine and chacha, where we carried on discussing the TCT and other tourism development-related issues in Svaneti. 
@@ -28,8 +30,9 @@ The community meetings were held in various places: local schools, guesthouses, 
 
 ##Who we met
 The majority of locals who came to the meetings were mainly those either already working, or interested in working in tourism who felt that the development of a long-distance hiking trail will affect them directly. We also wanted to introduce the TCT project to the local officials – **we have met the Governor of Mestia Kakha Jorjoliani; the Head of the Border Police; the Head of the Mountain Rescue service; the Head of the Tourism Department at the Mestia Municipality as well as the Head for Youth projects,** who let us piggyback on a World Bank’s meeting for the young people of Svaneti that was taking place in Mestia. 
-![Encouraging the youth of Svaneti to join the trailbuiding crew in the summer]({{site.baseurl}}/assets/blog/media/IMG_1724.jpg)![IMG_1724.jpg]({{site.baseurl}}/assets/blog/media/IMG_1724.jpg)
-![]({{site.baseurl}}/assets/blog/media/IMG_1731.jpg)![IMG_1731.jpg]({{site.baseurl}}/assets/blog/media/IMG_1731.jpg)
+![Encouraging the youth of Svaneti to join the trailbuiding crew in the summer]({{site.baseurl}}/assets/blog/media/IMG_1724.jpg)![IMG_1724.jpg]
+
+![]({{site.baseurl}}/assets/blog/media/IMG_1731.jpg)![IMG_1731.jpg]
 
 We have also spoken to a few mountain guides individually. Before we arrived in Svaneti, we had emailed all guesthouse owners in Mestia and other villages who have email addresses (altogether around 70) alerting them about our visit and inviting to meet up. We have also phoned about 20 guesthouses in Mestia and at least 15 in other villages. Additionally, we gave away most of the 500 postcards we had printed in Svan and in Georgian, with a short information about the TCT and our contact details. Altogether, **we have reached to over 250 people in Svaneti – met around 150 during community meetings and individually, emailed 70 and phoned over 35 in advance.** Considering that there are 219 guesthouses in the nine villages we visited, we can safely assume that we have reached a high percentage of the people who work in tourism in Svaneti. 
 !["How about you amend the current trail slightly so it benefits more people equally, and not just one village"? asked Lasha. Well, that's why we are her for! So you can tell us what is best for you]({{site.baseurl}}/assets/blog/media/lasha%20and%20map%20and%20beka.jpg)
@@ -39,6 +42,7 @@ We have also spoken to a few mountain guides individually. Before we arrived in 
 
 Beka acted as our translator and turned out to be a great TCT Ambassador, encouraging people to get involved in the summer trail building and maintenance, and answering all queries. People wanted to know what our connection to the region is, how they can benefit from the Trail, how long it will take to build it, how they can get more exposure to international travellers. They studied the proposed route carefully and made useful suggestions. In every village they told us that **they want more tourists**– tourism brings business and much-needed cash. They also understand, at least in theory, that they need to offer a certain standard of service in order to encourage more people to come, without compromising the historical and cultural heritage of the place. They are concerned about the potential problems with waste disposal, something that needs to be addressed by the local authorities. 
 ![Richard who have walked and skied around Svaneti for a few months gave us many good tips for the best route]({{site.baseurl}}/assets/blog/media/image.jpeg)
+
 ![The local people in Nakra also had many useful suggestions]({{site.baseurl}}/assets/blog/media/nakra%20.jpg)
 
 ##Great team 
