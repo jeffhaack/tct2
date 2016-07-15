@@ -3,10 +3,11 @@ category: blog
 lang: en
 layout: blog
 published: false
-permalink: /en/blog/title-of-post
-thumb-big: /assets/blog/media/default-thumb.jpg
-thumb-fb: /assets/blog/media/default-fb.jpg
+permalink: /en/blog/first-ever-community-engagement-delivered
+thumb-big: /assets/blog/media/Lasha%20resized.jpg)
+thumb-fb: /assets/blog/media/
 title: First Ever Community Consultation Delivered – And What Have We Learnt?
+author: Marta Mills
 ---
 ![Meeting in Mulakhi community, on the crossroads of three villages]({{site.baseurl}}/assets/blog/media/lasha%20mulahi%20meeting.jpg)
 
@@ -45,7 +46,7 @@ So these are the numbers, but there was so much to it beyond that. It is hard to
 ![We would not have done it without Beka - our translator, tour guide, great companion and friend. Madloba!]({{site.baseurl}}/assets/blog/media/beka%20svan%20tower.jpg)
 
 It was enhancing getting to know the local people but also getting to know each other. Forget crafted team building exercises organised by big corporations – the four of us can tell you that spending 24 hours a day for two weeks, in a small group of quite randomly-met people from three different countries, is the best team-building exercise ever. And, thankfully, it worked very well in our case. Hope to get reunited soon team!
-![I miss you guys - see you soon!]({{site.baseurl}}/assets/blog/media/team%20before%20Tom%20goes.jpg)
+![Thanks for everything guys - I miss you!]({{site.baseurl}}/assets/blog/media/team%20before%20Tom%20goes.jpg)
 
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
