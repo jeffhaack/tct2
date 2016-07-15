@@ -8,7 +8,9 @@ thumb-big: /assets/blog/media/default-thumb.jpg
 thumb-fb: /assets/blog/media/default-fb.jpg
 title: First Ever Community Consultation Delivered – And What Have We Learnt?
 ---
-At the beginning of June, I spent two weeks in the mountainous region of Svaneti in northern Georgia, consulting local communities about our proposal to build the TransCaucasian Trail. I was joined by James and Tom from our team and Beka from the National Hiking Federation, our invaluable partner. And by Georgina, our invaluable team vehicle. Before I briefly summarise the trip, it is important to note that such community consultation hasn’t been conducted before (in Georgia). To our knowledge, the TCT project is the first tourism-related project in Georgia that puts community engagement at the heart of its operations.
+![Meeting in Mulakhi community, on the crossroads of three villages]({{site.baseurl}}/assets/blog/media/lasha%20mulahi%20meeting.jpg)
+
+At the beginning of June, I spent two weeks in the mountainous region of Svaneti in northern Georgia, consulting local communities about our proposal to build the TransCaucasian Trail. I was joined by James and Tom from our team and Beka from the National Hiking Federation, our invaluable partner. And by Georgina, our invaluable team vehicle. Before I briefly summarise the trip, it is important to note that **such community consultation hasn’t been conducted before (in Georgia). To our knowledge, the TCT project is the first tourism-related project in Georgia that puts community engagement at the heart of its operations.**
 
 I had been preparing that trip for a few months, finding relevant people in Svaneti online via my Georgian friends, various Facebook groups and other contacts I came across during my research. Before leaving for Svaneti, I had found at least one person in each village who had been briefed about the TCT and the reasons for my visit – these fantastic people helped us organise community meetings in their village. Dato, Lasha, Levan, Richard, Tony – to name a few who went the extra mile to help us. Thank you guys! 
 What we did 
