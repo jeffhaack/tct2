@@ -20,7 +20,8 @@ I had been preparing that trip for a few months, finding relevant people in Svan
 
 ![TCTGeorgina, Beka, James and Marta with Dato Ratiani in Ushguli]({{site.baseurl}}/assets/blog/media/georgina%20and%20the%20team.jpg)
 
-##What we did 
+## What we did
+
 We have visited nine villages along the proposed TCT route in Svaneti (Ushguli, Adishi, Zhabeshi, Caldashi, Chvibiani, Nakra, Mestia, Mazeri and Etseri). The word “proposed” is important here as one of the objectives of the consultation was to discuss the route with the local people and check whether they have any suggestions how to amend or improve it (they have, and we will make small amendments based on their useful comments).  However, the main purpose of our consultation was to introduce ourselves, answer questions, discuss the benefits and impact of the TCT on the local communities and address any concerns, discuss ways to cooperate on the TCT development and get the local community blessing in each village to go ahead and start building. I am pleased to say that **we got the approval and blessing for the TCT in every single village we have visited. We were told by the local people that they really appreciated the fact that we came over and just asked for their opinion, which made the whole trip worthwhile and I found it very touching. 
 
 ![Consulting on the proposed TCT route in Adishi]({{site.baseurl}}/assets/blog/media/adishi%20map.jpg)
@@ -33,7 +34,8 @@ The community meetings were held in various places: local schools, guesthouses, 
 
 ![Gaumarjos! A toast to the local people after our first meeting in Ushguli]({{site.baseurl}}/assets/blog/media/marta%20chacha.jpg)
 
-##Who we met
+## Who we met
+
 The majority of locals who came to the meetings were mainly those either already working, or interested in working in tourism who felt that the development of a long-distance hiking trail will affect them directly. We also wanted to introduce the TCT project to the local officials – **we have met the Governor of Mestia Kakha Jorjoliani; the Head of the Border Police; the Head of the Mountain Rescue service; the Head of the Tourism Department at the Mestia Municipality as well as the Head for Youth projects,** who let us piggyback on a World Bank’s meeting for the young people of Svaneti that was taking place in Mestia. 
 
 ![Encouraging the youth of Svaneti to join the trailbuiding crew in the summer]({{site.baseurl}}/assets/blog/media/IMG_1724.jpg)
@@ -42,7 +44,7 @@ The majority of locals who came to the meetings were mainly those either already
 
 We have also spoken to a few mountain guides individually. Before we arrived in Svaneti, we had emailed all guesthouse owners in Mestia and other villages who have email addresses (altogether around 70) alerting them about our visit and inviting to meet up. We have also phoned about 20 guesthouses in Mestia and at least 15 in other villages. Additionally, we gave away most of the 500 postcards we had printed in Svan and in Georgian, with a short information about the TCT and our contact details. Altogether, **we have reached to over 250 people in Svaneti – met around 150 during community meetings and individually, emailed 70 and phoned over 35 in advance.** Considering that there are 219 guesthouses in the nine villages we visited, we can safely assume that we have reached a high percentage of the people who work in tourism in Svaneti. 
 
-##What they told us
+## What they told us
 
 !["Why don't you amend the existing trail so it benefits more people, not just one village"? asked Lasha. That's why we here - so you can tell us what you need!]({{site.baseurl}}/assets/blog/media/lasha%20and%20map%20and%20beka.jpg)
 
@@ -52,7 +54,8 @@ Beka acted as our translator and turned out to be a great TCT Ambassador, encour
 
 ![The local people in Nakra also had many useful suggestions]({{site.baseurl}}/assets/blog/media/nakra%20.jpg)
 
-##Great team 
+## Great team 
+
 So these are the numbers, but there was so much to it beyond that. It is hard to put down on paper all the emotions that came with the visit – but in a nutshell, we had a fantastic time meeting with various communities, discussing the benefits and opportunities the Trail can offer them, discussing the growth of tourism and the way the local people can benefit from it responsibly. We have met many interesting, open, friendly and helpful people who now trust us and are expecting us to deliver. I hope the trail building goes well this summer and they can see that we are serious about the TCT. 
 
 ![We would not have done it without Beka - our translator, tour guide, great companion and friend. Madloba!]({{site.baseurl}}/assets/blog/media/beka%20svan%20tower.jpg)
