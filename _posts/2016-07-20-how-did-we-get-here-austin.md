@@ -2,12 +2,14 @@
 category: blog
 lang: en
 layout: blog
-published: false
+published: true
 permalink: /en/blog/how-did-we-get-here-austin
 thumb-big: /assets/blog/media/default-thumb.jpg
 thumb-fb: /assets/blog/media/default-fb.jpg
 title: 'How Did We Get Here?  Week 1: Austin.'
+author: Austin Cowley
 ---
+
 ![IMG_20160711_074342-2.jpg]({{site.baseurl}}/assets/blog/media/IMG_20160711_074342-2.jpg)
 
 It’s Monday morning, a few hours before our first trail crew is set to leave for the mountains, and our once quiet house is now buzzing. In total, sixteen people hailing from seven different countries are here, packing bags, preparing food, testing walkie-talkies, studying maps, and sending out a few last emails for the week. The Transcaucasian Expedition team from Armenia arrived a few days earlier with Ben, who flew in from England to film the whole affair, which only adds to the feeling that we’re actually backstage on the opening night of a Broadway show.  The comparison feels apt, considering the production that went into making this moment. Countless scouting missions, meetings, and hours of planning have led us here, and in just a few hours, we’ll finally put our words into action. By tomorrow, we’ll be breaking ground on the first leg of the Transcausian Trail.

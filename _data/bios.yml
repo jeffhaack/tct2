@@ -40,6 +40,13 @@
   position: "Stakeholder Engagement, Communications"
   description: 'Marta leads the TCTA’s community engagement work. She is a well-travelled backpacker, hiker and a fan of the Caucasus since her first trip in 2001. She has many years of experience in communications and stakeholder engagement, including five years at the UK’s <a href="http://www.dfid.gov.uk" target="_blank">Department for International Development (DFID)</a>, working on DFID’s programmes in South Caucasus, Eastern Europe and Central Asia. She also supports the work of <a href="http://equalityintourism.org" target="_blank">Equality in Tourism</a> that facilitates gender equality in tourism and within the wider development context. She speaks Polish, English and Russian.'
 
+- name: Austin Cowley
+  id: austin
+  photo: /assets/img/people/austin.png
+  category: tcta
+  position: "Volunteer Coordinator"
+  description: "Austin Cowley is the volunteer coordinator for the TCTA.  Austin has a Master's in Geography at the University of Colorado.  He was a Peace Corps Volunteer in Georgia from 2005-2007 and has lived here for over five years.  When he's not in Georgia, Austin lives in Berlin, Germany where he is working on his first novel."
+
 - name: Vahagn Vardumyan
   id: vahagn
   photo: /assets/img/people/vahagn.png
