@@ -2,7 +2,7 @@
 category: blog
 lang: en
 layout: blog
-published: true
+published: false
 permalink: /en/blog/how-did-we-get-here-austin
 thumb-big: /assets/blog/media/default-thumb.jpg
 thumb-fb: /assets/blog/media/default-fb.jpg
