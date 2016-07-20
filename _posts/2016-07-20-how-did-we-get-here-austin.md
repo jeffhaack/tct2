@@ -4,8 +4,8 @@ lang: en
 layout: blog
 published: true
 permalink: /en/blog/how-did-we-get-here-austin
-thumb-big: /assets/blog/media/default-thumb.jpg
-thumb-fb: /assets/blog/media/default-fb.jpg
+thumb-big: /assets/blog/media/IMG_20160711_074342-2.jpg
+thumb-fb: /assets/blog/media/IMG_20160711_074342-2.jpg
 title: 'How Did We Get Here?  Week 1: Austin.'
 author: Austin Cowley
 ---
