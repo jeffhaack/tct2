@@ -6,11 +6,13 @@ published: false
 permalink: /en/blog/how-did-we-get-here-austin
 thumb-big: /assets/blog/media/default-thumb.jpg
 thumb-fb: /assets/blog/media/default-fb.jpg
-title: How Did We Get Here?  Austin.
+title: 'How Did We Get Here?  Week 1: Austin.'
 ---
 ![IMG_20160711_074342-2.jpg]({{site.baseurl}}/assets/blog/media/IMG_20160711_074342-2.jpg)
 
 It’s Monday morning, a few hours before our first trail crew is set to leave for the mountains, and our once quiet house is now buzzing. In total, sixteen people hailing from seven different countries are here, packing bags, preparing food, testing walkie-talkies, studying maps, and sending out a few last emails for the week. The Transcaucasian Expedition team from Armenia arrived a few days earlier with Ben, who flew in from England to film the whole affair, which only adds to the feeling that we’re actually backstage on the opening night of a Broadway show.  The comparison feels apt, considering the production that went into making this moment. Countless scouting missions, meetings, and hours of planning have led us here, and in just a few hours, we’ll finally put our words into action. By tomorrow, we’ll be breaking ground on the first leg of the Transcausian Trail.
+
+![IMG_20160713_150551.jpg]({{site.baseurl}}/assets/blog/media/IMG_20160713_150551.jpg)
 
 We set out to make a trail spanning the entire Caucasus, a project when finished that would bring people together who may have never met otherwise.  Those people aren’t just the hikers from different countries but the people who live along the trail as well.  Looking around at this flurry of activity, it strikes me that we’ve already achieved that vision, even before the first shovel hits the ground.  Like the trail itself, our project is like a rope with a frayed end, its threads spreading in every direction before winding together tightly at the center.  Each of us, our personal histories, the stories of how we arrived are those threads.  When I think about mine, I’m often surprised that I even made it here.   
 
@@ -26,5 +28,7 @@ I marvel at what it’s taken to get everything together at the right time and p
 
 For the next eight weeks, our project will bring together more people and places, and with them, the stories they carry.  Each of these weeks, I’m going to profile another person that’s crossed our path, from the trail leaders and volunteers to the people who’ve greeted and hosted us along the way.  After all, I think it’s how we all got here that makes the Transcaucasian Trail so compelling in the first place. 
 
-  ![IMG_20160718_185418.jpg]({{site.baseurl}}/assets/blog/media/IMG_20160718_185418.jpg)
+![IMG_20160718_185418.jpg]({{site.baseurl}}/assets/blog/media/IMG_20160718_185418.jpg)
+
+
 
