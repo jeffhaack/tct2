@@ -110,6 +110,8 @@ t:
       alessandro-job: "Trail Exploration"
       austin: "Austin Cowley"
       austin-job: "Volunteer Coordinator"
+      erekle: "Erekle Chakhvashvili"
+      erekle-job: "Volunteer Mapper"
       copyright: "Copyright &copy; 2016 Transcaucasian Trail Association. All rights reserved."
   ka:
     navbar: 
@@ -149,7 +151,9 @@ t:
       alessandro: "ალესანდრო მამბელი"
       alessandro-job: "ბილიკის კვლევა"
       austin: "Austin Cowley"
-      austin-job: "Austin Cowley"
+      austin-job: "Volunteer Coordinator"
+      erekle: "Erekle Chakhvashvili"
+      erekle-job: "Volunteer Mapper"
       copyright: "საავტორო &copy; 2016 ტრანსკავკასიური ბილიკის ასოციაცია. ყველა უფლება დაცულია."
   hy:
     navbar: 
@@ -189,7 +193,9 @@ t:
       alessandro: "Ալեսանդրո Մամբրելի"
       alessandro-job: "Արահետների Հայտնաբերում"
       austin: "Austin Cowley"
-      austin-job: "Austin Cowley"
+      austin-job: "Volunteer Coordinator"
+      erekle: "Erekle Chakhvashvili"
+      erekle-job: "Volunteer Mapper"
       copyright: "Հեղինակային իրավունք © 2016 Անդրկովկասյան Արահետ Ասոցիացիա: Բոլոր իրավունքները պաշտպանված են:"
   ru:
     navbar: 
@@ -229,7 +235,9 @@ t:
       alessandro: "Алессандро Мамбелли"
       alessandro-job: "Разведка трейла"
       austin: "Austin Cowley"
-      austin-job: "Austin Cowley"
+      austin-job: "Volunteer Coordinator"
+      erekle: "Erekle Chakhvashvili"
+      erekle-job: "Volunteer Mapper"
       copyright: "Авторское copy; 2016 Ассоциация Транскавказской Тропи. Все права защищены."
 #baseurl: 'http://transcaucasiantrail.org/'
 #baseurl: 'http://localhost:4000/'
