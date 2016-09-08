@@ -112,6 +112,12 @@ t:
       austin-job: "Volunteer Coordinator"
       erekle: "Erekle Chakhvashvili"
       erekle-job: "Volunteer Mapper"
+      sopho: "Sopho Bagauri"
+      sopho-job: "Outreach Coordinator"
+      leah: "Leah Everist"
+      leah-job: "Assistant Crew Leader"
+      feli: "Felicita Megerle"
+      feli-job: "Volunteer Scout"
       copyright: "Copyright &copy; 2016 Transcaucasian Trail Association. All rights reserved."
   ka:
     navbar: 
@@ -154,6 +160,12 @@ t:
       austin-job: "Volunteer Coordinator"
       erekle: "Erekle Chakhvashvili"
       erekle-job: "Volunteer Mapper"
+      sopho: "Sopho Bagauri"
+      sopho-job: "Outreach Coordinator"
+      leah: "Leah Everist"
+      leah-job: "Assistant Crew Leader"
+      feli: "Felicita Megerle"
+      feli-job: "Volunteer Scout"
       copyright: "საავტორო &copy; 2016 ტრანსკავკასიური ბილიკის ასოციაცია. ყველა უფლება დაცულია."
   hy:
     navbar: 
@@ -196,6 +208,12 @@ t:
       austin-job: "Volunteer Coordinator"
       erekle: "Erekle Chakhvashvili"
       erekle-job: "Volunteer Mapper"
+      sopho: "Sopho Bagauri"
+      sopho-job: "Outreach Coordinator"
+      leah: "Leah Everist"
+      leah-job: "Assistant Crew Leader"
+      feli: "Felicita Megerle"
+      feli-job: "Volunteer Scout"
       copyright: "Հեղինակային իրավունք © 2016 Անդրկովկասյան Արահետ Ասոցիացիա: Բոլոր իրավունքները պաշտպանված են:"
   ru:
     navbar: 
@@ -238,6 +256,12 @@ t:
       austin-job: "Volunteer Coordinator"
       erekle: "Erekle Chakhvashvili"
       erekle-job: "Volunteer Mapper"
+      sopho: "Sopho Bagauri"
+      sopho-job: "Outreach Coordinator"
+      leah: "Leah Everist"
+      leah-job: "Assistant Crew Leader"
+      feli: "Felicita Megerle"
+      feli-job: "Volunteer Scout"
       copyright: "Авторское copy; 2016 Ассоциация Транскавказской Тропи. Все права защищены."
 #baseurl: 'http://transcaucasiantrail.org/'
 #baseurl: 'http://localhost:4000/'

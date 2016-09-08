@@ -33,6 +33,13 @@
   position: "Transcaucasian Expedition"
   description: 'Tom Allen is a full-time adventure filmmaker, author, blogger and entrepreneur, a Fellow of the Royal Geographical Society, and an Advisor to the Ted Simon Foundation. He has undertaken challenging and remote journeys in more than 50 countries on foot, by bicycle, by kayak and on horseback. He has conceived, filmed, directed and produced three feature-length documentary films (Janapar: Love on a Bike, Karun: Misadventures On Iran’s Longest River, and The Last Explorers On The Rio Santa Cruz). He has published three books, built two popular blogs (<a href="http://tomallen.info/" target="_blank">tomallen.info</a> and <a href="http://tomsbiketrip.com/" target="_blank">tomsbiketrip.com</a>) for sharing his creative projects and expeditions, and writes regularly for several geography and outdoor-focused publications in the UK. He speaks Armenian and Persian and lives in Yerevan, Armenia.'
 
+- name: Sopho Bagauri
+  id: sopho
+  photo: /assets/img/people/sopho.png
+  category: tcta
+  position: "Outreach Coordinator"
+  description: "Sopho Bagauri is the TCT’s Outreach Coordinator. Her interest in the Caucasus Mountains has led her to work as a teacher, photographer, and volunteer in remote villages of Khevsureti and Svaneti, where she also collects local folk tales and legends. She has a BA in Psychology and experience working with underprivileged children through IREX, World Vision, United Nations, U.S. Peace Corps and Ilia State University projects in Georgia. She’s been hiking and rock climbing in Georgia and the U.S. for over 10 years."
+
 - name: Vahagn Vardumyan
   id: vahagn
   photo: /assets/img/people/vahagn.png
@@ -46,6 +53,13 @@
   category: tcta
   position: "Volunteer Coordinator"
   description: "Austin Cowley is the volunteer coordinator for the TCTA.  Austin has a Master's in Geography at the University of Colorado.  He was a Peace Corps Volunteer in Georgia from 2005-2007 and has lived here for over five years.  When he's not in Georgia, Austin lives in Berlin, Germany where he is working on his first novel."
+
+- name: Leah Everist
+  id: leah
+  photo: /assets/img/people/leah.png
+  category: tcta
+  position: "Assistant Crew Leader"
+  description: "Before coming to the Caucasus, Leah led crews for the American Conservation Experience in the southwestern United States. Based in Arizona, she built and maintained trails in the Grand Canyon, the Rincon Mountains, the Painted Desert, and several other surrounding national parks and wilderness areas. Though her love of the outdoors has led her toward conservation work, Leah is also passionate about global health and has worked for Médecins Sans Frontières, the Water Institute, and Mission Hospitals. Leah currently lives in North Carolina, where she is working on a degree in global public health from the University of North Carolina."
 
 - name: Alessandro Mambelli
   id: alessandro
@@ -74,3 +88,10 @@
   category: tcta
   position: "Volunteer Mapper"
   description: "Erekle Chakhvashvili is a volunteer mapper for the TCT. He has BA in Physical Geography at Tbilisi State University and has been actively working in the field of Landscape Ecology and GIS technologies. Erekle has taken part in several expeditions around Georgia with the aim to assess the potential and the problems of mountainous regions."
+
+- name: Felicita Megerle
+  id: feli
+  photo: /assets/img/people/feli.png
+  category: tcta
+  position: "Volunteer Scout"
+  description: "Felicita Megerle has a Masters in Applied Physical Geography from the University of Würzburg. During her studies she worked in landscape ecology and ecosystem change relating to GIS technologies. Felicita was a scientific assistant at the Universitiy of Würzburg and took part at the working group for soil and landscape dynamics. She worked for several years as a student trainee at the Luftbilddatenbank, where she worked with GIS and aerial cartography. She is a volunteer mapper and scout for the TCT."
