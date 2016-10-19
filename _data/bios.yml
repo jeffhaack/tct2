@@ -54,11 +54,18 @@
   position: "Volunteer Coordinator"
   description: "Austin Cowley is the volunteer coordinator for the TCTA.  Austin has a Master's in Geography at the University of Colorado.  He was a Peace Corps Volunteer in Georgia from 2005-2007 and has lived here for over five years.  When he's not in Georgia, Austin lives in Berlin, Germany where he is working on his first novel."
 
+- name: Jonathan Baxter
+  id: jonathan
+  photo: /assets/img/people/jonathan.png
+  category: tcta
+  position: "Trail Development"
+  description: "Jonathan has nearly a decade of experience leading trail crews and building and maintaining trails for the U.S. National Park Service. He has worked on professional trail crews in Glacier, Acadia, Sequoia, and Zion National Parks as well as in Alaska and internationally. Jonathan has brought his wealth of experience in a diverse variety of environments and deep technical knowledge to bring sustainable trail design to the challenging terrain of the Caucasus."
+
 - name: Leah Everist
   id: leah
   photo: /assets/img/people/leah.png
   category: tcta
-  position: "Assistant Crew Leader"
+  position: "Volunteer Coordinator"
   description: "Before coming to the Caucasus, Leah led crews for the American Conservation Experience in the southwestern United States. Based in Arizona, she built and maintained trails in the Grand Canyon, the Rincon Mountains, the Painted Desert, and several other surrounding national parks and wilderness areas. Though her love of the outdoors has led her toward conservation work, Leah is also passionate about global health and has worked for Médecins Sans Frontières, the Water Institute, and Mission Hospitals. Leah currently lives in North Carolina, where she is working on a degree in global public health from the University of North Carolina."
 
 - name: Alessandro Mambelli
