@@ -10,7 +10,7 @@ title: Awesome New Things We Did In 2016
 ---
 Our friend and filmmaker Dave Katz said in a summary of his latest video on the Transcaucasian Expedition (https://vimeo.com/192392143): “Can you imagine a mountain range as big as the Alps and the Pyrenees combined, without an established trekking route? In 2016, a team of idealistic outdoor enthusiasts in the Caucasus decided to build one...”.  
 
-So I believe it is worth summarising, on the last day of 2016, **what we actually did this year**. We have just applied for an annual Adventure Tourism award, category: “2016 Innovation” (wish us luck!), because pretty much everything we did in 2016 was “new”, “first”, “innovative”. New trail, new organisation, new partnerships, new way of working with local communities, new maps and new data, new marketing, and lots of new friendships. 
+So I believe it is worth summarising, on the last day of 2016, **what we actually did this year**. We have just applied for an annual Adventure Tourism award, category: “2016 Innovation” (wish us luck!), because pretty much everything we did in 2016 was “new”, “first”, “innovative”. **New trail, new organisation, new partnerships, new way of working with local communities, new maps and new data, new marketing, and lots of new friendships**. 
 
 Here we go – let us know if you think we should win!
 
