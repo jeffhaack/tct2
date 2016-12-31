@@ -16,7 +16,6 @@ Here we go – let us know if you think we should win!
 
 ![]({{site.baseurl}}/assets/blog/media/IMG_5548.JPG)
 
-
 •	TCT is the first world-class, long-distance hiking trail that will go through Georgia, Armenia and Azerbaijan, across the Greater and Lesser Caucasus. It is **the first and the biggest tourism project of this kind** in the Caucasus region. 
 
 •	The proper work on the TCT started at the beginning of 2016 with setting up **a new non-profit**, the TransCaucasian Trail Association, and a new strategy for the TCT project.
@@ -24,9 +23,10 @@ Here we go – let us know if you think we should win!
 •	We have established **partnerships** with the National Hiking Federation (Georgia), the Georgian National Tourism Administration, the Caucasus Nature Fund (Armenia), Armenian Mountaineering & Hiking Federation, WWF Armenia, the Royal Geographical Society (UK).
 
 •	In June, we delivered **first ever community consultation** for a tourism project in Georgia. We visited nine mountainous villages on the proposed TCT route in Svaneti region to discuss the planned route and got the community’s blessing for the TCT development. Community engagement has also been high on the agenda of our team in Armenia, scouting the southern route of the TCT. Our Chief Explorer Tom Allen even thinks we have started a new TCT movement in Armenia (look at his last blogs). 
-![]({{site.baseurl}}/assets/blog/media/adishi%20map.jpg)
 
 ![]({{site.baseurl}}/assets/blog/media/transcaucasian-expedition-tct-svaneti-31.jpg)
+
+![]({{site.baseurl}}/assets/blog/media/adishi%20map.jpg)
 
 •	We organised **volunteer camps** for local and international volunteers that again was innovative for the Caucasus, and started building the TCT in July-August 2016 in Svaneti. We listened to the local people and focused on building new trail and improving the existing trails west of Mestia where there is no tourism. We have improved a 60 km section of trail in western Svaneti, making it possible to hike west from Mestia to Chuberi. **This is the beginning of the first trail in the Caucasus that can be hiked-through (hiked continuously)** for 10-12 days: Chuberi to Mestia – 3-4 days [new section added by our work], continuing on established trails for 3-4 days to Ushguli. An additional 4-day crossing to Racha is possible by experienced hikers - we plan to improve that section and make it accessible to everyone in summer 2017. 
 
