@@ -42,6 +42,8 @@ Here we go – let us know if you think we should win!
 
 •	We have mapped it all in detail, along with the locations of water sources, temporary settlements and other infrastructure, and will add the data to OpenStreetMap gradually, making it available to everyone to use. This is **our innovative and tangible solution to the lack of reliable mapping** in the Caucasus. 
 
+![tom and ale start expedition .jpg]({{site.baseurl}}/assets/blog/media/tom and ale start expedition .jpg)
+
 •	And last but not least -  a pretty **innovative way of promoting the TCT** through the awesome Transcaucasian Expedition. The team’s route and progress was easily trackable on the newly-created Transcaucasian Expedition website with a live map and links to numerous social media channels and videos. 
 
 ![]({{site.baseurl}}/assets/blog/media/IMG_5531.JPG)
