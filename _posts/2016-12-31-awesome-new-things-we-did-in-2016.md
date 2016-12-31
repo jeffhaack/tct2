@@ -4,7 +4,9 @@ lang: en
 layout: blog
 published: true
 permalink: /en/blog/awesome-things-we-did-in-2016
-thumb-big: '![]({{site.baseurl}}/assets/blog/media/IMG_5548.JPG)'
+thumb-big: >-
+  ![resized for the blog.jpg]({{site.baseurl}}/assets/blog/media/resized for the
+  blog.jpg)
 thumb-fb: '![]({{site.baseurl}}/assets/blog/media/IMG_5548.JPG)'
 title: Awesome New Things We Did In 2016
 author: Marta Mills
