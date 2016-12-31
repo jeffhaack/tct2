@@ -3,10 +3,11 @@ category: blog
 lang: en
 layout: blog
 published: true
-permalink: /en/blog/title-of-post
-thumb-big: /assets/blog/media/default-thumb.jpg
-thumb-fb: /assets/blog/media/default-fb.jpg
+permalink: /en/blog/awesome-things-we-did-in-2016
+thumb-big: '![]({{site.baseurl}}/assets/blog/media/IMG_5548.JPG)'
+thumb-fb: '![]({{site.baseurl}}/assets/blog/media/IMG_5548.JPG)'
 title: Awesome New Things We Did In 2016
+author: Marta Mills
 ---
 Our friend and filmmaker Dave Katz said in a summary of his latest video on the Transcaucasian Expedition (https://vimeo.com/192392143): “Can you imagine a mountain range as big as the Alps and the Pyrenees combined, without an established trekking route? In 2016, a team of idealistic outdoor enthusiasts in the Caucasus decided to build one...”.  
 
