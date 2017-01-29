@@ -2330,7 +2330,6 @@ img.full-width {
 @media (min-width: 768px) {
 .innovation-winner {
     position:absolute;
-    border: 1px solid red;
     right: 9%;
     bottom: 10px;
     z-index: 12000;
