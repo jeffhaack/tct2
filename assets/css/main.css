@@ -2327,5 +2327,17 @@ img.full-width {
     padding: 0;
 }
 
+@media (min-width: 768px) {
+.innovation-winner {
+    position:absolute;
+    border: 1px solid red;
+    right: 9%;
+    bottom: 10px;
+    z-index: 12000;
+}
+.innovation-winner img {
+    width: 210px;
+    z-index: 12000;
 
-
+}
+}
