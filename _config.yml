@@ -174,7 +174,7 @@ t:
   hy:
     navbar: 
       home:  "Հիմնական"
-      about: "ԱԿԱ-ի մասին"
+      about: "ՏԿԱ-ի մասին"
       goals: "Նպատակներ"
       faq: "ՀՏՀ"
       get-involved: "Ներգրավվեք"
@@ -220,7 +220,7 @@ t:
       leah-job: "Volunteer Coordinator"
       feli: "Felicita Megerle"
       feli-job: "Volunteer Scout"
-      copyright: "Հեղինակային իրավունք © 2016 Անդրկովկասյան Արահետ Ասոցիացիա: Բոլոր իրավունքները պաշտպանված են:"
+      copyright: "Հեղինակային իրավունք © 2016 Տրանսկովկասյան Արահետ Ասոցիացիա: Բոլոր իրավունքները պաշտպանված են:"
   ru:
     navbar: 
       home:  "Главное"
