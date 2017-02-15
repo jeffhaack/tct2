@@ -2340,3 +2340,19 @@ img.full-width {
 
 }
 }
+
+@media (min-width: 768px) {
+    .volunteer-highlight {
+        position:absolute;
+        /*right: 14%;
+        bottom: 35%;*/
+        right: 9%;
+        bottom: 200px;
+        z-index: 12001;
+        width: 210px;
+        height: 90px;
+        background-color: white;
+        padding:12px;
+        border: 2px solid #333;
+    }
+}
